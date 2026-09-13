@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Iron Coach · Ironman California 2027</title>
+<meta name="description" content="Training dashboard for Jonathan Covington — IRONMAN California 2027" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: { accent: '#10b981', iron: '#ff6b1a' },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Inter', 'sans-serif']
+      }
+    }
+  }
+};
+</script>
+<style>
+  body { font-family: Inter, system-ui, sans-serif; background: #4b5563; color: #1e293b; }
+  .font-display { font-family: 'Space Grotesk', Inter, sans-serif; }
+  .section { display: none; }
+  .section.active { display: block; }
+  .nav-btn {
+    display: inline-flex; align-items: center; gap: .4rem;
+    padding: .45rem .85rem; border-radius: .75rem; font-size: .8rem; font-weight: 500;
+    color: #d1d5db; border: 1px solid transparent; transition: all .15s;
+    white-space: nowrap; background: transparent; cursor: pointer;
+  }
+  .nav-btn:hover { color: #fff; background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.12); }
+  .nav-btn.nav-active {
+    color: #6ee7b7; background: rgba(16,185,129,.18); border-color: transparent;
+    border-bottom: 2px solid #34d399; border-radius: .75rem .75rem .35rem .35rem;
+  }
+  .modal-bg { background: rgba(15,23,42,.65); }
+  tr.day-row { cursor: pointer; }
+  tr.day-row:hover td { background: #d1fae5; }
+  .stat-card, .card {
+    background: #fff;
+    color: #0f172a;
+    border: 1px solid rgba(255,255,255,.55);
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.25), 0 4px 6px -4px rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.06);
+  }
+  .stat-card {
+    padding: 1.1rem 1.25rem;
+    transition: transform .2s, box-shadow .2s;
+  }
+  .card { padding: 1.25rem; }
+  .stat-card:hover, .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.3), 0 8px 10px -6px rgba(0,0,0,.2);
+  }
+  .stat-card *, .card *, #workout-modal .bg-white { color: inherit; }
+  .stat-card .text-slate-500, .card .text-slate-500,
+  .stat-card .text-slate-400, .card .text-slate-400 { color: #64748b !important; }
+  .stat-card .text-slate-600, .card .text-slate-600 { color: #475569 !important; }
+  .stat-card .text-slate-700, .card .text-slate-700,
+  .stat-card .text-slate-800, .card .text-slate-800,
+  .stat-card .text-slate-900, .card .text-slate-900 { color: #0f172a !important; }
+  .countdown-digit { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: #059669 !important; }
+  .card .text-emerald-700, .stat-card .text-emerald-700 { color: #047857 !important; }
+  table.sticky-head thead th {
+    position: sticky; top: 0; z-index: 5;
+    background: #f3f4f6; color: #64748b; font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .05em; font-weight: 600;
+  }
+  #cal-grid { box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+  #mobile-nav { display: none; }
+  @media (max-width: 768px) {
+    #desktop-nav { display: none !important; }
+    #mobile-nav { display: block; }
+  }
+  section.section > div:first-child > h2 { color: #f8fafc; }
+  section.section > div:first-child > p { color: #e5e7eb; }
+  #phase-blurb { color: #e5e7eb !important; }
+  .sport-run { background: rgba(255,107,26,.12); }
+  .sport-bike { background: rgba(59,130,246,.12); }
+  .sport-swim { background: rgba(6,182,212,.12); }
+  .sport-rest { background: #f1f5f9; color: #94a3b8; }
+</style>
+</head>
+<body class="min-h-screen bg-[#4b5563] text-slate-100">
+
+<!-- Sticky nav -->
+<header class="sticky top-0 z-40 border-b border-slate-500 bg-[#4b5563]/95 backdrop-blur-md">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+    <div class="flex items-center gap-3 min-w-0">
+      <div class="w-9 h-9 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center shrink-0 font-display font-bold text-emerald-700 text-sm">IC</div>
+      <div class="min-w-0">
+        <div class="flex items-center gap-2 flex-wrap">
+          <h1 class="font-display text-lg font-semibold text-white leading-tight">Iron Coach</h1>
+          <span class="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">IMCA</span>
+        </div>
+        <p class="text-xs text-slate-300 truncate">Jonathan Covington · IRONMAN California (Sacramento) · Oct 24, 2027</p>
+      </div>
+    </div>
+    <nav id="desktop-nav" class="flex flex-wrap gap-1.5" aria-label="Sections">
+      <button type="button" class="nav-btn nav-active" data-section="dashboard" onclick="showSection('dashboard')"><i class="fa-solid fa-gauge-high"></i> Overview</button>
+      <button type="button" class="nav-btn" data-section="plan" onclick="showSection('plan')"><i class="fa-solid fa-calendar-check"></i> Workout Plan</button>
+      <button type="button" class="nav-btn" data-section="progress" onclick="showSection('progress')"><i class="fa-solid fa-chart-line"></i> Workout Progress</button>
+      <button type="button" class="nav-btn" data-section="log" onclick="showSection('log')"><i class="fa-solid fa-clipboard-list"></i> Log</button>
+      <button type="button" class="nav-btn" data-section="nutrition" onclick="showSection('nutrition')"><i class="fa-solid fa-utensils"></i> Nutrition</button>
+      <button type="button" class="nav-btn" data-section="maps" onclick="showSection('maps')"><i class="fa-solid fa-map-location-dot"></i> Maps</button>
+    </nav>
+    <div id="mobile-nav" class="w-full">
+      <select id="mobile-select" onchange="showSection(this.value)" class="w-full bg-white border border-slate-200 rounded-xl px-3 py-2 text-sm text-slate-800">
+        <option value="dashboard">Overview</option>
+        <option value="plan">Workout Plan</option>
+        <option value="progress">Workout Progress</option>
+        <option value="log">Log</option>
+        <option value="nutrition">Nutrition</option>
+        <option value="maps">Maps</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 py-6 space-y-6">
+
+<!-- ========== OVERVIEW ========== -->
+<section id="dashboard" class="section active space-y-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="stat-card border-emerald-100">
+      <div class="flex items-center gap-2 text-slate-500 text-xs uppercase tracking-wider mb-2">
+        <i class="fa-solid fa-flag-checkered text-emerald-600"></i> Foundation phase start
+      </div>
+      <p class="text-sm text-slate-600 mb-3" id="foundation-local">Mon Sep 14, 2026 · 12:00 AM EDT</p>
+      <p class="text-xs text-emerald-700 mb-2 flex items-center gap-1.5"><span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Live</p>
+      <div class="flex gap-4 flex-wrap tabular-nums" id="cd-foundation">
+        <div><span class="countdown-digit text-3xl" id="f-d">—</span><div class="text-[10px] text-slate-400 uppercase">Days</div></div>
+        <div><span class="countdown-digit text-3xl" id="f-h">—</span><div class="text-[10px] text-slate-400 uppercase">Hours</div></div>
+        <div><span class="countdown-digit text-3xl" id="f-m">—</span><div class="text-[10px] text-slate-400 uppercase">Mins</div></div>
+        <div><span class="countdown-digit text-3xl" id="f-s">—</span><div class="text-[10px] text-slate-400 uppercase">Secs</div></div>
+      </div>
+      <p class="text-sm text-emerald-800 mt-3 hidden" id="f-underway"></p>
+    </div>
+    <div class="stat-card border-emerald-100">
+      <div class="flex items-center gap-2 text-slate-500 text-xs uppercase tracking-wider mb-2">
+        <i class="fa-solid fa-medal text-emerald-600"></i> Race day
+      </div>
+      <p class="text-sm text-slate-600 mb-3">Oct 24, 2027 · IRONMAN California</p>
+      <p class="text-xs text-emerald-700 mb-2 flex items-center gap-1.5"><span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Live</p>
+      <div class="flex gap-4 flex-wrap tabular-nums" id="cd-race">
+        <div><span class="countdown-digit text-3xl" id="r-d">—</span><div class="text-[10px] text-slate-400 uppercase">Days</div></div>
+        <div><span class="countdown-digit text-3xl" id="r-h">—</span><div class="text-[10px] text-slate-400 uppercase">Hours</div></div>
+        <div><span class="countdown-digit text-3xl" id="r-m">—</span><div class="text-[10px] text-slate-400 uppercase">Mins</div></div>
+        <div><span class="countdown-digit text-3xl" id="r-s">—</span><div class="text-[10px] text-slate-400 uppercase">Secs</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3" id="kpi-row">
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-race">—</div><div class="text-[11px] text-slate-500 mt-1">Days to race</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-sess">0</div><div class="text-[11px] text-slate-500 mt-1">Sessions completed</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-mins">0</div><div class="text-[11px] text-slate-500 mt-1">Minutes (Garmin)</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-mi">0</div><div class="text-[11px] text-slate-500 mt-1">Miles completed</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-under">0</div><div class="text-[11px] text-slate-500 mt-1">Nutrition days under</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-wt">249→230</div><div class="text-[11px] text-slate-500 mt-1">Weight goal (lb)</div></div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="card lg:col-span-1">
+      <h2 class="font-display text-base font-semibold text-slate-900 mb-2 flex items-center gap-2"><i class="fa-solid fa-calendar-day text-emerald-600"></i> This week</h2>
+      <p class="text-sm text-slate-600 leading-relaxed" id="this-week">Loading…</p>
+    </div>
+    <div class="card lg:col-span-2">
+      <h2 class="font-display text-base font-semibold text-slate-900 mb-2 flex items-center gap-2"><i class="fa-solid fa-lightbulb text-emerald-600"></i> Quick insights</h2>
+      <ul class="text-sm text-slate-600 space-y-1.5">
+        <li><i class="fa-solid fa-flag-checkered text-emerald-600 w-4"></i> Goal = <strong class="text-slate-900">finish under cutoff</strong>, enjoyable training (not podium)</li>
+        <li><i class="fa-solid fa-person-swimming text-cyan-600 w-4"></i> Swim = <strong class="text-slate-900">get through it</strong> — continuity over speed</li>
+        <li><i class="fa-solid fa-drumstick-bite text-emerald-600 w-4"></i> Meat-forward meals · leftovers for lunch</li>
+        <li><i class="fa-solid fa-wine-glass text-emerald-600 w-4"></i> Wine OK in moderation · Gatorade/Clif on long sessions</li>
+        <li><i class="fa-solid fa-weight-scale text-emerald-600 w-4"></i> Weight path <strong class="text-slate-900">249 → 230</strong> · MFP base 2360</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+      <h2 class="font-display text-base font-semibold text-slate-900 flex items-center gap-2"><i class="fa-solid fa-clock-rotate-left text-emerald-600"></i> Recent workouts</h2>
+      <p class="text-[11px] text-slate-400">From DATA · completed first, newest</p>
+    </div>
+    <div id="recent-workouts" class="space-y-2"></div>
+  </div>
+</section>
+
+<!-- ========== WORKOUT PLAN ========== -->
+<section id="plan" class="section space-y-6">
+  <div>
+    <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Workout plan</h2>
+    <p class="text-sm text-slate-500">Phases · week navigator · monthly calendar · standing rules</p>
+  </div>
+
+  <div class="flex flex-wrap gap-2" id="phase-tabs"></div>
+  <p class="text-sm text-slate-500" id="phase-blurb"></p>
+
+  <div class="card">
+    <div class="flex items-center justify-between gap-3 flex-wrap mb-4">
+      <button type="button" onclick="shiftWeek(-1)" class="px-3 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-sm"><i class="fa-solid fa-chevron-left"></i> Prev week</button>
+      <div class="text-center min-w-[12rem]">
+        <div class="font-display font-semibold text-slate-900" id="week-title">Week</div>
+        <div class="text-xs text-slate-500" id="week-range"></div>
+      </div>
+      <button type="button" onclick="shiftWeek(1)" class="px-3 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-sm">Next week <i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <p class="text-sm text-slate-600 mb-3" id="week-summary"></p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm sticky-head">
+        <thead>
+          <tr class="border-b border-slate-200">
+            <th class="px-3 py-2 text-left">Day</th>
+            <th class="px-3 py-2 text-left">Session</th>
+            <th class="px-3 py-2 text-left">Sport</th>
+            <th class="px-3 py-2 text-left">Status</th>
+          </tr>
+        </thead>
+        <tbody id="week-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="flex items-center justify-between gap-3 flex-wrap mb-4">
+      <button type="button" onclick="shiftMonth(-1)" class="px-3 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="font-display font-semibold text-xl text-slate-900" id="cal-title"></div>
+      <div class="flex gap-2">
+        <button type="button" onclick="shiftMonth(1)" class="px-3 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50"><i class="fa-solid fa-chevron-right"></i></button>
+        <button type="button" onclick="calGoToday()" class="px-3 py-2 rounded-xl bg-emerald-600 text-white text-sm">Today</button>
+      </div>
+    </div>
+    <div id="cal-grid" class="grid grid-cols-7 gap-px bg-slate-300 rounded-2xl overflow-hidden border border-slate-300"></div>
+    <p class="text-xs text-slate-500 mt-3">Tint = sport · Emerald ring = completed · Today = emerald-600 ring · Click a day for details</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="card">
+      <h3 class="font-display font-semibold text-slate-900 mb-3">Standing rules</h3>
+      <ul class="text-sm text-slate-600 space-y-2">
+        <li class="flex gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i><span>Weekday bike/run at <strong class="text-slate-900">5:30 AM</strong></span></li>
+        <li class="flex gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i><span>Weekend long sessions at <strong class="text-slate-900">6:30 AM</strong></span></li>
+        <li class="flex gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i><span>Midday swim at <strong class="text-slate-900">Bow Creek</strong></span></li>
+        <li class="flex gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i><span>Leftovers for lunch · meat-forward dinners</span></li>
+        <li class="flex gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i><span>Wine OK · Gatorade / Clif on long sessions</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="font-display font-semibold text-slate-900 mb-3">Sample Foundation week</h3>
+      <ul class="text-sm text-slate-600 space-y-1.5" id="sample-week"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROGRESS ========== -->
+<section id="progress" class="section space-y-6">
+  <div>
+    <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Workout Progress</h2>
+    <p class="text-sm text-slate-500">Charts from Garmin + planned sessions in DATA</p>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Daily Garmin minutes</h3><canvas id="chart-mins" height="200"></canvas></div>
+    <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Cumulative miles</h3><canvas id="chart-miles" height="200"></canvas></div>
+    <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Planned vs actual minutes</h3><canvas id="chart-pvsa" height="200"></canvas></div>
+    <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Workout Plan Adherence</h3><div class="max-w-xs mx-auto"><canvas id="chart-adh" height="200"></canvas></div></div>
+  </div>
+</section>
+
+<!-- ========== LOG ========== -->
+<section id="log" class="section space-y-4">
+  <div>
+    <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Workout log</h2>
+    <p class="text-sm text-slate-500">All planned sessions · Garmin when available · click row for details</p>
+  </div>
+  <div class="card overflow-x-auto p-0">
+    <table class="w-full text-sm sticky-head">
+      <thead>
+        <tr class="border-b border-slate-200">
+          <th class="px-4 py-3 text-left">Date</th>
+          <th class="px-4 py-3 text-left">Planned</th>
+          <th class="px-4 py-3 text-left">Sport</th>
+          <th class="px-4 py-3 text-left">Garmin</th>
+          <th class="px-4 py-3 text-right">Min</th>
+          <th class="px-4 py-3 text-right">Dist</th>
+          <th class="px-4 py-3 text-right">Pace</th>
+          <th class="px-4 py-3 text-right">%</th>
+          <th class="px-4 py-3 text-left">Notes</th>
+        </tr>
+      </thead>
+      <tbody id="log-body"></tbody>
+    </table>
+    <p id="log-empty" class="hidden px-4 py-8 text-center text-slate-400 text-sm">No workouts yet.</p>
+  </div>
+</section>
+
+<!-- ========== NUTRITION ========== -->
+<section id="nutrition" class="section space-y-6">
+  <div>
+    <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Nutrition</h2>
+    <p class="text-sm text-slate-500">MyFitnessPal · base goal <span id="mfp-base">2360</span> · ±50 tolerance · Monday weigh-ins</p>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div class="card">
+      <h3 class="text-sm font-semibold text-slate-700 mb-3">Calories per day · planned vs actual</h3>
+      <canvas id="chart-cals" height="220"></canvas>
+      <p class="text-[11px] text-slate-400 mt-2">Planned = exercise-adjusted MFP goal on training days · base 2360 on rest</p>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold text-slate-700 mb-3">Calorie delta (actual − planned)</h3>
+      <canvas id="chart-cal-delta" height="220"></canvas>
+    </div>
+    <div class="card lg:col-span-2">
+      <div class="flex items-center justify-between gap-2 flex-wrap mb-3">
+        <h3 class="text-sm font-semibold text-slate-700">Weight trend</h3>
+        <span class="text-xs text-slate-500" id="weight-trend-hint">249 → 230 lb goal</span>
+      </div>
+      <canvas id="chart-weight" height="160"></canvas>
+      <p class="text-[11px] text-slate-400 mt-2">Monday AM weigh-ins · baseline seeded; new readings appear as you report them</p>
+    </div>
+  </div>
+  <div class="card" id="nutrition-week-summary"></div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="nutrition-cards"></div>
+</section>
+
+<!-- ========== MAPS ========== -->
+<section id="maps" class="section space-y-6">
+  <div>
+    <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Course maps</h2>
+    <p class="text-sm text-slate-500">IRONMAN California · Sacramento · subject to change until 2027 maps publish</p>
+  </div>
+  <div class="card">
+    <h3 class="font-display font-semibold text-slate-900 mb-2">Course overview</h3>
+    <p class="text-sm text-slate-600 leading-relaxed mb-3">
+      Full-distance IRONMAN: 2.4 mi swim, 112 mi bike, 26.2 mi run through Sacramento and the surrounding valley.
+      Reference maps below are from recent race years (swim/bike 2026, run 2025) and may change for 2027.
+      Official course page: <a class="text-emerald-700 hover:underline" href="https://www.ironman.com/races/im-california/course" target="_blank" rel="noopener">ironman.com/races/im-california/course</a>
+    </p>
+    <p class="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-xl px-3 py-2"><i class="fa-solid fa-triangle-exclamation"></i> Maps subject to change / 2025–26 reference until 2027 maps publish.</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="card p-3">
+      <h4 class="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><i class="fa-solid fa-person-swimming text-cyan-600"></i> Swim</h4>
+      <img src="assets/swim-map.jpg" alt="Swim course map" class="w-full rounded-xl border border-slate-200" />
+    </div>
+    <div class="card p-3">
+      <h4 class="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><i class="fa-solid fa-bicycle text-blue-600"></i> Bike</h4>
+      <img src="assets/bike-map.jpg" alt="Bike course map" class="w-full rounded-xl border border-slate-200" />
+    </div>
+    <div class="card p-3">
+      <h4 class="text-sm font-semibold text-slate-800 mb-2 flex items-center gap-2"><i class="fa-solid fa-person-running" style="color:#ff6b1a"></i> Run</h4>
+      <img src="assets/run-map.jpg" alt="Run course map" class="w-full rounded-xl border border-slate-200" />
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="font-display font-semibold text-slate-900 mb-2">Sacramento area</h3>
+    <iframe title="Sacramento OSM" class="w-full h-72 rounded-2xl border border-slate-200" src="https://www.openstreetmap.org/export/embed.html?bbox=-121.60%2C38.50%2C-121.35%2C38.65&amp;layer=mapnik&amp;marker=38.5816%2C-121.4944" loading="lazy"></iframe>
+    <p class="text-xs text-slate-400 mt-2">OpenStreetMap · Sacramento race venue area</p>
+  </div>
+</section>
+
+</main>
+
+<div id="workout-modal" class="hidden fixed inset-0 modal-bg z-[80] flex items-center justify-center p-4" onclick="if(event.target===this)closeWorkoutModal()">
+  <div class="bg-white text-slate-800 rounded-3xl w-full max-w-lg max-h-[90vh] overflow-y-auto shadow-2xl">
+    <div class="px-5 py-4 border-b border-slate-200 flex items-center justify-between sticky top-0 bg-white rounded-t-3xl">
+      <h3 class="font-display font-semibold text-lg text-slate-900" id="wo-title">Workout</h3>
+      <button type="button" onclick="closeWorkoutModal()" class="w-9 h-9 rounded-xl hover:bg-slate-100"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="p-5 space-y-4 text-sm text-slate-700" id="wo-body"></div>
+  </div>
+</div>
+
+<footer class="max-w-6xl mx-auto px-4 pb-8 text-center text-xs text-slate-300">
+  Iron Coach · Jonathan Covington · IRONMAN California · <span id="footer-updated"></span> · Not medical advice
+</footer>
+
+<script>
+const DATA = {
+  "meta": {
+    "title": "Iron Coach \u2014 Ironman California 2027",
+    "athlete": "Jonathan Covington",
+    "athleteLocation": "Virginia Beach",
+    "race": "IRONMAN California (Sacramento)",
+    "raceDate": "2027-10-24",
+    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
+    "goal": "Finish under cutoff with enjoyable training (not podium)",
+    "priorIM": "IRONMAN 2017 ~16h",
+    "weightBaselineLb": 249,
+    "weightGoalLb": 230,
+    "mfpBaseGoal": 2360,
+    "overUnderTolerance": 50,
+    "currentPhase": "Foundation",
+    "timezone": "America/New_York",
+    "lastUpdated": "2026-09-13T09:33:51-04:00",
+    "sources": [
+      "Garmin",
+      "MyFitnessPal",
+      "Training Calendar"
+    ],
+    "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
+    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
+    "phases": [
+      {
+        "id": "foundation",
+        "name": "Foundation",
+        "start": "2026-09-01",
+        "end": "2026-12-31",
+        "description": "Rebuild consistency with easy aerobic volume across run, bike, and swim. Establish habits, mobility, and nutrition logging."
+      },
+      {
+        "id": "base",
+        "name": "Base",
+        "start": "2027-01-01",
+        "end": "2027-04-30",
+        "description": "Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy."
+      },
+      {
+        "id": "specific",
+        "name": "Specific",
+        "start": "2027-05-01",
+        "end": "2027-08-31",
+        "description": "Race-specific sessions: longer bricks, swim continuity, and controlled intensity that mirrors Ironman demands."
+      },
+      {
+        "id": "peak",
+        "name": "Peak",
+        "start": "2027-09-01",
+        "end": "2027-10-06",
+        "description": "Highest race-relevant volume and key rehearsals before taper. Sharpen confidence, not grind."
+      },
+      {
+        "id": "taper",
+        "name": "Taper",
+        "start": "2027-10-07",
+        "end": "2027-10-24",
+        "description": "About 2.5 weeks of reduced volume, retained sharpness, travel prep, and race-week nutrition."
+      }
+    ],
+    "sampleFoundationWeek": [
+      {
+        "day": "Mon",
+        "session": "Easy run 40",
+        "sport": "Run",
+        "minutes": 40
+      },
+      {
+        "day": "Tue",
+        "session": "Easy run 40",
+        "sport": "Run",
+        "minutes": 40
+      },
+      {
+        "day": "Wed",
+        "session": "Easy bike 60",
+        "sport": "Bike",
+        "minutes": 60
+      },
+      {
+        "day": "Thu",
+        "session": "Swim 20\u201330 @ Bow Creek",
+        "sport": "Swim",
+        "minutes": 30
+      },
+      {
+        "day": "Fri",
+        "session": "Rest / mobility",
+        "sport": "Rest",
+        "minutes": 30
+      },
+      {
+        "day": "Sat",
+        "session": "Easy bike 90",
+        "sport": "Bike",
+        "minutes": 90
+      },
+      {
+        "day": "Sun",
+        "session": "Easy run 60",
+        "sport": "Run",
+        "minutes": 60
+      }
+    ],
+    "weighIns": [
+      {
+        "date": "2026-09-07",
+        "lb": 249,
+        "note": "Baseline"
+      }
+    ]
+  },
+  "workouts": [
+    {
+      "date": "2026-09-07",
+      "day": "Mon",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Treadmill",
+      "garminMinutes": 60,
+      "garminDistance": 4.29,
+      "garminPace": "14:00/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 150,
+      "plannedCalories": 2686,
+      "mfpCalories": 2324,
+      "calorieDelta": -362,
+      "overUnder": "Under",
+      "protein": 125,
+      "carbs": 212,
+      "fat": 96,
+      "nutritionNotes": "Training day: MFP adjusted goal 2686 (base 2360 +326)",
+      "workoutNotes": "Garmin 7:11 AM; duration 1:00:05"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Treadmill",
+      "garminMinutes": 56,
+      "garminDistance": 4.02,
+      "garminPace": "13:58/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 140,
+      "plannedCalories": 2692,
+      "mfpCalories": 2438,
+      "calorieDelta": -254,
+      "overUnder": "Under",
+      "protein": 115,
+      "carbs": 254,
+      "fat": 93,
+      "nutritionNotes": "Training day: MFP adjusted goal 2692 (base 2360 +332 exercise)",
+      "workoutNotes": "Garmin 6:01 AM; 56:08"
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Tempo Treadmill",
+      "garminMinutes": 40,
+      "garminDistance": 3.17,
+      "garminPace": "12:39/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
+      "plannedCalories": 2670,
+      "mfpCalories": 2404,
+      "calorieDelta": -266,
+      "overUnder": "Under",
+      "protein": 101,
+      "carbs": 137,
+      "fat": 145,
+      "nutritionNotes": "Training day: MFP adjusted goal 2670 (base 2360 +310 exercise)",
+      "workoutNotes": "Garmin Tempo treadmill; 40:05; started 6:09 AM"
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Treadmill",
+      "garminMinutes": 56,
+      "garminDistance": 4.01,
+      "garminPace": "13:59/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 140,
+      "plannedCalories": 2691,
+      "mfpCalories": 2144,
+      "calorieDelta": -547,
+      "overUnder": "Under",
+      "protein": 108,
+      "carbs": 233,
+      "fat": 88,
+      "nutritionNotes": "",
+      "workoutNotes": "Garmin treadmill; 56:07"
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Treadmill",
+      "garminMinutes": 45,
+      "garminDistance": 3.46,
+      "garminPace": "13:01/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 113,
+      "plannedCalories": 2674,
+      "mfpCalories": 1865,
+      "calorieDelta": -809,
+      "overUnder": "Under",
+      "protein": 118,
+      "carbs": 218,
+      "fat": 95,
+      "nutritionNotes": "",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Campbell County",
+      "garminMinutes": 49,
+      "garminDistance": 3.32,
+      "garminPace": "14:53/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 123,
+      "plannedCalories": 2840,
+      "mfpCalories": 1994,
+      "calorieDelta": -846,
+      "overUnder": "Under",
+      "protein": 74,
+      "carbs": 278,
+      "fat": 49,
+      "nutritionNotes": "Training day: MFP adjusted goal 2840 (base 2360 +480 exercise)",
+      "workoutNotes": "Garmin Campbell County Running; 49:23; started 6:43 AM"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun",
+      "plannedSession": "Easy run 40",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": "Campbell County",
+      "garminMinutes": 53,
+      "garminDistance": 3.54,
+      "garminPace": "14:59/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 133,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "",
+      "workoutNotes": "Garmin Campbell County Running; 52:57; started 6:31 AM"
+    },
+    {
+      "date": "2026-09-14",
+      "day": "Mon",
+      "plannedSession": "Rest / easy mobility + weigh-in",
+      "plannedMinutes": 30,
+      "plannedSport": "Rest",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": 2360,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Rest day: base goal",
+      "workoutNotes": "Foundation week 1"
+    },
+    {
+      "date": "2026-09-15",
+      "day": "Tue",
+      "plannedSession": "Run 40 easy",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 1",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-16",
+      "day": "Wed",
+      "plannedSession": "Bike 60 easy",
+      "plannedMinutes": 60,
+      "plannedSport": "Bike",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 1",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-17",
+      "day": "Thu",
+      "plannedSession": "Swim 20\u201330 @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 1",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-18",
+      "day": "Fri",
+      "plannedSession": "Rest",
+      "plannedMinutes": 0,
+      "plannedSport": "Rest",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-19",
+      "day": "Sat",
+      "plannedSession": "Bike 90 easy",
+      "plannedMinutes": 90,
+      "plannedSport": "Bike",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 1",
+      "workoutNotes": ""
+    },
+    {
+      "date": "2026-09-20",
+      "day": "Sun",
+      "plannedSession": "Run 60 easy",
+      "plannedMinutes": 60,
+      "plannedSport": "Run",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 1",
+      "workoutNotes": ""
+    }
+  ]
+};
+
+const FOUNDATION_START = new Date('2026-09-14T00:00:00-04:00');
+const RACE_DAY = new Date('2027-10-24T07:00:00-07:00');
+const chartInstances = {};
+let currentWeekStart = null; // ISO Monday of week
+let calCursor = new Date(2026, 8, 1);
+
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  const el = document.getElementById(id);
+  if (el) el.classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b => {
+    b.classList.toggle('nav-active', b.dataset.section === id);
+  });
+  const ms = document.getElementById('mobile-select');
+  if (ms) ms.value = id;
+  if (id === 'progress') setTimeout(initCharts, 50);
+  if (id === 'plan') { renderPhaseTabs(); renderWeek(); renderCalendar(); }
+  if (id === 'nutrition') { renderNutrition(); setTimeout(initNutritionCharts, 50); }
+}
+
+function todayIso() {
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+}
+function pad2(n) { return String(n).padStart(2, '0'); }
+function splitMs(ms) {
+  ms = Math.max(0, ms);
+  const d = Math.floor(ms / 86400000);
+  const h = Math.floor((ms % 86400000) / 3600000);
+  const m = Math.floor((ms % 3600000) / 60000);
+  const s = Math.floor((ms % 60000) / 1000);
+  return { d, h, m, s };
+}
+function mondayOf(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  const day = d.getUTCDay(); // Sun=0
+  const diff = day === 0 ? -6 : 1 - day;
+  d.setUTCDate(d.getUTCDate() + diff);
+  return d.toISOString().slice(0, 10);
+}
+function addDays(iso, n) {
+  const d = new Date(iso + 'T12:00:00');
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+function fmtRange(a, b) {
+  const fa = new Date(a + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  const fb = new Date(b + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  return fa + ' – ' + fb;
+}
+function byDateMap() {
+  const m = {};
+  DATA.workouts.forEach(w => { m[w.date] = w; });
+  return m;
+}
+function sportTint(sport) {
+  const s = (sport || '').toLowerCase();
+  if (s === 'run') return 'sport-run';
+  if (s === 'bike') return 'sport-bike';
+  if (s === 'swim') return 'sport-swim';
+  if (s === 'rest') return 'sport-rest';
+  return '';
+}
+function statusBadge(st) {
+  const map = {
+    Completed: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    Planned: 'bg-slate-50 text-slate-500 border-slate-200',
+    Missed: 'bg-amber-50 text-amber-700 border-amber-200'
+  };
+  return '<span class="inline-block text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full border ' + (map[st] || map.Planned) + '">' + (st || 'Planned') + '</span>';
+}
+
+function tickCountdowns() {
+  const now = new Date();
+  const fms = FOUNDATION_START - now;
+  const started = fms <= 0;
+  const f = splitMs(fms);
+  const fcd = document.getElementById('cd-foundation');
+  const underway = document.getElementById('f-underway');
+  if (started) {
+    const dayN = Math.floor((now - FOUNDATION_START) / 86400000) + 1;
+    fcd.classList.add('hidden');
+    underway.classList.remove('hidden');
+    underway.textContent = 'Foundation underway — day ' + dayN;
+  } else {
+    fcd.classList.remove('hidden');
+    underway.classList.add('hidden');
+    document.getElementById('f-d').textContent = f.d;
+    document.getElementById('f-h').textContent = pad2(f.h);
+    document.getElementById('f-m').textContent = pad2(f.m);
+    document.getElementById('f-s').textContent = pad2(f.s);
+  }
+  const r = splitMs(RACE_DAY - now);
+  document.getElementById('r-d').textContent = r.d;
+  document.getElementById('r-h').textContent = pad2(r.h);
+  document.getElementById('r-m').textContent = pad2(r.m);
+  document.getElementById('r-s').textContent = pad2(r.s);
+  document.getElementById('kpi-race').textContent = r.d;
+
+  const tw = document.getElementById('this-week');
+  const t = todayIso();
+  const mon = mondayOf(t);
+  const sun = addDays(mon, 6);
+  const weekWos = DATA.workouts.filter(w => w.date >= mon && w.date <= sun);
+  const done = weekWos.filter(w => w.workoutStatus === 'Completed').length;
+  const planned = weekWos.length;
+  if (now < FOUNDATION_START) {
+    tw.textContent = 'Foundation formal start Mon Sep 14 — keep easy runs going; sample week Mon rest → Tue run → Wed bike → Thu swim → Fri rest → Sat bike 90 → Sun run 60.';
+  } else {
+    tw.textContent = 'This week (' + fmtRange(mon, sun) + '): ' + done + '/' + planned + ' sessions logged. ' +
+      (weekWos.map(w => w.day + ' ' + (w.plannedSession || '')).slice(0, 4).join(' · ') || 'See plan tab.');
+  }
+}
+
+function renderOverview() {
+  const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed');
+  const mins = done.reduce((a, w) => a + (w.garminMinutes || 0), 0);
+  const miles = done.reduce((a, w) => a + (w.garminDistance || 0), 0);
+  const under = DATA.workouts.filter(w => w.overUnder === 'Under').length;
+  document.getElementById('kpi-sess').textContent = done.length;
+  document.getElementById('kpi-mins').textContent = mins;
+  document.getElementById('kpi-mi').textContent = miles.toFixed(2);
+  document.getElementById('kpi-under').textContent = under;
+  document.getElementById('kpi-wt').textContent = (DATA.meta.weightBaselineLb || 249) + '→' + (DATA.meta.weightGoalLb || 230);
+
+  const box = document.getElementById('recent-workouts');
+  const sorted = DATA.workouts.slice().sort((a, b) => {
+    const ac = a.workoutStatus === 'Completed' ? 0 : 1;
+    const bc = b.workoutStatus === 'Completed' ? 0 : 1;
+    if (ac !== bc) return ac - bc;
+    return b.date.localeCompare(a.date);
+  }).slice(0, 8);
+  box.innerHTML = sorted.map(w => {
+    const parts = [];
+    if (w.garminMinutes) parts.push(w.garminMinutes + ' min');
+    if (w.garminDistance) parts.push(w.garminDistance + ' mi');
+    if (w.garminPace) parts.push(w.garminPace);
+    if (w.workoutCompletionPct) parts.push(w.workoutCompletionPct + '%');
+    return '<div class="flex flex-wrap items-center gap-3 py-2 border-b border-slate-100 last:border-0">' +
+      '<span class="text-xs text-slate-400 font-mono w-24">' + w.date + '</span>' +
+      statusBadge(w.workoutStatus) +
+      '<span class="text-sm text-slate-800 flex-1 min-w-[8rem]">' + (w.plannedSession || '—') +
+      (w.garminActivity ? ' <span class="text-slate-400">· ' + w.garminActivity + '</span>' : '') + '</span>' +
+      '<span class="text-xs text-slate-500">' + (parts.join(' · ') || '—') + '</span></div>';
+  }).join('');
+}
+
+function renderLog() {
+  const tb = document.getElementById('log-body');
+  const empty = document.getElementById('log-empty');
+  if (!DATA.workouts.length) { tb.innerHTML = ''; empty.classList.remove('hidden'); return; }
+  empty.classList.add('hidden');
+  const rows = DATA.workouts.slice().sort((a, b) => a.date.localeCompare(b.date));
+  tb.innerHTML = rows.map(w =>
+    '<tr class="day-row border-b border-slate-100" data-iso="' + w.date + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
+    '<td class="px-4 py-3 font-mono text-xs text-slate-500">' + w.date + '</td>' +
+    '<td class="px-4 py-3 text-slate-800">' + (w.plannedSession || '—') + '</td>' +
+    '<td class="px-4 py-3">' + (w.plannedSport || '—') + '</td>' +
+    '<td class="px-4 py-3 text-slate-600">' + (w.garminActivity || '—') + '</td>' +
+    '<td class="px-4 py-3 text-right tabular-nums">' + (w.garminMinutes != null ? w.garminMinutes : '—') + '</td>' +
+    '<td class="px-4 py-3 text-right tabular-nums">' + (w.garminDistance != null ? w.garminDistance : '—') + '</td>' +
+    '<td class="px-4 py-3 text-right tabular-nums text-xs">' + (w.garminPace || '—') + '</td>' +
+    '<td class="px-4 py-3 text-right tabular-nums font-semibold text-emerald-700">' + (w.workoutCompletionPct != null ? w.workoutCompletionPct + '%' : '—') + '</td>' +
+    '<td class="px-4 py-3 text-xs text-slate-500 max-w-[10rem] truncate">' + (w.workoutNotes || '') + '</td></tr>'
+  ).join('');
+}
+
+function renderPhaseTabs() {
+  const root = document.getElementById('phase-tabs');
+  const phases = DATA.meta.phases || [];
+  const cur = DATA.meta.currentPhase || 'Foundation';
+  root.innerHTML = phases.map(p => {
+    const on = p.name === cur || (currentWeekStart && currentWeekStart >= p.start && currentWeekStart <= p.end);
+    const active = p.name === cur;
+    return '<button type="button" onclick="selectPhase(\'' + p.id + '\')" class="px-3 py-1.5 rounded-full text-xs font-medium border ' +
+      (active ? 'bg-emerald-50 text-emerald-800 border-emerald-300' : 'bg-white text-slate-600 border-slate-300 hover:bg-slate-50') +
+      '">' + p.name + '</button>';
+  }).join('');
+  const ph = phases.find(p => p.name === cur) || phases[0];
+  const blurb = document.getElementById('phase-blurb');
+  if (blurb && ph) blurb.textContent = ph.name + ' · ' + ph.start + ' → ' + ph.end + ' · ' + ph.description;
+}
+
+function selectPhase(id) {
+  const ph = (DATA.meta.phases || []).find(p => p.id === id);
+  if (!ph) return;
+  currentWeekStart = mondayOf(ph.start);
+  renderPhaseTabs(); renderWeek();
+  calCursor = new Date(ph.start + 'T12:00:00');
+  calCursor = new Date(calCursor.getFullYear(), calCursor.getMonth(), 1);
+  renderCalendar();
+}
+
+function shiftWeek(delta) {
+  currentWeekStart = addDays(currentWeekStart, delta * 7);
+  renderPhaseTabs(); renderWeek();
+}
+
+function renderWeek() {
+  if (!currentWeekStart) currentWeekStart = mondayOf(todayIso());
+  const sun = addDays(currentWeekStart, 6);
+  document.getElementById('week-title').textContent = 'Week of ' + currentWeekStart.slice(5);
+  document.getElementById('week-range').textContent = fmtRange(currentWeekStart, sun);
+  const map = byDateMap();
+  const days = [];
+  for (let i = 0; i < 7; i++) days.push(addDays(currentWeekStart, i));
+  const labels = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  const sessions = days.map(d => map[d]).filter(Boolean);
+  const summary = sessions.length
+    ? sessions.map(w => (w.plannedSport || '') + ': ' + (w.plannedSession || '')).join(' · ')
+    : 'No workouts in DATA for this week yet — Foundation sample applies from Sep 14.';
+  document.getElementById('week-summary').textContent = summary;
+  document.getElementById('week-body').innerHTML = days.map((iso, i) => {
+    const w = map[iso];
+    const label = labels[i] + ' ' + iso.slice(5);
+    if (!w) {
+      return '<tr class="border-b border-slate-100"><td class="px-3 py-2 text-slate-500">' + label + '</td><td class="px-3 py-2 text-slate-400" colspan="3">—</td></tr>';
+    }
+    return '<tr class="day-row border-b border-slate-100" data-iso="' + iso + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
+      '<td class="px-3 py-2 text-slate-700 whitespace-nowrap">' + label + '</td>' +
+      '<td class="px-3 py-2 text-slate-800">' + (w.plannedSession || '—') + '</td>' +
+      '<td class="px-3 py-2 text-slate-500">' + (w.plannedSport || '—') + '</td>' +
+      '<td class="px-3 py-2">' + statusBadge(w.workoutStatus) + '</td></tr>';
+  }).join('');
+}
+
+function shiftMonth(delta) {
+  calCursor = new Date(calCursor.getFullYear(), calCursor.getMonth() + delta, 1);
+  renderCalendar();
+}
+function calGoToday() {
+  const n = new Date();
+  calCursor = new Date(n.getFullYear(), n.getMonth(), 1);
+  currentWeekStart = mondayOf(todayIso());
+  renderPhaseTabs(); renderWeek(); renderCalendar();
+}
+
+function renderCalendar() {
+  const grid = document.getElementById('cal-grid');
+  if (!grid) return;
+  const y = calCursor.getFullYear();
+  const m = calCursor.getMonth();
+  document.getElementById('cal-title').textContent = calCursor.toLocaleString('en-US', { month: 'long', year: 'numeric' });
+  const first = new Date(y, m, 1);
+  const startPad = first.getDay();
+  const daysIn = new Date(y, m + 1, 0).getDate();
+  const map = byDateMap();
+  const today = todayIso();
+  let html = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d =>
+    '<div class="bg-slate-200 text-center py-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500">' + d + '</div>'
+  ).join('');
+  for (let i = 0; i < startPad; i++) html += '<div class="bg-slate-100/80 min-h-[5.5rem]"></div>';
+  for (let day = 1; day <= daysIn; day++) {
+    const iso = y + '-' + String(m + 1).padStart(2, '0') + '-' + String(day).padStart(2, '0');
+    const w = map[iso];
+    const isToday = iso === today;
+    let cls = 'bg-white min-h-[5.5rem] p-1.5 text-xs cursor-pointer hover:bg-emerald-50 ';
+    if (w) cls += sportTint(w.plannedSport) + ' ';
+    if (w && w.workoutStatus === 'Completed') cls += ' ring-1 ring-inset ring-emerald-400 ';
+    if (isToday) cls += ' ring-2 ring-inset ring-emerald-600 ';
+    let short = '';
+    if (w) {
+      const s = w.plannedSport || '';
+      const name = (w.plannedSession || '').length > 18 ? (w.plannedSession || '').slice(0, 16) + '…' : (w.plannedSession || '');
+      short = '<div class="mt-1 text-[10px] leading-snug text-slate-600 font-semibold">' + s + '</div>' +
+        '<div class="text-[10px] leading-snug text-slate-500">' + name + '</div>';
+      if (w.workoutStatus === 'Completed' && w.garminMinutes) {
+        short += '<div class="text-[9px] text-emerald-700 mt-0.5">' + w.garminMinutes + 'm</div>';
+      }
+    }
+    html += '<div class="' + cls + '" data-iso="' + iso + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
+      '<div class="text-right font-mono text-slate-400">' + day + '</div>' + short + '</div>';
+  }
+  grid.innerHTML = html;
+}
+
+function openWorkoutDetail(iso) {
+  const w = DATA.workouts.find(x => x.date === iso);
+  const modal = document.getElementById('workout-modal');
+  if (!w) { modal.classList.add('hidden'); return; }
+  const when = new Date(iso + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  document.getElementById('wo-title').textContent = (w.day || '') + ' · ' + (w.plannedSession || 'Session');
+  const garmin = w.garminActivity
+    ? ('<div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-xs">' +
+      'Garmin: <strong>' + w.garminActivity + '</strong> · ' + (w.garminMinutes || '—') + ' min · ' +
+      (w.garminDistance != null ? w.garminDistance + ' mi' : '—') +
+      (w.garminPace ? ' · ' + w.garminPace : '') +
+      (w.workoutCompletionPct != null ? ' · ' + w.workoutCompletionPct + '%' : '') + '</div>')
+    : '<p class="text-xs text-slate-400">No Garmin activity logged for this date yet.</p>';
+  const nutri = w.mfpCalories != null
+    ? ('<div class="bg-slate-50 rounded-2xl p-3 text-xs">MFP ' + w.mfpCalories + ' / planned ' + (w.plannedCalories || '—') +
+      ' · delta ' + (w.calorieDelta != null ? w.calorieDelta : '—') + ' · ' + (w.overUnder || '') +
+      '<br>P ' + (w.protein || '—') + ' · C ' + (w.carbs || '—') + ' · F ' + (w.fat || '—') + '</div>')
+    : '<p class="text-xs text-slate-400">No MFP log yet.</p>';
+  document.getElementById('wo-body').innerHTML =
+    '<div class="grid grid-cols-2 gap-3">' +
+    '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Date</div><div class="font-medium">' + when + '</div></div>' +
+    '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Sport</div><div class="font-medium">' + (w.plannedSport || '—') + '</div></div>' +
+    '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Planned</div><div class="font-medium">' + (w.plannedMinutes || 0) + ' min</div></div>' +
+    '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Status</div><div class="font-medium">' + statusBadge(w.workoutStatus) + '</div></div></div>' +
+    '<div><div class="text-[10px] uppercase text-slate-400 mb-1">Session</div><p>' + (w.plannedSession || '—') + '</p></div>' +
+    garmin + nutri +
+    (w.workoutNotes ? '<p class="text-xs text-slate-500">' + w.workoutNotes + '</p>' : '') +
+    '<p class="text-[11px] text-slate-400">Not medical advice.</p>';
+  modal.classList.remove('hidden');
+}
+function closeWorkoutModal() {
+  document.getElementById('workout-modal').classList.add('hidden');
+}
+
+function destroyCharts(keys) {
+  const list = keys || Object.keys(chartInstances);
+  list.forEach(k => {
+    if (!chartInstances[k]) return;
+    try { chartInstances[k].destroy(); } catch (e) {}
+    delete chartInstances[k];
+  });
+}
+function lightScaleOpts(yTitle, xTitle) {
+  return {
+    x: { grid: { color: '#e2e8f0' }, ticks: { color: '#64748b' }, title: { display: !!xTitle, text: xTitle || '', color: '#64748b', font: { size: 11 } } },
+    y: {
+      grid: { color: '#e2e8f0' },
+      ticks: { color: '#64748b' },
+      beginAtZero: true,
+      title: { display: !!yTitle, text: yTitle || '', color: '#0f172a', font: { size: 12, weight: '600' } }
+    }
+  };
+}
+
+function initCharts() {
+  if (typeof Chart === 'undefined') return;
+  destroyCharts(['mins','miles','pvsa','adh']);
+  Chart.defaults.color = '#64748b';
+  Chart.defaults.borderColor = '#e2e8f0';
+  Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
+
+  const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed' && w.garminMinutes != null)
+    .slice().sort((a, b) => a.date.localeCompare(b.date));
+
+  chartInstances.mins = new Chart(document.getElementById('chart-mins'), {
+    type: 'bar',
+    data: {
+      labels: done.map(w => w.date.slice(5)),
+      datasets: [{
+        label: 'Garmin minutes',
+        data: done.map(w => w.garminMinutes),
+        backgroundColor: 'rgba(16,185,129,0.75)',
+        borderColor: '#10b981',
+        borderWidth: 1,
+        borderRadius: 6
+      }]
+    },
+    options: { responsive: true, plugins: { legend: { display: false } }, scales: lightScaleOpts('Minutes', 'Date') }
+  });
+
+  let cum = 0;
+  const cumMiles = done.map(w => { cum += (w.garminDistance || 0); return Math.round(cum * 100) / 100; });
+  chartInstances.miles = new Chart(document.getElementById('chart-miles'), {
+    type: 'line',
+    data: {
+      labels: done.map(w => w.date.slice(5)),
+      datasets: [{
+        label: 'Cumulative miles',
+        data: cumMiles,
+        borderColor: '#10b981',
+        backgroundColor: 'rgba(16,185,129,0.12)',
+        fill: true,
+        tension: 0.3,
+        pointBackgroundColor: '#10b981',
+        pointRadius: 4
+      }]
+    },
+    options: { responsive: true, plugins: { legend: { display: false } }, scales: lightScaleOpts('Miles', 'Date') }
+  });
+
+  const withPlan = DATA.workouts.filter(w => w.plannedMinutes != null)
+    .slice().sort((a, b) => a.date.localeCompare(b.date));
+  chartInstances.pvsa = new Chart(document.getElementById('chart-pvsa'), {
+    type: 'bar',
+    data: {
+      labels: withPlan.map(w => w.date.slice(5)),
+      datasets: [
+        {
+          label: 'Planned',
+          data: withPlan.map(w => w.plannedMinutes || 0),
+          backgroundColor: 'rgba(148,163,184,0.7)',
+          borderRadius: 4
+        },
+        {
+          label: 'Actual',
+          data: withPlan.map(w => w.garminMinutes || 0),
+          backgroundColor: 'rgba(16,185,129,0.75)',
+          borderColor: '#10b981',
+          borderWidth: 1,
+          borderRadius: 4
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } },
+      scales: lightScaleOpts('Minutes', 'Date')
+    }
+  });
+
+  const completed = DATA.workouts.filter(w => w.workoutStatus === 'Completed').length;
+  const plannedPending = DATA.workouts.filter(w => w.workoutStatus === 'Planned').length;
+  const missed = DATA.workouts.filter(w => w.workoutStatus === 'Missed').length;
+  chartInstances.adh = new Chart(document.getElementById('chart-adh'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Completed', 'Planned pending', 'Missed'],
+      datasets: [{
+        data: [completed, plannedPending, missed],
+        backgroundColor: ['#10b981', '#94a3b8', '#f59e0b'],
+        borderColor: '#ffffff',
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } }
+    }
+  });
+}
+
+
+function initNutritionCharts() {
+  if (typeof Chart === 'undefined') return;
+  destroyCharts(['cals','calDelta','weight']);
+  Chart.defaults.color = '#64748b';
+  Chart.defaults.borderColor = '#e2e8f0';
+  Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
+
+  const calDays = DATA.workouts
+    .filter(w => w.plannedCalories != null || w.mfpCalories != null)
+    .slice().sort((a, b) => a.date.localeCompare(b.date));
+
+  const calEl = document.getElementById('chart-cals');
+  if (calEl) {
+    chartInstances.cals = new Chart(calEl, {
+      type: 'bar',
+      data: {
+        labels: calDays.map(w => w.date.slice(5)),
+        datasets: [
+          {
+            label: 'Planned',
+            data: calDays.map(w => w.plannedCalories),
+            backgroundColor: 'rgba(148,163,184,0.7)',
+            borderRadius: 4
+          },
+          {
+            label: 'Actual (MFP)',
+            data: calDays.map(w => w.mfpCalories),
+            backgroundColor: 'rgba(16,185,129,0.75)',
+            borderColor: '#10b981',
+            borderWidth: 1,
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } },
+        scales: lightScaleOpts('kcal', 'Date')
+      }
+    });
+  }
+
+  const deltaDays = calDays.filter(w => w.calorieDelta != null);
+  const deltaEl = document.getElementById('chart-cal-delta');
+  if (deltaEl) {
+    chartInstances.calDelta = new Chart(deltaEl, {
+      type: 'bar',
+      data: {
+        labels: deltaDays.map(w => w.date.slice(5)),
+        datasets: [{
+          label: 'Delta (actual − planned)',
+          data: deltaDays.map(w => w.calorieDelta),
+          backgroundColor: deltaDays.map(w => w.calorieDelta < 0 ? 'rgba(16,185,129,0.75)' : 'rgba(245,158,11,0.8)'),
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid: { color: '#e2e8f0' }, ticks: { color: '#64748b' } },
+          y: {
+            grid: { color: '#e2e8f0' },
+            ticks: { color: '#64748b' },
+            title: { display: true, text: 'kcal', color: '#0f172a', font: { size: 12, weight: '600' } }
+          }
+        }
+      }
+    });
+  }
+
+  const weighIns = (DATA.meta.weighIns || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+  const goal = DATA.meta.weightGoalLb || 230;
+  const baseline = DATA.meta.weightBaselineLb || 249;
+  const hint = document.getElementById('weight-trend-hint');
+  if (hint) {
+    const latest = weighIns.length ? weighIns[weighIns.length - 1].lb : baseline;
+    hint.textContent = latest + ' lb now · goal ' + goal + ' lb (−' + Math.max(0, Math.round(latest - goal)) + ' to go)';
+  }
+  const wEl = document.getElementById('chart-weight');
+  if (wEl) {
+    const labels = weighIns.length ? weighIns.map(w => w.date.slice(5)) : ['—'];
+    const lbs = weighIns.length ? weighIns.map(w => w.lb) : [baseline];
+    chartInstances.weight = new Chart(wEl, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          {
+            label: 'Weight (lb)',
+            data: lbs,
+            borderColor: '#10b981',
+            backgroundColor: 'rgba(16,185,129,0.12)',
+            fill: true,
+            tension: 0.25,
+            pointBackgroundColor: '#10b981',
+            pointRadius: 5,
+            pointHoverRadius: 7
+          },
+          {
+            label: 'Goal ' + goal,
+            data: labels.map(() => goal),
+            borderColor: '#f59e0b',
+            borderDash: [6, 4],
+            pointRadius: 0,
+            fill: false,
+            tension: 0
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } },
+        scales: {
+          x: { grid: { color: '#e2e8f0' }, ticks: { color: '#64748b' }, title: { display: true, text: 'Date', color: '#64748b', font: { size: 11 } } },
+          y: {
+            grid: { color: '#e2e8f0' },
+            ticks: { color: '#64748b' },
+            suggestedMin: Math.min(goal - 5, Math.min(...lbs) - 5),
+            suggestedMax: Math.max(baseline + 5, Math.max(...lbs) + 5),
+            title: { display: true, text: 'lb', color: '#0f172a', font: { size: 12, weight: '600' } }
+          }
+        }
+      }
+    });
+  }
+}
+
+function renderNutrition() {
+  document.getElementById('mfp-base').textContent = DATA.meta.mfpBaseGoal || 2360;
+  const withMfp = DATA.workouts.filter(w => w.mfpCalories != null);
+  const under = withMfp.filter(w => w.overUnder === 'Under').length;
+  const over = withMfp.filter(w => w.overUnder === 'Over').length;
+  const avgDelta = withMfp.length
+    ? Math.round(withMfp.reduce((a, w) => a + (w.calorieDelta || 0), 0) / withMfp.length)
+    : 0;
+  document.getElementById('nutrition-week-summary').innerHTML =
+    '<h3 class="font-display font-semibold text-slate-900 mb-2">Week summary</h3>' +
+    '<p class="text-sm text-slate-600">' + withMfp.length + ' days logged · ' + under + ' under · ' + over + ' over · avg delta ' +
+    (avgDelta > 0 ? '+' : '') + avgDelta + ' kcal vs planned. Tolerance ±' + (DATA.meta.overUnderTolerance || 50) + '.</p>' +
+    '<p class="text-xs text-slate-400 mt-2">Meat-forward · leftovers lunch · wine OK · Gatorade/Clif on long sessions.</p>';
+
+  const cards = document.getElementById('nutrition-cards');
+  const sorted = DATA.workouts.slice().sort((a, b) => b.date.localeCompare(a.date));
+  cards.innerHTML = sorted.map(w => {
+    if (w.mfpCalories == null) {
+      return '<div class="card"><div class="flex justify-between mb-1"><span class="font-mono text-xs text-slate-400">' + w.date + '</span>' +
+        statusBadge(w.workoutStatus) + '</div><p class="text-sm text-slate-400">No log yet</p>' +
+        '<p class="text-xs text-slate-500 mt-1">' + (w.plannedSession || '') + '</p></div>';
+    }
+    const ou = w.overUnder === 'Under'
+      ? '<span class="text-emerald-700 font-semibold">Under ' + Math.abs(w.calorieDelta) + '</span>'
+      : (w.overUnder === 'Over'
+        ? '<span class="text-amber-700 font-semibold">Over ' + Math.abs(w.calorieDelta) + '</span>'
+        : '<span class="text-slate-500">On target</span>');
+    return '<div class="card">' +
+      '<div class="flex justify-between mb-2"><span class="font-mono text-xs text-slate-400">' + w.date + ' · ' + (w.day || '') + '</span>' + ou + '</div>' +
+      '<div class="text-sm text-slate-800 mb-2">Planned <strong>' + (w.plannedCalories || '—') + '</strong> · Actual <strong>' + w.mfpCalories + '</strong></div>' +
+      '<div class="grid grid-cols-3 gap-2 text-center text-xs">' +
+      '<div class="bg-slate-50 rounded-xl p-2"><div class="text-slate-400">Protein</div><div class="font-semibold text-slate-800">' + (w.protein || '—') + 'g</div></div>' +
+      '<div class="bg-slate-50 rounded-xl p-2"><div class="text-slate-400">Carbs</div><div class="font-semibold text-slate-800">' + (w.carbs || '—') + 'g</div></div>' +
+      '<div class="bg-slate-50 rounded-xl p-2"><div class="text-slate-400">Fat</div><div class="font-semibold text-slate-800">' + (w.fat || '—') + 'g</div></div>' +
+      '</div></div>';
+  }).join('');
+}
+
+function renderSampleWeek() {
+  const el = document.getElementById('sample-week');
+  const sample = DATA.meta.sampleFoundationWeek || [];
+  el.innerHTML = sample.map(s =>
+    '<li class="flex gap-2"><span class="font-mono text-xs text-slate-400 w-8">' + s.day + '</span>' +
+    '<span>' + s.session + ' <span class="text-slate-400">(' + s.sport + ' · ' + s.minutes + 'm)</span></span></li>'
+  ).join('');
+}
+
+/* BOOT */
+(function boot() {
+  try {
+    document.getElementById('foundation-local').textContent = FOUNDATION_START.toLocaleString('en-US', {
+      weekday: 'short', month: 'short', day: 'numeric', year: 'numeric',
+      hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', timeZoneName: 'short'
+    });
+  } catch (e) {}
+  const lu = DATA.meta.lastUpdated || '';
+  let stamp = lu;
+  try {
+    stamp = new Date(lu).toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+  } catch (e) {}
+  document.getElementById('footer-updated').textContent = 'Updated ' + stamp + ' ET';
+
+  currentWeekStart = mondayOf(todayIso());
+  renderOverview();
+  renderLog();
+  renderPhaseTabs();
+  renderWeek();
+  renderCalendar();
+  renderSampleWeek();
+  renderNutrition();
+  tickCountdowns();
+  setInterval(tickCountdowns, 1000);
+})();
+</script>
+</body>
+</html>
