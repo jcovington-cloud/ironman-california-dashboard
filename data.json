@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach — Ironman California 2027",
+    "title": "Iron Coach \u2014 Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-13T10:13:14-04:00",
+    "lastUpdated": "2026-09-13T23:45:41-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -80,7 +80,7 @@
       },
       {
         "day": "Thu",
-        "session": "Swim 20–30 @ Bow Creek",
+        "session": "Swim 20\u201330 @ Bow Creek",
         "sport": "Swim",
         "minutes": 30
       },
@@ -115,7 +115,7 @@
     {
       "date": "2026-09-07",
       "day": "Mon",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Treadmill",
@@ -137,7 +137,7 @@
     {
       "date": "2026-09-08",
       "day": "Tue",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Treadmill",
@@ -159,10 +159,10 @@
     {
       "date": "2026-09-09",
       "day": "Wed",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
-      "garminActivity": "Tempo Treadmill",
+      "garminActivity": "Tempo (Treadmill Running)",
       "garminMinutes": 40,
       "garminDistance": 3.17,
       "garminPace": "12:39/mi",
@@ -181,7 +181,7 @@
     {
       "date": "2026-09-10",
       "day": "Thu",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Treadmill",
@@ -203,7 +203,7 @@
     {
       "date": "2026-09-11",
       "day": "Fri",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Treadmill",
@@ -225,7 +225,7 @@
     {
       "date": "2026-09-12",
       "day": "Sat",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Campbell County",
@@ -256,14 +256,14 @@
       "garminPace": "14:59/mi",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 133,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "",
+      "plannedCalories": 2884,
+      "mfpCalories": 2466,
+      "calorieDelta": -418,
+      "overUnder": "Under",
+      "protein": 117,
+      "carbs": 190,
+      "fat": 124,
+      "nutritionNotes": "Training day: MFP adjusted goal 2884 (base 2360 +524 exercise)",
       "workoutNotes": "Garmin Campbell County Running; 52:57; started 6:31 AM"
     },
     {
@@ -335,7 +335,7 @@
     {
       "date": "2026-09-17",
       "day": "Thu",
-      "plannedSession": "Swim 20–30 min @ Bow Creek",
+      "plannedSession": "Swim 20-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -360,12 +360,12 @@
       "plannedSession": "Run 35 min easy + strides",
       "plannedMinutes": 35,
       "plannedSport": "Run",
-      "garminActivity": null,
+      "garminActivity": "Rest",
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
       "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutCompletionPct": "Planned",
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -489,7 +489,7 @@
     {
       "date": "2026-09-24",
       "day": "Thu",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -643,7 +643,7 @@
     {
       "date": "2026-10-01",
       "day": "Thu",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -797,7 +797,7 @@
     {
       "date": "2026-10-08",
       "day": "Thu",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
