@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-14T06:52:20-04:00",
+    "lastUpdated": "2026-09-14T09:46:12-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -253,7 +253,7 @@
     {
       "date": "2026-09-13",
       "day": "Sun",
-      "plannedSession": "Easy run 40",
+      "plannedSession": "Easy run 40 min",
       "plannedMinutes": 40,
       "plannedSport": "Run",
       "garminActivity": "Campbell County",
@@ -278,11 +278,11 @@
       "plannedSession": "Rest / easy mobility + weigh-in",
       "plannedMinutes": 30,
       "plannedSport": "Rest",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
+      "garminActivity": "Treadmill (+ HITT 10 min)",
+      "garminMinutes": 30,
+      "garminDistance": 2.12,
+      "garminPace": "14:13/mi",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
       "mfpCalories": null,
@@ -358,7 +358,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": ""
+      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek midday"
     },
     {
       "date": "2026-09-18",
@@ -366,12 +366,12 @@
       "plannedSession": "Run 35 min easy + strides",
       "plannedMinutes": 35,
       "plannedSport": "Run",
-      "garminActivity": "Rest",
+      "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
       "workoutStatus": "Planned",
-      "workoutCompletionPct": "Planned",
+      "workoutCompletionPct": null,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -495,7 +495,7 @@
     {
       "date": "2026-09-24",
       "day": "Thu",
-      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -512,7 +512,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek Thu open/lap covers noon"
     },
     {
       "date": "2026-09-25",
@@ -649,7 +649,7 @@
     {
       "date": "2026-10-01",
       "day": "Thu",
-      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -666,7 +666,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "Prefer lap lanes; Confirm Bow Creek Oct schedule \u2014 midday"
     },
     {
       "date": "2026-10-02",
@@ -803,7 +803,7 @@
     {
       "date": "2026-10-08",
       "day": "Thu",
-      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -820,7 +820,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "Prefer lap lanes; Confirm Bow Creek Oct schedule \u2014 midday"
     },
     {
       "date": "2026-10-09",
