@@ -158,13 +158,16 @@ tailwind.config = {
     </div>
   </div>
 
-  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3" id="kpi-row">
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-3" id="kpi-row">
     <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-race">—</div><div class="text-[11px] text-slate-500 mt-1">Days to race</div></div>
     <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-sess">0</div><div class="text-[11px] text-slate-500 mt-1">Sessions completed</div></div>
     <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-mins">0</div><div class="text-[11px] text-slate-500 mt-1">Minutes (Garmin)</div></div>
     <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-mi">0</div><div class="text-[11px] text-slate-500 mt-1">Miles completed</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-run-mi">0</div><div class="text-[11px] text-slate-500 mt-1">Run mi</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-bike-mi">0</div><div class="text-[11px] text-slate-500 mt-1">Bike mi</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-swim-mi">0</div><div class="text-[11px] text-slate-500 mt-1">Swim mi</div></div>
     <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-under">0</div><div class="text-[11px] text-slate-500 mt-1">Nutrition days under</div></div>
-    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-wt">249→230</div><div class="text-[11px] text-slate-500 mt-1">Weight goal (lb)</div></div>
+    <div class="stat-card text-center"><div class="countdown-digit text-2xl tabular-nums" id="kpi-wt">—</div><div class="text-[11px] text-slate-500 mt-0.5">Current weight (lb)</div><div class="text-[11px] text-slate-500" id="kpi-wt-hint"></div></div>
   </div>
 
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -270,6 +273,26 @@ tailwind.config = {
     <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Cumulative miles</h3><canvas id="chart-miles" height="200"></canvas></div>
     <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Planned vs actual minutes</h3><canvas id="chart-pvsa" height="200"></canvas></div>
     <div class="card"><h3 class="text-sm font-semibold text-slate-700 mb-3">Workout Plan Adherence</h3><div class="max-w-xs mx-auto"><canvas id="chart-adh" height="200"></canvas></div></div>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="card">
+      <h3 class="text-sm font-semibold text-slate-700 mb-1 flex items-center gap-2"><i class="fa-solid fa-person-running text-orange-500"></i> Running — cumulative</h3>
+      <p class="text-[11px] text-slate-400 mb-2">Minutes (left) · Miles (right)</p>
+      <p id="run-cum-empty" class="hidden text-sm text-slate-400 text-center py-8">No sessions yet</p>
+      <canvas id="chart-run-cum" height="200"></canvas>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold text-slate-700 mb-1 flex items-center gap-2"><i class="fa-solid fa-bicycle text-blue-500"></i> Biking — cumulative</h3>
+      <p class="text-[11px] text-slate-400 mb-2">Minutes (left) · Miles (right)</p>
+      <p id="bike-cum-empty" class="hidden text-sm text-slate-400 text-center py-8">No sessions yet</p>
+      <canvas id="chart-bike-cum" height="200"></canvas>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold text-slate-700 mb-1 flex items-center gap-2"><i class="fa-solid fa-person-swimming text-cyan-500"></i> Swimming — cumulative</h3>
+      <p class="text-[11px] text-slate-400 mb-2">Minutes (left) · Miles (right)</p>
+      <p id="swim-cum-empty" class="hidden text-sm text-slate-400 text-center py-8">No sessions yet</p>
+      <canvas id="chart-swim-cum" height="200"></canvas>
+    </div>
   </div>
 </section>
 
@@ -495,16 +518,55 @@ function tickCountdowns() {
   }
 }
 
+
+/** Attribute completed workout to Run/Bike/Swim for sport KPIs & charts. */
+function sportOf(w) {
+  const ps = String(w.plannedSport || '').trim().toLowerCase();
+  if (ps === 'run' || ps === 'bike' || ps === 'swim') {
+    return ps.charAt(0).toUpperCase() + ps.slice(1);
+  }
+  const g = String(w.garminActivity || '').toLowerCase();
+  if (g.includes('swim')) return 'Swim';
+  if (g.includes('bike') || g.includes('cycle') || g.includes('ride')) return 'Bike';
+  const runish = g.includes('run') || g.includes('tread') || g.includes('tempo') || g.includes('campbell') || g.includes('hitt');
+  if (runish && w.garminDistance != null && Number(w.garminDistance) > 0) return 'Run';
+  return null;
+}
+
+function currentWeightLb() {
+  if (DATA.meta.weightCurrentLb != null && DATA.meta.weightCurrentLb !== '') {
+    return Number(DATA.meta.weightCurrentLb);
+  }
+  const weighIns = (DATA.meta.weighIns || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+  if (weighIns.length) return Number(weighIns[weighIns.length - 1].lb);
+  return Number(DATA.meta.weightBaselineLb || 249);
+}
+
 function renderOverview() {
   const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed');
   const mins = done.reduce((a, w) => a + (w.garminMinutes || 0), 0);
   const miles = done.reduce((a, w) => a + (w.garminDistance || 0), 0);
   const under = DATA.workouts.filter(w => w.overUnder === 'Under').length;
+  let runMi = 0, bikeMi = 0, swimMi = 0;
+  done.forEach(w => {
+    const sport = sportOf(w);
+    const d = Number(w.garminDistance) || 0;
+    if (!d) return;
+    if (sport === 'Run') runMi += d;
+    else if (sport === 'Bike') bikeMi += d;
+    else if (sport === 'Swim') swimMi += d;
+  });
   document.getElementById('kpi-sess').textContent = done.length;
   document.getElementById('kpi-mins').textContent = mins;
   document.getElementById('kpi-mi').textContent = miles.toFixed(2);
+  document.getElementById('kpi-run-mi').textContent = runMi.toFixed(2);
+  document.getElementById('kpi-bike-mi').textContent = bikeMi.toFixed(2);
+  document.getElementById('kpi-swim-mi').textContent = swimMi.toFixed(2);
   document.getElementById('kpi-under').textContent = under;
-  document.getElementById('kpi-wt').textContent = (DATA.meta.weightBaselineLb || 249) + '→' + (DATA.meta.weightGoalLb || 230);
+  const wt = currentWeightLb();
+  document.getElementById('kpi-wt').textContent = Number.isFinite(wt) ? (Math.round(wt * 10) / 10) : '—';
+  const hint = document.getElementById('kpi-wt-hint');
+  if (hint) hint.textContent = 'goal ' + (DATA.meta.weightGoalLb || 230);
 
   const box = document.getElementById('recent-workouts');
   const sorted = DATA.workouts.slice().sort((a, b) => {
@@ -713,7 +775,7 @@ function lightScaleOpts(yTitle, xTitle) {
 
 function initCharts() {
   if (typeof Chart === 'undefined') return;
-  destroyCharts(['mins','miles','pvsa','adh']);
+  destroyCharts(['mins','miles','pvsa','adh','runCum','bikeCum','swimCum']);
   Chart.defaults.color = '#64748b';
   Chart.defaults.borderColor = '#e2e8f0';
   Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
@@ -806,6 +868,84 @@ function initCharts() {
       plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } }
     }
   });
+
+  function buildSportCum(sport, key, canvasId, emptyId, milesColor) {
+    const rows = DATA.workouts
+      .filter(w => w.workoutStatus === 'Completed' && sportOf(w) === sport)
+      .slice().sort((a, b) => a.date.localeCompare(b.date));
+    const emptyEl = document.getElementById(emptyId);
+    const canvas = document.getElementById(canvasId);
+    if (!rows.length) {
+      if (emptyEl) emptyEl.classList.remove('hidden');
+      if (canvas) canvas.classList.add('hidden');
+      return;
+    }
+    if (emptyEl) emptyEl.classList.add('hidden');
+    if (canvas) canvas.classList.remove('hidden');
+    let cMin = 0, cMi = 0;
+    const labels = [];
+    const minsData = [];
+    const milesData = [];
+    rows.forEach(w => {
+      cMin += (w.garminMinutes || 0);
+      cMi += (w.garminDistance || 0);
+      labels.push(w.date.slice(5));
+      minsData.push(Math.round(cMin * 10) / 10);
+      milesData.push(Math.round(cMi * 100) / 100);
+    });
+    chartInstances[key] = new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          {
+            label: 'Cumulative minutes',
+            data: minsData,
+            borderColor: '#10b981',
+            backgroundColor: 'rgba(16,185,129,0.12)',
+            fill: false,
+            tension: 0.3,
+            pointBackgroundColor: '#10b981',
+            pointRadius: 3,
+            yAxisID: 'y'
+          },
+          {
+            label: 'Cumulative miles',
+            data: milesData,
+            borderColor: milesColor,
+            backgroundColor: 'transparent',
+            fill: false,
+            tension: 0.3,
+            pointBackgroundColor: milesColor,
+            pointRadius: 3,
+            yAxisID: 'y1'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { position: 'bottom', labels: { color: '#64748b', boxWidth: 12 } } },
+        scales: {
+          x: { grid: { color: '#e2e8f0' }, ticks: { color: '#64748b' }, title: { display: true, text: 'Date', color: '#64748b', font: { size: 11 } } },
+          y: {
+            type: 'linear', position: 'left', beginAtZero: true,
+            grid: { color: '#e2e8f0' }, ticks: { color: '#64748b' },
+            title: { display: true, text: 'Minutes', color: '#0f172a', font: { size: 12, weight: '600' } }
+          },
+          y1: {
+            type: 'linear', position: 'right', beginAtZero: true,
+            grid: { drawOnChartArea: false }, ticks: { color: '#64748b' },
+            title: { display: true, text: 'Miles', color: '#0f172a', font: { size: 12, weight: '600' } }
+          }
+        }
+      }
+    });
+  }
+
+  buildSportCum('Run', 'runCum', 'chart-run-cum', 'run-cum-empty', '#ff6b1a');
+  buildSportCum('Bike', 'bikeCum', 'chart-bike-cum', 'bike-cum-empty', '#3b82f6');
+  buildSportCum('Swim', 'swimCum', 'chart-swim-cum', 'swim-cum-empty', '#06b6d4');
 }
 
 
