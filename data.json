@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-15T23:43:03-04:00",
+    "lastUpdated": "2026-09-16T16:01:35-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -74,9 +74,9 @@
       },
       {
         "day": "Wed",
-        "session": "Easy bike 60",
+        "session": "Easy bike 30",
         "sport": "Bike",
-        "minutes": 60
+        "minutes": 30
       },
       {
         "day": "Thu",
@@ -92,9 +92,9 @@
       },
       {
         "day": "Sat",
-        "session": "Easy bike 90",
+        "session": "Easy bike 60",
         "sport": "Bike",
-        "minutes": 90
+        "minutes": 60
       },
       {
         "day": "Sun",
@@ -319,15 +319,15 @@
     {
       "date": "2026-09-16",
       "day": "Wed",
-      "plannedSession": "Bike 60 min easy",
-      "plannedMinutes": 60,
+      "plannedSession": "Bike 30 min easy",
+      "plannedMinutes": 30,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 30,
+      "garminDistance": 6.27,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -336,7 +336,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": ""
+      "workoutNotes": "Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike"
     },
     {
       "date": "2026-09-17",
@@ -385,8 +385,8 @@
     {
       "date": "2026-09-19",
       "day": "Sat",
-      "plannedSession": "Bike 90 min easy",
-      "plannedMinutes": 90,
+      "plannedSession": "Bike 60 min easy",
+      "plannedMinutes": 60,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -473,8 +473,8 @@
     {
       "date": "2026-09-23",
       "day": "Wed",
-      "plannedSession": "Bike 70 min easy",
-      "plannedMinutes": 70,
+      "plannedSession": "Bike 35 min easy",
+      "plannedMinutes": 35,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -539,8 +539,8 @@
     {
       "date": "2026-09-26",
       "day": "Sat",
-      "plannedSession": "Bike 100 min easy",
-      "plannedMinutes": 100,
+      "plannedSession": "Bike 70 min easy",
+      "plannedMinutes": 70,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -627,8 +627,8 @@
     {
       "date": "2026-09-30",
       "day": "Wed",
-      "plannedSession": "Bike 75 min easy",
-      "plannedMinutes": 75,
+      "plannedSession": "Bike 40 min easy",
+      "plannedMinutes": 40,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -693,8 +693,8 @@
     {
       "date": "2026-10-03",
       "day": "Sat",
-      "plannedSession": "Bike 105 min easy",
-      "plannedMinutes": 105,
+      "plannedSession": "Bike 80 min easy",
+      "plannedMinutes": 80,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -781,8 +781,8 @@
     {
       "date": "2026-10-07",
       "day": "Wed",
-      "plannedSession": "Bike 75 min easy",
-      "plannedMinutes": 75,
+      "plannedSession": "Bike 45 min easy",
+      "plannedMinutes": 45,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -847,8 +847,8 @@
     {
       "date": "2026-10-10",
       "day": "Sat",
-      "plannedSession": "Bike 110 min easy",
-      "plannedMinutes": 110,
+      "plannedSession": "Bike 90 min easy",
+      "plannedMinutes": 90,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
