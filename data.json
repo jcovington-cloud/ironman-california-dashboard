@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-16T23:44:20-04:00",
+    "lastUpdated": "2026-09-17T10:02:45-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -344,10 +344,10 @@
       "plannedSession": "Swim 20-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
+      "garminActivity": "Treadmill",
+      "garminMinutes": 50,
+      "garminDistance": 3.56,
+      "garminPace": "14:04/mi",
       "workoutStatus": "Planned",
       "workoutCompletionPct": null,
       "plannedCalories": null,
@@ -358,7 +358,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek Thu open/lap covers noon"
+      "workoutNotes": "Garmin 6:11 AM ET; 50:06; 3.56 mi @ 14:04/mi (extra morning run; swim still planned noon Bow Creek)"
     },
     {
       "date": "2026-09-18",
@@ -512,7 +512,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek Thu open/lap covers noon"
+      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek"
     },
     {
       "date": "2026-09-25",
