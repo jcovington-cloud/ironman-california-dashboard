@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach — Ironman California 2027",
+    "title": "Iron Coach \u2014 Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-17T14:42:37-04:00",
+    "lastUpdated": "2026-09-17T14:50:06-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -86,7 +86,7 @@
       },
       {
         "day": "Fri",
-        "session": "Swim 25–30 @ Bow Creek 10:30",
+        "session": "Swim 25\u201330 @ Bow Creek 10:30",
         "sport": "Swim",
         "minutes": 30
       },
@@ -115,7 +115,8 @@
         "note": "Monday weigh-in"
       }
     ],
-    "weightCurrentLb": 247.6
+    "weightCurrentLb": 247.6,
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."
   },
   "workouts": [
     {
@@ -138,7 +139,21 @@
       "carbs": 212,
       "fat": 96,
       "nutritionNotes": "Training day: MFP adjusted goal 2686 (base 2360 +326)",
-      "workoutNotes": "Garmin 7:11 AM; duration 1:00:05"
+      "workoutNotes": "Garmin 7:11 AM; duration 1:00:05",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill",
+          "minutes": 60,
+          "distanceMi": 4.29,
+          "pace": "14:00/mi",
+          "startEt": "7:11 AM",
+          "planned": true,
+          "completionPct": 150,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-08",
@@ -160,7 +175,21 @@
       "carbs": 254,
       "fat": 93,
       "nutritionNotes": "Training day: MFP adjusted goal 2692 (base 2360 +332 exercise)",
-      "workoutNotes": "Garmin 6:01 AM; 56:08"
+      "workoutNotes": "Garmin 6:01 AM; 56:08",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill",
+          "minutes": 56,
+          "distanceMi": 4.02,
+          "pace": "13:58/mi",
+          "startEt": "6:01 AM",
+          "planned": true,
+          "completionPct": 140,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-09",
@@ -182,7 +211,21 @@
       "carbs": 137,
       "fat": 145,
       "nutritionNotes": "Training day: MFP adjusted goal 2670 (base 2360 +310 exercise)",
-      "workoutNotes": "Garmin Tempo treadmill; 40:05; started 6:09 AM"
+      "workoutNotes": "Garmin Tempo treadmill; 40:05; started 6:09 AM",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Tempo (Treadmill Running)",
+          "minutes": 40,
+          "distanceMi": 3.17,
+          "pace": "12:39/mi",
+          "startEt": "6:09 AM",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-10",
@@ -204,7 +247,21 @@
       "carbs": 233,
       "fat": 88,
       "nutritionNotes": "",
-      "workoutNotes": "Garmin treadmill; 56:07"
+      "workoutNotes": "Garmin treadmill; 56:07",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill",
+          "minutes": 56,
+          "distanceMi": 4.01,
+          "pace": "13:59/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 140,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-11",
@@ -226,7 +283,21 @@
       "carbs": 218,
       "fat": 95,
       "nutritionNotes": "",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill",
+          "minutes": 45,
+          "distanceMi": 3.46,
+          "pace": "13:01/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 113,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-12",
@@ -248,7 +319,21 @@
       "carbs": 278,
       "fat": 49,
       "nutritionNotes": "Training day: MFP adjusted goal 2840 (base 2360 +480 exercise)",
-      "workoutNotes": "Garmin Campbell County Running; 49:23; started 6:43 AM"
+      "workoutNotes": "Garmin Campbell County Running; 49:23; started 6:43 AM",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Campbell County",
+          "minutes": 49,
+          "distanceMi": 3.32,
+          "pace": "14:53/mi",
+          "startEt": "6:43 AM",
+          "planned": true,
+          "completionPct": 123,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-13",
@@ -270,7 +355,21 @@
       "carbs": 190,
       "fat": 124,
       "nutritionNotes": "Training day: MFP adjusted goal 2884 (base 2360 +524 exercise)",
-      "workoutNotes": "Garmin Campbell County Running; 52:57; started 6:31 AM"
+      "workoutNotes": "Garmin Campbell County Running; 52:57; started 6:31 AM",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Campbell County",
+          "minutes": 53,
+          "distanceMi": 3.54,
+          "pace": "14:59/mi",
+          "startEt": "6:31 AM",
+          "planned": true,
+          "completionPct": 133,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-14",
@@ -292,7 +391,21 @@
       "carbs": 201,
       "fat": 94,
       "nutritionNotes": "Rest day: base goal 2360 (MFP adjusted 2623 with +263 exercise)",
-      "workoutNotes": "Foundation week 1; weigh-in 247.6 lb"
+      "workoutNotes": "Foundation week 1; weigh-in 247.6 lb",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill (+ HITT 10 min)",
+          "minutes": 30,
+          "distanceMi": 2.12,
+          "pace": "14:13/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": null,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-15",
@@ -314,7 +427,21 @@
       "carbs": 145,
       "fat": 87,
       "nutritionNotes": "Training day: MFP adjusted goal 2766 (base 2360 +406 exercise)",
-      "workoutNotes": "Garmin 6:08 AM; 56:05"
+      "workoutNotes": "Garmin 6:08 AM; 56:05",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill",
+          "minutes": 56,
+          "distanceMi": 4.05,
+          "pace": "13:51/mi",
+          "startEt": "6:08 AM",
+          "planned": true,
+          "completionPct": 140,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-16",
@@ -336,7 +463,21 @@
       "carbs": 187,
       "fat": 62,
       "nutritionNotes": "Training day: MFP adjusted goal 2609 (base 2360 +249 exercise)",
-      "workoutNotes": "Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike"
+      "workoutNotes": "Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 30,
+          "distanceMi": 6.27,
+          "pace": null,
+          "startEt": "5:58 AM",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-17",
@@ -358,7 +499,33 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1; MFP empty until tonight",
-      "workoutNotes": "Primary Garmin Pool Swim 20:33 / 550 yd @ 2:27/100 yd ~10:52 AM ET (activity 24397097332); ~69% vs 30 min planned. Also AM Treadmill Running 50:06 / 3.56 mi @ 14:04/mi @ 6:11 AM ET (extra morning run; no Foundation doubles — swim was the planned session)."
+      "workoutNotes": "2 Garmin sessions (see sessions[])",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 50.1,
+          "distanceMi": 3.56,
+          "pace": "14:04/mi",
+          "startEt": "6:11 AM",
+          "planned": false,
+          "completionPct": null,
+          "notes": "Extra morning run (Foundation planned session was swim)",
+          "activityId": null
+        },
+        {
+          "sport": "Swim",
+          "activity": "Pool Swim",
+          "minutes": 20.55,
+          "distanceMi": 0.31,
+          "pace": "2:27/100 yd",
+          "startEt": "10:52 AM",
+          "planned": true,
+          "completionPct": 69,
+          "notes": "550 yd; ~69% of 30 min planned @ Bow Creek",
+          "activityId": "24397097332"
+        }
+      ]
     },
     {
       "date": "2026-09-18",
@@ -380,7 +547,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-19",
@@ -402,7 +570,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-20",
@@ -424,7 +593,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-21",
@@ -446,7 +616,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 2"
+      "workoutNotes": "Foundation week 2",
+      "sessions": []
     },
     {
       "date": "2026-09-22",
@@ -468,7 +639,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-23",
@@ -490,7 +662,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-24",
@@ -512,7 +685,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)",
+      "sessions": []
     },
     {
       "date": "2026-09-25",
@@ -534,7 +708,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
+      "sessions": []
     },
     {
       "date": "2026-09-26",
@@ -556,7 +731,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-27",
@@ -578,7 +754,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-28",
@@ -600,7 +777,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 3"
+      "workoutNotes": "Foundation week 3",
+      "sessions": []
     },
     {
       "date": "2026-09-29",
@@ -622,7 +800,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-09-30",
@@ -644,7 +823,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-01",
@@ -666,7 +846,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)",
+      "sessions": []
     },
     {
       "date": "2026-10-02",
@@ -688,7 +869,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
+      "sessions": []
     },
     {
       "date": "2026-10-03",
@@ -710,7 +892,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-04",
@@ -732,7 +915,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-05",
@@ -754,7 +938,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 4"
+      "workoutNotes": "Foundation week 4",
+      "sessions": []
     },
     {
       "date": "2026-10-06",
@@ -776,7 +961,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-07",
@@ -798,7 +984,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-08",
@@ -820,7 +1007,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)",
+      "sessions": []
     },
     {
       "date": "2026-10-09",
@@ -842,7 +1030,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
+      "sessions": []
     },
     {
       "date": "2026-10-10",
@@ -864,7 +1053,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     },
     {
       "date": "2026-10-11",
@@ -886,7 +1076,8 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "",
+      "sessions": []
     }
   ]
 }

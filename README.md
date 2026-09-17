@@ -36,3 +36,7 @@ Matches the TMB Training dashboard UX patterns:
 ## Theme
 
 Emerald (`#10b981`) primary on grey canvas; Ironman orange (`#ff6b1a`) as secondary run accent only.
+
+## Multi-session days
+
+Each day in `workouts` stays **one row** for plan + MFP nutrition. Completed Garmin activities live in optional `sessions: [{ sport, activity, minutes, distanceMi, pace, startEt, planned, completionPct, notes, activityId }]`. Legacy `garmin*` fields remain the **primary/planned** activity. **Future refreshes must preserve all Garmin sessions for a day** — do not bury extras only in `workoutNotes`.

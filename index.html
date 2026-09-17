@@ -300,7 +300,7 @@ tailwind.config = {
 <section id="log" class="section space-y-4">
   <div>
     <h2 class="font-display text-xl font-semibold text-slate-900 mb-1">Workout log</h2>
-    <p class="text-sm text-slate-500">All planned sessions · Garmin when available · click row for details</p>
+    <p class="text-sm text-slate-500">All Garmin sessions (multi per day when present) · click row for day details</p>
   </div>
   <div class="card overflow-x-auto p-0">
     <table class="w-full text-sm sticky-head">
@@ -405,7 +405,7 @@ tailwind.config = {
 </footer>
 
 <script>
-const DATA = {"meta":{"title":"Iron Coach — Ironman California 2027","athlete":"Jonathan Covington","athleteLocation":"Virginia Beach","race":"IRONMAN California (Sacramento)","raceDate":"2027-10-24","raceDateNote":"Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18","goal":"Finish under cutoff with enjoyable training (not podium)","priorIM":"IRONMAN 2017 ~16h","weightBaselineLb":249,"weightGoalLb":230,"mfpBaseGoal":2360,"overUnderTolerance":50,"currentPhase":"Foundation","timezone":"America/New_York","lastUpdated":"2026-09-17T14:42:37-04:00","sources":["Garmin","MyFitnessPal","Training Calendar"],"courseOfficialUrl":"https://www.ironman.com/races/im-california/course","courseMapsNote":"Maps subject to change / 2025–26 reference until 2027 maps publish","phases":[{"id":"foundation","name":"Foundation","start":"2026-09-01","end":"2026-12-31","description":"Rebuild consistency with easy aerobic volume across run, bike, and swim. Establish habits, mobility, and nutrition logging."},{"id":"base","name":"Base","start":"2027-01-01","end":"2027-04-30","description":"Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy."},{"id":"specific","name":"Specific","start":"2027-05-01","end":"2027-08-31","description":"Race-specific sessions: longer bricks, swim continuity, and controlled intensity that mirrors Ironman demands."},{"id":"peak","name":"Peak","start":"2027-09-01","end":"2027-10-06","description":"Highest race-relevant volume and key rehearsals before taper. Sharpen confidence, not grind."},{"id":"taper","name":"Taper","start":"2027-10-07","end":"2027-10-24","description":"About 2.5 weeks of reduced volume, retained sharpness, travel prep, and race-week nutrition."}],"sampleFoundationWeek":[{"day":"Mon","session":"Rest / mobility + weigh-in","sport":"Rest","minutes":30},{"day":"Tue","session":"Easy run 45","sport":"Run","minutes":45},{"day":"Wed","session":"Easy bike 35+","sport":"Bike","minutes":35},{"day":"Thu","session":"Run 40 easy + strides (~5:30am)","sport":"Run","minutes":40},{"day":"Fri","session":"Swim 25–30 @ Bow Creek 10:30","sport":"Swim","minutes":30},{"day":"Sat","session":"Easy bike 70+","sport":"Bike","minutes":70},{"day":"Sun","session":"Easy run 65+","sport":"Run","minutes":65}],"weighIns":[{"date":"2026-09-07","lb":249,"note":"Baseline"},{"date":"2026-09-14","lb":247.6,"note":"Monday weigh-in"}],"weightCurrentLb":247.6},"workouts":[{"date":"2026-09-07","day":"Mon","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":60,"garminDistance":4.29,"garminPace":"14:00/mi","workoutStatus":"Completed","workoutCompletionPct":150,"plannedCalories":2686,"mfpCalories":2324,"calorieDelta":-362,"overUnder":"Under","protein":125,"carbs":212,"fat":96,"nutritionNotes":"Training day: MFP adjusted goal 2686 (base 2360 +326)","workoutNotes":"Garmin 7:11 AM; duration 1:00:05"},{"date":"2026-09-08","day":"Tue","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.02,"garminPace":"13:58/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2692,"mfpCalories":2438,"calorieDelta":-254,"overUnder":"Under","protein":115,"carbs":254,"fat":93,"nutritionNotes":"Training day: MFP adjusted goal 2692 (base 2360 +332 exercise)","workoutNotes":"Garmin 6:01 AM; 56:08"},{"date":"2026-09-09","day":"Wed","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Tempo (Treadmill Running)","garminMinutes":40,"garminDistance":3.17,"garminPace":"12:39/mi","workoutStatus":"Completed","workoutCompletionPct":100,"plannedCalories":2670,"mfpCalories":2404,"calorieDelta":-266,"overUnder":"Under","protein":101,"carbs":137,"fat":145,"nutritionNotes":"Training day: MFP adjusted goal 2670 (base 2360 +310 exercise)","workoutNotes":"Garmin Tempo treadmill; 40:05; started 6:09 AM"},{"date":"2026-09-10","day":"Thu","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.01,"garminPace":"13:59/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2691,"mfpCalories":2144,"calorieDelta":-547,"overUnder":"Under","protein":108,"carbs":233,"fat":88,"nutritionNotes":"","workoutNotes":"Garmin treadmill; 56:07"},{"date":"2026-09-11","day":"Fri","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":45,"garminDistance":3.46,"garminPace":"13:01/mi","workoutStatus":"Completed","workoutCompletionPct":113,"plannedCalories":2674,"mfpCalories":1865,"calorieDelta":-809,"overUnder":"Under","protein":118,"carbs":218,"fat":95,"nutritionNotes":"","workoutNotes":""},{"date":"2026-09-12","day":"Sat","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Campbell County","garminMinutes":49,"garminDistance":3.32,"garminPace":"14:53/mi","workoutStatus":"Completed","workoutCompletionPct":123,"plannedCalories":2840,"mfpCalories":1994,"calorieDelta":-846,"overUnder":"Under","protein":74,"carbs":278,"fat":49,"nutritionNotes":"Training day: MFP adjusted goal 2840 (base 2360 +480 exercise)","workoutNotes":"Garmin Campbell County Running; 49:23; started 6:43 AM"},{"date":"2026-09-13","day":"Sun","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Campbell County","garminMinutes":53,"garminDistance":3.54,"garminPace":"14:59/mi","workoutStatus":"Completed","workoutCompletionPct":133,"plannedCalories":2884,"mfpCalories":2466,"calorieDelta":-418,"overUnder":"Under","protein":117,"carbs":190,"fat":124,"nutritionNotes":"Training day: MFP adjusted goal 2884 (base 2360 +524 exercise)","workoutNotes":"Garmin Campbell County Running; 52:57; started 6:31 AM"},{"date":"2026-09-14","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":"Treadmill (+ HITT 10 min)","garminMinutes":30,"garminDistance":2.12,"garminPace":"14:13/mi","workoutStatus":"Completed","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":2153,"calorieDelta":-207,"overUnder":"Under","protein":98,"carbs":201,"fat":94,"nutritionNotes":"Rest day: base goal 2360 (MFP adjusted 2623 with +263 exercise)","workoutNotes":"Foundation week 1; weigh-in 247.6 lb"},{"date":"2026-09-15","day":"Tue","plannedSession":"Run 40 min easy","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.05,"garminPace":"13:51/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2766,"mfpCalories":1765,"calorieDelta":-1001,"overUnder":"Under","protein":101,"carbs":145,"fat":87,"nutritionNotes":"Training day: MFP adjusted goal 2766 (base 2360 +406 exercise)","workoutNotes":"Garmin 6:08 AM; 56:05"},{"date":"2026-09-16","day":"Wed","plannedSession":"Bike 30 min easy","plannedMinutes":30,"plannedSport":"Bike","garminActivity":"Indoor Cycling","garminMinutes":30,"garminDistance":6.27,"garminPace":null,"workoutStatus":"Completed","workoutCompletionPct":100,"plannedCalories":2609,"mfpCalories":1979,"calorieDelta":-630,"overUnder":"Under","protein":137,"carbs":187,"fat":62,"nutritionNotes":"Training day: MFP adjusted goal 2609 (base 2360 +249 exercise)","workoutNotes":"Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike"},{"date":"2026-09-17","day":"Thu","plannedSession":"Swim 20-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":"Pool Swim","garminMinutes":20.55,"garminDistance":0.31,"garminPace":"2:27/100 yd","workoutStatus":"Completed","workoutCompletionPct":69,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1; MFP empty until tonight","workoutNotes":"Primary Garmin Pool Swim 20:33 / 550 yd @ 2:27/100 yd ~10:52 AM ET (activity 24397097332); ~69% vs 30 min planned. Also AM Treadmill Running 50:06 / 3.56 mi @ 14:04/mi @ 6:11 AM ET (extra morning run; no Foundation doubles — swim was the planned session)."},{"date":"2026-09-18","day":"Fri","plannedSession":"Run 35 min easy + strides","plannedMinutes":35,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":""},{"date":"2026-09-19","day":"Sat","plannedSession":"Bike 60 min easy","plannedMinutes":60,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":""},{"date":"2026-09-20","day":"Sun","plannedSession":"Run 60 min easy","plannedMinutes":60,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":""},{"date":"2026-09-21","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 2"},{"date":"2026-09-22","day":"Tue","plannedSession":"Run 45 min easy","plannedMinutes":45,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":""},{"date":"2026-09-23","day":"Wed","plannedSession":"Bike 35 min easy","plannedMinutes":35,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":""},{"date":"2026-09-24","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"~5:30am; Foundation pattern (no doubles)"},{"date":"2026-09-25","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"Bow Creek 10:30am; prefer lap lanes"},{"date":"2026-09-26","day":"Sat","plannedSession":"Bike 70 min easy","plannedMinutes":70,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":""},{"date":"2026-09-27","day":"Sun","plannedSession":"Run 65 min easy","plannedMinutes":65,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":""},{"date":"2026-09-28","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 3"},{"date":"2026-09-29","day":"Tue","plannedSession":"Run 45 min easy","plannedMinutes":45,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":""},{"date":"2026-09-30","day":"Wed","plannedSession":"Bike 40 min easy","plannedMinutes":40,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":""},{"date":"2026-10-01","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"~5:30am; Foundation pattern (no doubles)"},{"date":"2026-10-02","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"Bow Creek 10:30am; prefer lap lanes"},{"date":"2026-10-03","day":"Sat","plannedSession":"Bike 80 min easy","plannedMinutes":80,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":""},{"date":"2026-10-04","day":"Sun","plannedSession":"Run 70 min easy","plannedMinutes":70,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":""},{"date":"2026-10-05","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 4"},{"date":"2026-10-06","day":"Tue","plannedSession":"Run 50 min easy","plannedMinutes":50,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":""},{"date":"2026-10-07","day":"Wed","plannedSession":"Bike 45 min easy","plannedMinutes":45,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":""},{"date":"2026-10-08","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"~5:30am; Foundation pattern (no doubles)"},{"date":"2026-10-09","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"Bow Creek 10:30am; prefer lap lanes"},{"date":"2026-10-10","day":"Sat","plannedSession":"Bike 90 min easy","plannedMinutes":90,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":""},{"date":"2026-10-11","day":"Sun","plannedSession":"Run 70 min easy","plannedMinutes":70,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":""}]};const FOUNDATION_START = new Date('2026-09-14T00:00:00-04:00');
+const DATA = {"meta":{"title":"Iron Coach \u2014 Ironman California 2027","athlete":"Jonathan Covington","athleteLocation":"Virginia Beach","race":"IRONMAN California (Sacramento)","raceDate":"2027-10-24","raceDateNote":"Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18","goal":"Finish under cutoff with enjoyable training (not podium)","priorIM":"IRONMAN 2017 ~16h","weightBaselineLb":249,"weightGoalLb":230,"mfpBaseGoal":2360,"overUnderTolerance":50,"currentPhase":"Foundation","timezone":"America/New_York","lastUpdated":"2026-09-17T14:50:06-04:00","sources":["Garmin","MyFitnessPal","Training Calendar"],"courseOfficialUrl":"https://www.ironman.com/races/im-california/course","courseMapsNote":"Maps subject to change / 2025\u201326 reference until 2027 maps publish","phases":[{"id":"foundation","name":"Foundation","start":"2026-09-01","end":"2026-12-31","description":"Rebuild consistency with easy aerobic volume across run, bike, and swim. Establish habits, mobility, and nutrition logging."},{"id":"base","name":"Base","start":"2027-01-01","end":"2027-04-30","description":"Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy."},{"id":"specific","name":"Specific","start":"2027-05-01","end":"2027-08-31","description":"Race-specific sessions: longer bricks, swim continuity, and controlled intensity that mirrors Ironman demands."},{"id":"peak","name":"Peak","start":"2027-09-01","end":"2027-10-06","description":"Highest race-relevant volume and key rehearsals before taper. Sharpen confidence, not grind."},{"id":"taper","name":"Taper","start":"2027-10-07","end":"2027-10-24","description":"About 2.5 weeks of reduced volume, retained sharpness, travel prep, and race-week nutrition."}],"sampleFoundationWeek":[{"day":"Mon","session":"Rest / mobility + weigh-in","sport":"Rest","minutes":30},{"day":"Tue","session":"Easy run 45","sport":"Run","minutes":45},{"day":"Wed","session":"Easy bike 35+","sport":"Bike","minutes":35},{"day":"Thu","session":"Run 40 easy + strides (~5:30am)","sport":"Run","minutes":40},{"day":"Fri","session":"Swim 25\u201330 @ Bow Creek 10:30","sport":"Swim","minutes":30},{"day":"Sat","session":"Easy bike 70+","sport":"Bike","minutes":70},{"day":"Sun","session":"Easy run 65+","sport":"Run","minutes":65}],"weighIns":[{"date":"2026-09-07","lb":249,"note":"Baseline"},{"date":"2026-09-14","lb":247.6,"note":"Monday weigh-in"}],"weightCurrentLb":247.6,"sessionsNote":"Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."},"workouts":[{"date":"2026-09-07","day":"Mon","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":60,"garminDistance":4.29,"garminPace":"14:00/mi","workoutStatus":"Completed","workoutCompletionPct":150,"plannedCalories":2686,"mfpCalories":2324,"calorieDelta":-362,"overUnder":"Under","protein":125,"carbs":212,"fat":96,"nutritionNotes":"Training day: MFP adjusted goal 2686 (base 2360 +326)","workoutNotes":"Garmin 7:11 AM; duration 1:00:05","sessions":[{"sport":"Run","activity":"Treadmill","minutes":60,"distanceMi":4.29,"pace":"14:00/mi","startEt":"7:11 AM","planned":true,"completionPct":150,"notes":"","activityId":null}]},{"date":"2026-09-08","day":"Tue","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.02,"garminPace":"13:58/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2692,"mfpCalories":2438,"calorieDelta":-254,"overUnder":"Under","protein":115,"carbs":254,"fat":93,"nutritionNotes":"Training day: MFP adjusted goal 2692 (base 2360 +332 exercise)","workoutNotes":"Garmin 6:01 AM; 56:08","sessions":[{"sport":"Run","activity":"Treadmill","minutes":56,"distanceMi":4.02,"pace":"13:58/mi","startEt":"6:01 AM","planned":true,"completionPct":140,"notes":"","activityId":null}]},{"date":"2026-09-09","day":"Wed","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Tempo (Treadmill Running)","garminMinutes":40,"garminDistance":3.17,"garminPace":"12:39/mi","workoutStatus":"Completed","workoutCompletionPct":100,"plannedCalories":2670,"mfpCalories":2404,"calorieDelta":-266,"overUnder":"Under","protein":101,"carbs":137,"fat":145,"nutritionNotes":"Training day: MFP adjusted goal 2670 (base 2360 +310 exercise)","workoutNotes":"Garmin Tempo treadmill; 40:05; started 6:09 AM","sessions":[{"sport":"Run","activity":"Tempo (Treadmill Running)","minutes":40,"distanceMi":3.17,"pace":"12:39/mi","startEt":"6:09 AM","planned":true,"completionPct":100,"notes":"","activityId":null}]},{"date":"2026-09-10","day":"Thu","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.01,"garminPace":"13:59/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2691,"mfpCalories":2144,"calorieDelta":-547,"overUnder":"Under","protein":108,"carbs":233,"fat":88,"nutritionNotes":"","workoutNotes":"Garmin treadmill; 56:07","sessions":[{"sport":"Run","activity":"Treadmill","minutes":56,"distanceMi":4.01,"pace":"13:59/mi","startEt":null,"planned":true,"completionPct":140,"notes":"","activityId":null}]},{"date":"2026-09-11","day":"Fri","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":45,"garminDistance":3.46,"garminPace":"13:01/mi","workoutStatus":"Completed","workoutCompletionPct":113,"plannedCalories":2674,"mfpCalories":1865,"calorieDelta":-809,"overUnder":"Under","protein":118,"carbs":218,"fat":95,"nutritionNotes":"","workoutNotes":"","sessions":[{"sport":"Run","activity":"Treadmill","minutes":45,"distanceMi":3.46,"pace":"13:01/mi","startEt":null,"planned":true,"completionPct":113,"notes":"","activityId":null}]},{"date":"2026-09-12","day":"Sat","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Campbell County","garminMinutes":49,"garminDistance":3.32,"garminPace":"14:53/mi","workoutStatus":"Completed","workoutCompletionPct":123,"plannedCalories":2840,"mfpCalories":1994,"calorieDelta":-846,"overUnder":"Under","protein":74,"carbs":278,"fat":49,"nutritionNotes":"Training day: MFP adjusted goal 2840 (base 2360 +480 exercise)","workoutNotes":"Garmin Campbell County Running; 49:23; started 6:43 AM","sessions":[{"sport":"Run","activity":"Campbell County","minutes":49,"distanceMi":3.32,"pace":"14:53/mi","startEt":"6:43 AM","planned":true,"completionPct":123,"notes":"","activityId":null}]},{"date":"2026-09-13","day":"Sun","plannedSession":"Easy run 40 min","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Campbell County","garminMinutes":53,"garminDistance":3.54,"garminPace":"14:59/mi","workoutStatus":"Completed","workoutCompletionPct":133,"plannedCalories":2884,"mfpCalories":2466,"calorieDelta":-418,"overUnder":"Under","protein":117,"carbs":190,"fat":124,"nutritionNotes":"Training day: MFP adjusted goal 2884 (base 2360 +524 exercise)","workoutNotes":"Garmin Campbell County Running; 52:57; started 6:31 AM","sessions":[{"sport":"Run","activity":"Campbell County","minutes":53,"distanceMi":3.54,"pace":"14:59/mi","startEt":"6:31 AM","planned":true,"completionPct":133,"notes":"","activityId":null}]},{"date":"2026-09-14","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":"Treadmill (+ HITT 10 min)","garminMinutes":30,"garminDistance":2.12,"garminPace":"14:13/mi","workoutStatus":"Completed","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":2153,"calorieDelta":-207,"overUnder":"Under","protein":98,"carbs":201,"fat":94,"nutritionNotes":"Rest day: base goal 2360 (MFP adjusted 2623 with +263 exercise)","workoutNotes":"Foundation week 1; weigh-in 247.6 lb","sessions":[{"sport":"Run","activity":"Treadmill (+ HITT 10 min)","minutes":30,"distanceMi":2.12,"pace":"14:13/mi","startEt":null,"planned":true,"completionPct":null,"notes":"","activityId":null}]},{"date":"2026-09-15","day":"Tue","plannedSession":"Run 40 min easy","plannedMinutes":40,"plannedSport":"Run","garminActivity":"Treadmill","garminMinutes":56,"garminDistance":4.05,"garminPace":"13:51/mi","workoutStatus":"Completed","workoutCompletionPct":140,"plannedCalories":2766,"mfpCalories":1765,"calorieDelta":-1001,"overUnder":"Under","protein":101,"carbs":145,"fat":87,"nutritionNotes":"Training day: MFP adjusted goal 2766 (base 2360 +406 exercise)","workoutNotes":"Garmin 6:08 AM; 56:05","sessions":[{"sport":"Run","activity":"Treadmill","minutes":56,"distanceMi":4.05,"pace":"13:51/mi","startEt":"6:08 AM","planned":true,"completionPct":140,"notes":"","activityId":null}]},{"date":"2026-09-16","day":"Wed","plannedSession":"Bike 30 min easy","plannedMinutes":30,"plannedSport":"Bike","garminActivity":"Indoor Cycling","garminMinutes":30,"garminDistance":6.27,"garminPace":null,"workoutStatus":"Completed","workoutCompletionPct":100,"plannedCalories":2609,"mfpCalories":1979,"calorieDelta":-630,"overUnder":"Under","protein":137,"carbs":187,"fat":62,"nutritionNotes":"Training day: MFP adjusted goal 2609 (base 2360 +249 exercise)","workoutNotes":"Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike","sessions":[{"sport":"Bike","activity":"Indoor Cycling","minutes":30,"distanceMi":6.27,"pace":null,"startEt":"5:58 AM","planned":true,"completionPct":100,"notes":"","activityId":null}]},{"date":"2026-09-17","day":"Thu","plannedSession":"Swim 20-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":"Pool Swim","garminMinutes":20.55,"garminDistance":0.31,"garminPace":"2:27/100 yd","workoutStatus":"Completed","workoutCompletionPct":69,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1; MFP empty until tonight","workoutNotes":"2 Garmin sessions (see sessions[])","sessions":[{"sport":"Run","activity":"Treadmill Running","minutes":50.1,"distanceMi":3.56,"pace":"14:04/mi","startEt":"6:11 AM","planned":false,"completionPct":null,"notes":"Extra morning run (Foundation planned session was swim)","activityId":null},{"sport":"Swim","activity":"Pool Swim","minutes":20.55,"distanceMi":0.31,"pace":"2:27/100 yd","startEt":"10:52 AM","planned":true,"completionPct":69,"notes":"550 yd; ~69% of 30 min planned @ Bow Creek","activityId":"24397097332"}]},{"date":"2026-09-18","day":"Fri","plannedSession":"Run 35 min easy + strides","plannedMinutes":35,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":"","sessions":[]},{"date":"2026-09-19","day":"Sat","plannedSession":"Bike 60 min easy","plannedMinutes":60,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":"","sessions":[]},{"date":"2026-09-20","day":"Sun","plannedSession":"Run 60 min easy","plannedMinutes":60,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 1","workoutNotes":"","sessions":[]},{"date":"2026-09-21","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 2","sessions":[]},{"date":"2026-09-22","day":"Tue","plannedSession":"Run 45 min easy","plannedMinutes":45,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"","sessions":[]},{"date":"2026-09-23","day":"Wed","plannedSession":"Bike 35 min easy","plannedMinutes":35,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"","sessions":[]},{"date":"2026-09-24","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"~5:30am; Foundation pattern (no doubles)","sessions":[]},{"date":"2026-09-25","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"Bow Creek 10:30am; prefer lap lanes","sessions":[]},{"date":"2026-09-26","day":"Sat","plannedSession":"Bike 70 min easy","plannedMinutes":70,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"","sessions":[]},{"date":"2026-09-27","day":"Sun","plannedSession":"Run 65 min easy","plannedMinutes":65,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 2","workoutNotes":"","sessions":[]},{"date":"2026-09-28","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 3","sessions":[]},{"date":"2026-09-29","day":"Tue","plannedSession":"Run 45 min easy","plannedMinutes":45,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"","sessions":[]},{"date":"2026-09-30","day":"Wed","plannedSession":"Bike 40 min easy","plannedMinutes":40,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"","sessions":[]},{"date":"2026-10-01","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"~5:30am; Foundation pattern (no doubles)","sessions":[]},{"date":"2026-10-02","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"Bow Creek 10:30am; prefer lap lanes","sessions":[]},{"date":"2026-10-03","day":"Sat","plannedSession":"Bike 80 min easy","plannedMinutes":80,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"","sessions":[]},{"date":"2026-10-04","day":"Sun","plannedSession":"Run 70 min easy","plannedMinutes":70,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 3","workoutNotes":"","sessions":[]},{"date":"2026-10-05","day":"Mon","plannedSession":"Rest / easy mobility + weigh-in","plannedMinutes":30,"plannedSport":"Rest","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":2360,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Rest day: base goal","workoutNotes":"Foundation week 4","sessions":[]},{"date":"2026-10-06","day":"Tue","plannedSession":"Run 50 min easy","plannedMinutes":50,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"","sessions":[]},{"date":"2026-10-07","day":"Wed","plannedSession":"Bike 45 min easy","plannedMinutes":45,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"","sessions":[]},{"date":"2026-10-08","day":"Thu","plannedSession":"Run 40 min easy + strides","plannedMinutes":40,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"~5:30am; Foundation pattern (no doubles)","sessions":[]},{"date":"2026-10-09","day":"Fri","plannedSession":"Swim 25-30 min @ Bow Creek","plannedMinutes":30,"plannedSport":"Swim","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"Bow Creek 10:30am; prefer lap lanes","sessions":[]},{"date":"2026-10-10","day":"Sat","plannedSession":"Bike 90 min easy","plannedMinutes":90,"plannedSport":"Bike","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"","sessions":[]},{"date":"2026-10-11","day":"Sun","plannedSession":"Run 70 min easy","plannedMinutes":70,"plannedSport":"Run","garminActivity":null,"garminMinutes":null,"garminDistance":null,"garminPace":null,"workoutStatus":"Planned","workoutCompletionPct":null,"plannedCalories":null,"mfpCalories":null,"calorieDelta":null,"overUnder":null,"protein":null,"carbs":null,"fat":null,"nutritionNotes":"Foundation week 4","workoutNotes":"","sessions":[]}]};const FOUNDATION_START = new Date('2026-09-14T00:00:00-04:00');
 const RACE_DAY = new Date('2027-10-24T07:00:00-07:00');
 const chartInstances = {};
 let currentWeekStart = null; // ISO Monday of week
@@ -533,6 +533,62 @@ function sportOf(w) {
   return null;
 }
 
+/** All Garmin sessions for a day (explicit sessions[] or legacy garmin* fallback). */
+function daySessions(w) {
+  if (w.sessions && w.sessions.length) return w.sessions;
+  if (w.garminActivity || w.garminMinutes != null) {
+    return [{
+      sport: sportOf(w),
+      activity: w.garminActivity,
+      minutes: w.garminMinutes,
+      distanceMi: w.garminDistance,
+      pace: w.garminPace,
+      startEt: null,
+      planned: true,
+      completionPct: w.workoutCompletionPct,
+      notes: '',
+      activityId: null
+    }];
+  }
+  return [];
+}
+
+function sessionSport(s) {
+  const ps = String(s.sport || '').trim().toLowerCase();
+  if (ps === 'run' || ps === 'bike' || ps === 'swim') return ps.charAt(0).toUpperCase() + ps.slice(1);
+  const g = String(s.activity || '').toLowerCase();
+  if (g.includes('swim')) return 'Swim';
+  if (g.includes('bike') || g.includes('cycle') || g.includes('ride')) return 'Bike';
+  const runish = g.includes('run') || g.includes('tread') || g.includes('tempo') || g.includes('campbell') || g.includes('hitt');
+  if (runish) return 'Run';
+  return null;
+}
+
+function dayTotalMinutes(w) {
+  const ss = daySessions(w);
+  if (ss.length) return ss.reduce((a, s) => a + (Number(s.minutes) || 0), 0);
+  return Number(w.garminMinutes) || 0;
+}
+
+function dayTotalDistance(w) {
+  const ss = daySessions(w);
+  if (ss.length) return ss.reduce((a, s) => a + (Number(s.distanceMi) || 0), 0);
+  return Number(w.garminDistance) || 0;
+}
+
+function fmtSessionLine(s) {
+  const parts = [];
+  if (s.minutes != null) parts.push((Math.round(Number(s.minutes) * 100) / 100) + ' min');
+  if (s.distanceMi != null) parts.push(s.distanceMi + ' mi');
+  if (s.pace) parts.push(s.pace);
+  if (s.startEt) parts.push(s.startEt + ' ET');
+  if (s.completionPct != null) parts.push(s.completionPct + '%');
+  if (s.planned === false) parts.push('extra');
+  return parts.join(' · ');
+}
+
+
+
 function currentWeightLb() {
   if (DATA.meta.weightCurrentLb != null && DATA.meta.weightCurrentLb !== '') {
     return Number(DATA.meta.weightCurrentLb);
@@ -544,19 +600,21 @@ function currentWeightLb() {
 
 function renderOverview() {
   const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed');
-  const mins = done.reduce((a, w) => a + (w.garminMinutes || 0), 0);
-  const miles = done.reduce((a, w) => a + (w.garminDistance || 0), 0);
+  const sessList = [];
+  done.forEach(w => daySessions(w).forEach(s => sessList.push({ w, s })));
+  const mins = Math.round(sessList.reduce((a, x) => a + (Number(x.s.minutes) || 0), 0) * 10) / 10;
+  const miles = sessList.reduce((a, x) => a + (Number(x.s.distanceMi) || 0), 0);
   const under = DATA.workouts.filter(w => w.overUnder === 'Under').length;
   let runMi = 0, bikeMi = 0, swimMi = 0;
-  done.forEach(w => {
-    const sport = sportOf(w);
-    const d = Number(w.garminDistance) || 0;
+  sessList.forEach(({ s }) => {
+    const sport = sessionSport(s);
+    const d = Number(s.distanceMi) || 0;
     if (!d) return;
     if (sport === 'Run') runMi += d;
     else if (sport === 'Bike') bikeMi += d;
     else if (sport === 'Swim') swimMi += d;
   });
-  document.getElementById('kpi-sess').textContent = done.length;
+  document.getElementById('kpi-sess').textContent = sessList.length || done.length;
   document.getElementById('kpi-mins').textContent = mins;
   document.getElementById('kpi-mi').textContent = miles.toFixed(2);
   document.getElementById('kpi-run-mi').textContent = runMi.toFixed(2);
@@ -569,24 +627,27 @@ function renderOverview() {
   if (hint) hint.textContent = 'goal ' + (DATA.meta.weightGoalLb || 230);
 
   const box = document.getElementById('recent-workouts');
-  const sorted = DATA.workouts.slice().sort((a, b) => {
-    const ac = a.workoutStatus === 'Completed' ? 0 : 1;
-    const bc = b.workoutStatus === 'Completed' ? 0 : 1;
-    if (ac !== bc) return ac - bc;
-    return b.date.localeCompare(a.date);
-  }).slice(0, 8);
-  box.innerHTML = sorted.map(w => {
-    const parts = [];
-    if (w.garminMinutes) parts.push(w.garminMinutes + ' min');
-    if (w.garminDistance) parts.push(w.garminDistance + ' mi');
-    if (w.garminPace) parts.push(w.garminPace);
-    if (w.workoutCompletionPct) parts.push(w.workoutCompletionPct + '%');
+  const recent = [];
+  DATA.workouts.slice().sort((a, b) => b.date.localeCompare(a.date)).forEach(w => {
+    const ss = daySessions(w);
+    if (ss.length) ss.slice().reverse().forEach(s => recent.push({ w, s }));
+    else recent.push({ w, s: null });
+  });
+  box.innerHTML = recent.slice(0, 10).map(({ w, s }) => {
+    if (s) {
+      return '<div class="flex flex-wrap items-center gap-3 py-2 border-b border-slate-100 last:border-0">' +
+        '<span class="text-xs text-slate-400 font-mono w-24">' + w.date + '</span>' +
+        statusBadge(w.workoutStatus) +
+        '<span class="text-sm text-slate-800 flex-1 min-w-[8rem]">' + (s.activity || sessionSport(s) || '—') +
+        (s.planned === false ? ' <span class="text-amber-600 text-xs">(extra)</span>' : '') +
+        '</span>' +
+        '<span class="text-xs text-slate-500">' + (fmtSessionLine(s) || '—') + '</span></div>';
+    }
     return '<div class="flex flex-wrap items-center gap-3 py-2 border-b border-slate-100 last:border-0">' +
       '<span class="text-xs text-slate-400 font-mono w-24">' + w.date + '</span>' +
       statusBadge(w.workoutStatus) +
-      '<span class="text-sm text-slate-800 flex-1 min-w-[8rem]">' + (w.plannedSession || '—') +
-      (w.garminActivity ? ' <span class="text-slate-400">· ' + w.garminActivity + '</span>' : '') + '</span>' +
-      '<span class="text-xs text-slate-500">' + (parts.join(' · ') || '—') + '</span></div>';
+      '<span class="text-sm text-slate-800 flex-1 min-w-[8rem]">' + (w.plannedSession || '—') + '</span>' +
+      '<span class="text-xs text-slate-500">—</span></div>';
   }).join('');
 }
 
@@ -595,19 +656,41 @@ function renderLog() {
   const empty = document.getElementById('log-empty');
   if (!DATA.workouts.length) { tb.innerHTML = ''; empty.classList.remove('hidden'); return; }
   empty.classList.add('hidden');
-  const rows = DATA.workouts.slice().sort((a, b) => a.date.localeCompare(b.date));
-  tb.innerHTML = rows.map(w =>
-    '<tr class="day-row border-b border-slate-100" data-iso="' + w.date + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
-    '<td class="px-4 py-3 font-mono text-xs text-slate-500">' + w.date + '</td>' +
-    '<td class="px-4 py-3 text-slate-800">' + (w.plannedSession || '—') + '</td>' +
-    '<td class="px-4 py-3">' + (w.plannedSport || '—') + '</td>' +
-    '<td class="px-4 py-3 text-slate-600">' + (w.garminActivity || '—') + '</td>' +
-    '<td class="px-4 py-3 text-right tabular-nums">' + (w.garminMinutes != null ? w.garminMinutes : '—') + '</td>' +
-    '<td class="px-4 py-3 text-right tabular-nums">' + (w.garminDistance != null ? w.garminDistance : '—') + '</td>' +
-    '<td class="px-4 py-3 text-right tabular-nums text-xs">' + (w.garminPace || '—') + '</td>' +
-    '<td class="px-4 py-3 text-right tabular-nums font-semibold text-emerald-700">' + (w.workoutCompletionPct != null ? w.workoutCompletionPct + '%' : '—') + '</td>' +
-    '<td class="px-4 py-3 text-xs text-slate-500 max-w-[10rem] truncate">' + (w.workoutNotes || '') + '</td></tr>'
-  ).join('');
+  const days = DATA.workouts.slice().sort((a, b) => a.date.localeCompare(b.date));
+  const rows = [];
+  days.forEach(w => {
+    const ss = daySessions(w);
+    if (!ss.length) rows.push({ w, s: null });
+    else ss.forEach(s => rows.push({ w, s }));
+  });
+  tb.innerHTML = rows.map(({ w, s }) => {
+    if (!s) {
+      return '<tr class="day-row border-b border-slate-100" data-iso="' + w.date + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
+        '<td class="px-4 py-3 font-mono text-xs text-slate-500">' + w.date + '</td>' +
+        '<td class="px-4 py-3 text-slate-800">' + (w.plannedSession || '—') + '</td>' +
+        '<td class="px-4 py-3">' + (w.plannedSport || '—') + '</td>' +
+        '<td class="px-4 py-3 text-slate-600">—</td>' +
+        '<td class="px-4 py-3 text-right tabular-nums">—</td>' +
+        '<td class="px-4 py-3 text-right tabular-nums">—</td>' +
+        '<td class="px-4 py-3 text-right tabular-nums text-xs">—</td>' +
+        '<td class="px-4 py-3 text-right tabular-nums font-semibold text-emerald-700">—</td>' +
+        '<td class="px-4 py-3 text-xs text-slate-500 max-w-[10rem] truncate">' + (w.workoutNotes || '') + '</td></tr>';
+    }
+    const note = [s.startEt ? s.startEt + ' ET' : '', s.planned === false ? 'extra' : '', s.notes || ''].filter(Boolean).join(' · ');
+    return '<tr class="day-row border-b border-slate-100" data-iso="' + w.date + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
+      '<td class="px-4 py-3 font-mono text-xs text-slate-500">' + w.date + '</td>' +
+      '<td class="px-4 py-3 text-slate-800">' + (w.plannedSession || '—') +
+      (s.planned === false ? ' <span class="text-[10px] text-amber-600">(+extra)</span>' : '') + '</td>' +
+      '<td class="px-4 py-3">' + (sessionSport(s) || w.plannedSport || '—') + '</td>' +
+      '<td class="px-4 py-3 text-slate-600">' + (s.activity || '—') + '</td>' +
+      '<td class="px-4 py-3 text-right tabular-nums">' + (s.minutes != null ? s.minutes : '—') + '</td>' +
+      '<td class="px-4 py-3 text-right tabular-nums">' + (s.distanceMi != null ? s.distanceMi : '—') + '</td>' +
+      '<td class="px-4 py-3 text-right tabular-nums text-xs">' + (s.pace || '—') + '</td>' +
+      '<td class="px-4 py-3 text-right tabular-nums font-semibold text-emerald-700">' +
+      (s.completionPct != null ? s.completionPct + '%' : (s.planned ? (w.workoutCompletionPct != null ? w.workoutCompletionPct + '%' : '—') : '—')) +
+      '</td>' +
+      '<td class="px-4 py-3 text-xs text-slate-500 max-w-[10rem] truncate">' + note + '</td></tr>';
+  }).join('');
 }
 
 function renderPhaseTabs() {
@@ -709,8 +792,13 @@ function renderCalendar() {
       const name = (w.plannedSession || '').length > 18 ? (w.plannedSession || '').slice(0, 16) + '…' : (w.plannedSession || '');
       short = '<div class="mt-1 text-[10px] leading-snug text-slate-600 font-semibold">' + s + '</div>' +
         '<div class="text-[10px] leading-snug text-slate-500">' + name + '</div>';
-      if (w.workoutStatus === 'Completed' && w.garminMinutes) {
-        short += '<div class="text-[9px] text-emerald-700 mt-0.5">' + w.garminMinutes + 'm</div>';
+      const ssCal = daySessions(w);
+      if (w.workoutStatus === 'Completed' && ssCal.length) {
+        const tot = Math.round(dayTotalMinutes(w) * 10) / 10;
+        const sports = [...new Set(ssCal.map(sessionSport).filter(Boolean))];
+        short += '<div class="text-[9px] text-emerald-700 mt-0.5">' + tot + 'm' +
+          (ssCal.length > 1 ? ' · ' + ssCal.length + ' sess' : '') +
+          (sports.length > 1 ? ' · ' + sports.join('+') : '') + '</div>';
       }
     }
     html += '<div class="' + cls + '" data-iso="' + iso + '" onclick="openWorkoutDetail(this.dataset.iso)">' +
@@ -725,13 +813,26 @@ function openWorkoutDetail(iso) {
   if (!w) { modal.classList.add('hidden'); return; }
   const when = new Date(iso + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   document.getElementById('wo-title').textContent = (w.day || '') + ' · ' + (w.plannedSession || 'Session');
-  const garmin = w.garminActivity
-    ? ('<div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-xs">' +
-      'Garmin: <strong>' + w.garminActivity + '</strong> · ' + (w.garminMinutes || '—') + ' min · ' +
-      (w.garminDistance != null ? w.garminDistance + ' mi' : '—') +
-      (w.garminPace ? ' · ' + w.garminPace : '') +
-      (w.workoutCompletionPct != null ? ' · ' + w.workoutCompletionPct + '%' : '') + '</div>')
-    : '<p class="text-xs text-slate-400">No Garmin activity logged for this date yet.</p>';
+  const ss = daySessions(w);
+  let garmin;
+  if (ss.length) {
+    garmin = '<div class="space-y-2">' + ss.map(s =>
+      '<div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 text-xs">' +
+      '<div class="font-semibold text-emerald-900 mb-0.5">' + (s.activity || sessionSport(s) || 'Garmin') +
+      (s.planned === false ? ' <span class="text-amber-700 font-medium">(extra)</span>' : ' <span class="text-emerald-700">(planned)</span>') +
+      '</div>' +
+      (sessionSport(s) || '—') + ' · ' + (s.minutes != null ? s.minutes : '—') + ' min · ' +
+      (s.distanceMi != null ? s.distanceMi + ' mi' : '—') +
+      (s.pace ? ' · ' + s.pace : '') +
+      (s.startEt ? ' · ' + s.startEt + ' ET' : '') +
+      (s.completionPct != null ? ' · ' + s.completionPct + '%' : '') +
+      (s.activityId ? ' · id ' + s.activityId : '') +
+      (s.notes ? '<div class="text-slate-500 mt-1">' + s.notes + '</div>' : '') +
+      '</div>'
+    ).join('') + '</div>';
+  } else {
+    garmin = '<p class="text-xs text-slate-400">No Garmin activity logged for this date yet.</p>';
+  }
   const nutri = w.mfpCalories != null
     ? ('<div class="bg-slate-50 rounded-2xl p-3 text-xs">MFP ' + w.mfpCalories + ' / planned ' + (w.plannedCalories || '—') +
       ' · delta ' + (w.calorieDelta != null ? w.calorieDelta : '—') + ' · ' + (w.overUnder || '') +
@@ -743,8 +844,9 @@ function openWorkoutDetail(iso) {
     '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Sport</div><div class="font-medium">' + (w.plannedSport || '—') + '</div></div>' +
     '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Planned</div><div class="font-medium">' + (w.plannedMinutes || 0) + ' min</div></div>' +
     '<div class="bg-slate-50 rounded-2xl p-3"><div class="text-[10px] uppercase text-slate-400">Status</div><div class="font-medium">' + statusBadge(w.workoutStatus) + '</div></div></div>' +
-    '<div><div class="text-[10px] uppercase text-slate-400 mb-1">Session</div><p>' + (w.plannedSession || '—') + '</p></div>' +
-    garmin + nutri +
+    '<div><div class="text-[10px] uppercase text-slate-400 mb-1">Planned session</div><p>' + (w.plannedSession || '—') + '</p></div>' +
+    '<div><div class="text-[10px] uppercase text-slate-400 mb-1">Garmin sessions (' + ss.length + ')</div>' + garmin + '</div>' +
+    nutri +
     (w.workoutNotes ? '<p class="text-xs text-slate-500">' + w.workoutNotes + '</p>' : '') +
     '<p class="text-[11px] text-slate-400">Not medical advice.</p>';
   modal.classList.remove('hidden');
@@ -780,7 +882,7 @@ function initCharts() {
   Chart.defaults.borderColor = '#e2e8f0';
   Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
 
-  const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed' && w.garminMinutes != null)
+  const done = DATA.workouts.filter(w => w.workoutStatus === 'Completed' && dayTotalMinutes(w) > 0)
     .slice().sort((a, b) => a.date.localeCompare(b.date));
 
   chartInstances.mins = new Chart(document.getElementById('chart-mins'), {
@@ -789,7 +891,7 @@ function initCharts() {
       labels: done.map(w => w.date.slice(5)),
       datasets: [{
         label: 'Garmin minutes',
-        data: done.map(w => w.garminMinutes),
+        data: done.map(w => Math.round(dayTotalMinutes(w) * 10) / 10),
         backgroundColor: 'rgba(16,185,129,0.75)',
         borderColor: '#10b981',
         borderWidth: 1,
@@ -800,7 +902,7 @@ function initCharts() {
   });
 
   let cum = 0;
-  const cumMiles = done.map(w => { cum += (w.garminDistance || 0); return Math.round(cum * 100) / 100; });
+  const cumMiles = done.map(w => { cum += dayTotalDistance(w); return Math.round(cum * 100) / 100; });
   chartInstances.miles = new Chart(document.getElementById('chart-miles'), {
     type: 'line',
     data: {
@@ -834,7 +936,7 @@ function initCharts() {
         },
         {
           label: 'Actual',
-          data: withPlan.map(w => w.garminMinutes || 0),
+          data: withPlan.map(w => Math.round(dayTotalMinutes(w) * 10) / 10),
           backgroundColor: 'rgba(16,185,129,0.75)',
           borderColor: '#10b981',
           borderWidth: 1,
@@ -870,9 +972,17 @@ function initCharts() {
   });
 
   function buildSportCum(sport, key, canvasId, emptyId, milesColor) {
-    const rows = DATA.workouts
-      .filter(w => w.workoutStatus === 'Completed' && sportOf(w) === sport)
-      .slice().sort((a, b) => a.date.localeCompare(b.date));
+    const byDay = {};
+    DATA.workouts.forEach(w => {
+      if (w.workoutStatus !== 'Completed') return;
+      daySessions(w).forEach(s => {
+        if (sessionSport(s) !== sport) return;
+        if (!byDay[w.date]) byDay[w.date] = { minutes: 0, distanceMi: 0 };
+        byDay[w.date].minutes += Number(s.minutes) || 0;
+        byDay[w.date].distanceMi += Number(s.distanceMi) || 0;
+      });
+    });
+    const rows = Object.keys(byDay).sort();
     const emptyEl = document.getElementById(emptyId);
     const canvas = document.getElementById(canvasId);
     if (!rows.length) {
@@ -886,14 +996,15 @@ function initCharts() {
     const labels = [];
     const minsData = [];
     const milesData = [];
-    rows.forEach(w => {
-      cMin += (w.garminMinutes || 0);
-      cMi += (w.garminDistance || 0);
-      labels.push(w.date.slice(5));
+    rows.forEach(date => {
+      const d = byDay[date];
+      cMin += d.minutes;
+      cMi += d.distanceMi;
+      labels.push(date.slice(5));
       minsData.push(Math.round(cMin * 10) / 10);
       milesData.push(Math.round(cMi * 100) / 100);
     });
-    chartInstances[key] = new Chart(canvas, {
+chartInstances[key] = new Chart(canvas, {
       type: 'line',
       data: {
         labels,
