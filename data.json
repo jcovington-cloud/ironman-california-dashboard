@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach \u2014 Ironman California 2027",
+    "title": "Iron Coach — Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-17T10:02:45-04:00",
+    "lastUpdated": "2026-09-17T14:42:37-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -62,45 +62,45 @@
     "sampleFoundationWeek": [
       {
         "day": "Mon",
-        "session": "Easy run 40",
-        "sport": "Run",
-        "minutes": 40
-      },
-      {
-        "day": "Tue",
-        "session": "Easy run 40",
-        "sport": "Run",
-        "minutes": 40
-      },
-      {
-        "day": "Wed",
-        "session": "Easy bike 30",
-        "sport": "Bike",
-        "minutes": 30
-      },
-      {
-        "day": "Thu",
-        "session": "Swim 20\u201330 @ Bow Creek",
-        "sport": "Swim",
-        "minutes": 30
-      },
-      {
-        "day": "Fri",
-        "session": "Rest / mobility",
+        "session": "Rest / mobility + weigh-in",
         "sport": "Rest",
         "minutes": 30
       },
       {
-        "day": "Sat",
-        "session": "Easy bike 60",
+        "day": "Tue",
+        "session": "Easy run 45",
+        "sport": "Run",
+        "minutes": 45
+      },
+      {
+        "day": "Wed",
+        "session": "Easy bike 35+",
         "sport": "Bike",
-        "minutes": 60
+        "minutes": 35
+      },
+      {
+        "day": "Thu",
+        "session": "Run 40 easy + strides (~5:30am)",
+        "sport": "Run",
+        "minutes": 40
+      },
+      {
+        "day": "Fri",
+        "session": "Swim 25–30 @ Bow Creek 10:30",
+        "sport": "Swim",
+        "minutes": 30
+      },
+      {
+        "day": "Sat",
+        "session": "Easy bike 70+",
+        "sport": "Bike",
+        "minutes": 70
       },
       {
         "day": "Sun",
-        "session": "Easy run 60",
+        "session": "Easy run 65+",
         "sport": "Run",
-        "minutes": 60
+        "minutes": 65
       }
     ],
     "weighIns": [
@@ -344,12 +344,12 @@
       "plannedSession": "Swim 20-30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": "Treadmill",
-      "garminMinutes": 50,
-      "garminDistance": 3.56,
-      "garminPace": "14:04/mi",
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Pool Swim",
+      "garminMinutes": 20.55,
+      "garminDistance": 0.31,
+      "garminPace": "2:27/100 yd",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 69,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -357,8 +357,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 1",
-      "workoutNotes": "Garmin 6:11 AM ET; 50:06; 3.56 mi @ 14:04/mi (extra morning run; swim still planned noon Bow Creek)"
+      "nutritionNotes": "Foundation week 1; MFP empty until tonight",
+      "workoutNotes": "Primary Garmin Pool Swim 20:33 / 550 yd @ 2:27/100 yd ~10:52 AM ET (activity 24397097332); ~69% vs 30 min planned. Also AM Treadmill Running 50:06 / 3.56 mi @ 14:04/mi @ 6:11 AM ET (extra morning run; no Foundation doubles — swim was the planned session)."
     },
     {
       "date": "2026-09-18",
@@ -495,28 +495,6 @@
     {
       "date": "2026-09-24",
       "day": "Thu",
-      "plannedSession": "Swim 25-30 min @ Bow Creek",
-      "plannedMinutes": 30,
-      "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "Prefer lap lanes; open/lap swim window; Bow Creek"
-    },
-    {
-      "date": "2026-09-25",
-      "day": "Fri",
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
       "plannedSport": "Run",
@@ -534,7 +512,29 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": ""
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+    },
+    {
+      "date": "2026-09-25",
+      "day": "Fri",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 2",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
     },
     {
       "date": "2026-09-26",
@@ -649,28 +649,6 @@
     {
       "date": "2026-10-01",
       "day": "Thu",
-      "plannedSession": "Swim 25-30 min @ Bow Creek",
-      "plannedMinutes": 30,
-      "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Prefer lap lanes; Confirm Bow Creek Oct schedule \u2014 midday"
-    },
-    {
-      "date": "2026-10-02",
-      "day": "Fri",
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
       "plannedSport": "Run",
@@ -688,7 +666,29 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": ""
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+    },
+    {
+      "date": "2026-10-02",
+      "day": "Fri",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 3",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
     },
     {
       "date": "2026-10-03",
@@ -803,28 +803,6 @@
     {
       "date": "2026-10-08",
       "day": "Thu",
-      "plannedSession": "Swim 25-30 min @ Bow Creek",
-      "plannedMinutes": 30,
-      "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Prefer lap lanes; Confirm Bow Creek Oct schedule \u2014 midday"
-    },
-    {
-      "date": "2026-10-09",
-      "day": "Fri",
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
       "plannedSport": "Run",
@@ -842,7 +820,29 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": ""
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)"
+    },
+    {
+      "date": "2026-10-09",
+      "day": "Fri",
+      "plannedSession": "Swim 25-30 min @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 4",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes"
     },
     {
       "date": "2026-10-10",
