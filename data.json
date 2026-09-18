@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach \u2014 Ironman California 2027",
+    "title": "Iron Coach — Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-17T14:50:06-04:00",
+    "lastUpdated": "2026-09-17T23:19:12-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -86,7 +86,7 @@
       },
       {
         "day": "Fri",
-        "session": "Swim 25\u201330 @ Bow Creek 10:30",
+        "session": "Swim 25–30 @ Bow Creek 10:30",
         "sport": "Swim",
         "minutes": 30
       },
@@ -116,7 +116,7 @@
       }
     ],
     "weightCurrentLb": 247.6,
-    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes."
   },
   "workouts": [
     {
@@ -547,7 +547,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": "",
+      "workoutNotes": "~5:30am; Foundation pattern (no doubles)",
       "sessions": []
     },
     {
@@ -616,7 +616,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 2",
+      "workoutNotes": "Monday weigh-in",
       "sessions": []
     },
     {
@@ -777,7 +777,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 3",
+      "workoutNotes": "Monday weigh-in",
       "sessions": []
     },
     {
@@ -938,7 +938,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Foundation week 4",
+      "workoutNotes": "Monday weigh-in",
       "sessions": []
     },
     {
