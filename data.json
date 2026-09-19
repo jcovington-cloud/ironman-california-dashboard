@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-18T23:42:34-04:00",
+    "lastUpdated": "2026-09-19T11:05:35-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -569,12 +569,12 @@
       "plannedSession": "Bike 60 min easy",
       "plannedMinutes": 60,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 61,
+      "garminDistance": 15.5,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 102,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -582,9 +582,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 1",
-      "workoutNotes": "",
-      "sessions": []
+      "nutritionNotes": "Foundation week 1 \u2014 MFP finals pending nightly 11:30pm",
+      "workoutNotes": "Garmin Indoor Cycling 1:01:08 / 15.50 mi @ 6:47 AM ET; 102% of planned 60-min easy bike",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 61,
+          "distanceMi": 15.5,
+          "pace": null,
+          "startEt": "6:47 AM",
+          "planned": true,
+          "completionPct": 102,
+          "notes": "",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-20",
