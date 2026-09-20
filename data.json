@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-19T23:40:11-04:00",
+    "lastUpdated": "2026-09-20T11:13:21-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -605,12 +605,12 @@
       "plannedSession": "Run 60 min easy",
       "plannedMinutes": 60,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Campbell County Running",
+      "garminMinutes": 62,
+      "garminDistance": 4.13,
+      "garminPace": "15:01/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 103,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -619,8 +619,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 1",
-      "workoutNotes": "",
-      "sessions": []
+      "workoutNotes": "Garmin Campbell County Running 1:01:58 / 4.13 mi @ 15:01/mi @ 6:39 AM ET; 103% of planned 60-min easy run",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Campbell County Running",
+          "minutes": 62,
+          "distanceMi": 4.13,
+          "pace": "15:01/mi",
+          "startEt": "6:39 AM",
+          "planned": true,
+          "completionPct": 103,
+          "notes": "",
+          "activityId": "24431119266"
+        }
+      ]
     },
     {
       "date": "2026-09-21",
@@ -688,7 +701,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 2",
       "sessions": []
     },
     {
