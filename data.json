@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach \u2014 Ironman California 2027",
+    "title": "Iron Coach — Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-20T23:35:55-04:00",
+    "lastUpdated": "2026-09-21T11:41:19-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -86,7 +86,7 @@
       },
       {
         "day": "Fri",
-        "session": "Swim 25\u201330 @ Bow Creek 10:30",
+        "session": "Swim 25–30 @ Bow Creek 10:30",
         "sport": "Swim",
         "minutes": 30
       },
@@ -113,10 +113,15 @@
         "date": "2026-09-14",
         "lb": 247.6,
         "note": "Monday weigh-in"
+      },
+      {
+        "date": "2026-09-21",
+        "lb": 247.4,
+        "note": "Monday weigh-in"
       }
     ],
-    "weightCurrentLb": 247.6,
-    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."
+    "weightCurrentLb": 247.4,
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes."
   },
   "workouts": [
     {
@@ -461,7 +466,7 @@
       "overUnder": "Under",
       "protein": 78,
       "carbs": 143,
-      "fat": 62,
+      "fat": 49,
       "nutritionNotes": "Foundation week 1",
       "workoutNotes": "Garmin Indoor Cycling 30:04 / 6.27 mi @ 5:58 AM ET; 100% of planned 30-min easy bike",
       "sessions": [
@@ -641,11 +646,11 @@
       "plannedSession": "Rest / easy mobility + weigh-in",
       "plannedMinutes": 30,
       "plannedSport": "Rest",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
+      "garminActivity": "Treadmill Running",
+      "garminMinutes": 45.1,
+      "garminDistance": 3.22,
+      "garminPace": "14:02/mi",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
       "mfpCalories": null,
@@ -654,9 +659,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Monday weigh-in",
-      "sessions": []
+      "nutritionNotes": "Rest day: base goal 2360 (MFP not final yet)",
+      "workoutNotes": "Garmin 6:08 AM ET; 45:06; optional rest-day activity; weigh-in 247.4 lb; avg HR 113, max 118",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 45.1,
+          "distanceMi": 3.22,
+          "pace": "14:02/mi",
+          "startEt": "6:08 AM",
+          "planned": false,
+          "completionPct": null,
+          "notes": "Optional rest-day activity; avg HR 113, max 118",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-22",
