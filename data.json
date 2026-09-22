@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-21T23:49:38-04:00",
+    "lastUpdated": "2026-09-22T11:32:41-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -682,12 +682,12 @@
       "plannedSession": "Run 45 min easy",
       "plannedMinutes": 45,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Treadmill Running",
+      "garminMinutes": 50.1,
+      "garminDistance": 4.12,
+      "garminPace": "12:11/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 111,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -695,9 +695,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "",
-      "sessions": []
+      "nutritionNotes": "",
+      "workoutNotes": "Garmin 6:11 AM ET; 50:07; avg HR 133; 111% of planned 45 min easy",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 50.1,
+          "distanceMi": 4.12,
+          "pace": "12:11/mi",
+          "startEt": "6:11 AM",
+          "planned": true,
+          "completionPct": 111,
+          "notes": "avg HR 133",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-23",
