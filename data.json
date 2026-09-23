@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-22T23:48:31-04:00",
+    "lastUpdated": "2026-09-23T11:29:39-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -718,12 +718,12 @@
       "plannedSession": "Bike 35 min easy",
       "plannedMinutes": 35,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 35.05,
+      "garminDistance": 7.38,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -732,8 +732,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "Foundation week 2",
-      "sessions": []
+      "workoutNotes": "Garmin 6:06 AM ET; 35:03; avg HR 132; avg power 111 W",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 35.05,
+          "distanceMi": 7.38,
+          "pace": null,
+          "startEt": "6:06 AM",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "avg HR 132; avg power 111 W",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-24",
