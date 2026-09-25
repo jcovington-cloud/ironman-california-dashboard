@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-24T23:52:02-04:00",
+    "lastUpdated": "2026-09-25T10:54:38-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -804,8 +804,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 2",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
-      "sessions": []
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes. Also AM Treadmill 35:05 / 2.49 mi @ 14:05/mi 6:22 AM ET; avg HR 117",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 35.08,
+          "distanceMi": 2.49,
+          "pace": "14:05/mi",
+          "startEt": "6:22 AM",
+          "planned": false,
+          "completionPct": null,
+          "notes": "Extra morning run (Foundation planned session is swim @ Bow Creek); avg HR 117; 290 cal",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-26",
@@ -927,7 +940,7 @@
       "day": "Thu",
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
-      "plannedSport": "Run",
+      "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -1088,7 +1101,7 @@
       "day": "Thu",
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
-      "plannedSport": "Run",
+      "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
