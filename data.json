@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-26T00:02:01-04:00",
+    "lastUpdated": "2026-09-26T10:54:50-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -838,12 +838,12 @@
       "plannedSession": "Run 65 min easy",
       "plannedMinutes": 65,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Treadmill Running",
+      "garminMinutes": 65.13,
+      "garminDistance": 5.14,
+      "garminPace": "12:41/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -851,9 +851,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 2 (weekend swap)",
-      "workoutNotes": "One-off weekend swap; 6:30 AM ET",
-      "sessions": []
+      "nutritionNotes": "Foundation week 2 (weekend swap); MFP pending nightly finals",
+      "workoutNotes": "Garmin 5:30 AM ET; 1:05:08; avg HR 130; 627 cal; weekend swap from Bike 70",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 65.13,
+          "distanceMi": 5.14,
+          "pace": "12:41/mi",
+          "startEt": "5:30 AM",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "avg HR 130; 627 cal; 100% of planned 65 min easy",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-27",
@@ -990,7 +1003,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF)",
       "sessions": []
     },
     {
@@ -1151,7 +1164,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF)",
       "sessions": []
     },
     {
