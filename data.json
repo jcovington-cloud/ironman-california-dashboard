@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-26T23:55:00-04:00",
+    "lastUpdated": "2026-09-27T10:52:53-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -934,7 +934,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 3 \u2014 easy conversational",
       "sessions": []
     },
     {
@@ -957,7 +957,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 3 \u2014 easy spin; midweek +5 toward 60",
       "sessions": []
     },
     {
@@ -1026,7 +1026,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 3 long ride (+10/week from 60)",
       "sessions": []
     },
     {
@@ -1049,7 +1049,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 3 long run \u2014 easy conversational",
       "sessions": []
     },
     {
@@ -1095,7 +1095,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 4 \u2014 easy conversational",
       "sessions": []
     },
     {
@@ -1118,7 +1118,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 4 \u2014 easy spin; midweek +5 toward 60",
       "sessions": []
     },
     {
@@ -1187,7 +1187,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 4 long ride (+10/week from 60)",
       "sessions": []
     },
     {
@@ -1210,7 +1210,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "",
+      "workoutNotes": "Foundation week 4 long run \u2014 easy conversational",
       "sessions": []
     }
   ]
