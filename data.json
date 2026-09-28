@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-27T22:52:05-04:00",
+    "lastUpdated": "2026-09-27T23:43:58-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -887,7 +887,7 @@
       "protein": 131,
       "carbs": 148,
       "fat": 99,
-      "nutritionNotes": "Provisional ~8:15pm ET weekly summary; nightly finals still due. Training day: MFP adjusted goal 2644 (base 2360 +284 exercise)",
+      "nutritionNotes": "Nightly MFP finals: 2090 kcal (P131/C148/F99). Training day: MFP adjusted goal 2644 (base 2360 +284 exercise). Remaining 554. Unchanged from evening provisional.",
       "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) \u2014 low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
       "sessions": [
         {
