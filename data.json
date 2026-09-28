@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-27T10:52:53-04:00",
+    "lastUpdated": "2026-09-27T22:52:05-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -874,22 +874,35 @@
       "plannedSession": "Bike 70 min easy",
       "plannedMinutes": 70,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 35.55,
+      "garminDistance": 7.18,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 2 (weekend swap)",
-      "workoutNotes": "One-off weekend swap; 6:30 AM ET",
-      "sessions": []
+      "workoutStatus": "Partial",
+      "workoutCompletionPct": 51,
+      "plannedCalories": 2644,
+      "mfpCalories": 2090,
+      "calorieDelta": -554,
+      "overUnder": "Under",
+      "protein": 131,
+      "carbs": 148,
+      "fat": 99,
+      "nutritionNotes": "Provisional ~8:15pm ET weekly summary; nightly finals still due. Training day: MFP adjusted goal 2644 (base 2360 +284 exercise)",
+      "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) \u2014 low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 35.55,
+          "distanceMi": 7.18,
+          "pace": null,
+          "startEt": "10:43 AM",
+          "planned": true,
+          "completionPct": 51,
+          "notes": "avg HR 126; avg power 105 W; 284 cal; ~51% of planned 70 min; cut short (low energy + yard work)",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-09-28",
@@ -1003,14 +1016,14 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF)",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF \u2014 open + lap overlap)",
       "sessions": []
     },
     {
       "date": "2026-10-03",
       "day": "Sat",
-      "plannedSession": "Bike 80 min easy",
-      "plannedMinutes": 80,
+      "plannedSession": "Bike 70 min easy",
+      "plannedMinutes": 70,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -1026,7 +1039,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Foundation week 3 long ride (+10/week from 60)",
+      "workoutNotes": "Repeat of Sep 27 long ride (cut short); progression holds at 70 then +10/week; 6:30 AM ET",
       "sessions": []
     },
     {
@@ -1164,14 +1177,14 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF)",
+      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct schedule \u2014 open + lap overlap)",
       "sessions": []
     },
     {
       "date": "2026-10-10",
       "day": "Sat",
-      "plannedSession": "Bike 90 min easy",
-      "plannedMinutes": 90,
+      "plannedSession": "Bike 80 min easy",
+      "plannedMinutes": 80,
       "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
@@ -1187,7 +1200,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Foundation week 4 long ride (+10/week from 60)",
+      "workoutNotes": "Long-ride progression +10/week from repeated 70 on Oct 3 (shifted from prior 90); 6:30 AM ET",
       "sessions": []
     },
     {
