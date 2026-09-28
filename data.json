@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-27T23:43:58-04:00",
+    "lastUpdated": "2026-09-28T11:00:58-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -118,9 +118,14 @@
         "date": "2026-09-21",
         "lb": 247.4,
         "note": "Monday weigh-in"
+      },
+      {
+        "date": "2026-09-28",
+        "lb": 246.2,
+        "note": "Monday weigh-in"
       }
     ],
-    "weightCurrentLb": 247.4,
+    "weightCurrentLb": 246.2,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."
   },
   "workouts": [
@@ -914,7 +919,7 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Planned",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
       "mfpCalories": null,
@@ -923,8 +928,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Rest day: base goal",
-      "workoutNotes": "Monday weigh-in",
+      "nutritionNotes": "Rest day: base goal 2360; Monday weigh-in 246.2 lb (baseline 249)",
+      "workoutNotes": "Planned rest day taken; no Garmin activity",
       "sessions": []
     },
     {
