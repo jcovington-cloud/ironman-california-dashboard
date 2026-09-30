@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-29T11:02:24-04:00",
+    "lastUpdated": "2026-09-29T22:55:32-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -952,7 +952,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Foundation week 3 \u2014 easy conversational",
+      "workoutNotes": "Foundation week 3 \u2014 easy conversational; Evening refresh: still no Garmin / Daily Log row for Sep 29 (MFP pending nightly ~11:40pm)",
       "sessions": []
     },
     {
