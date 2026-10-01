@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-30T10:54:32-04:00",
+    "lastUpdated": "2026-09-30T22:51:44-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1021,7 +1021,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct PDF \u2014 open + lap overlap)",
+      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (confirm Oct PDF \u2014 open + lap overlap)",
       "sessions": []
     },
     {
@@ -1136,7 +1136,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Foundation week 4 \u2014 easy spin; midweek +5 toward 60",
+      "workoutNotes": "Foundation week 4 \u2014 easy spin; midweek +5 toward 60. Lynchburg depart Wed night \u2014 session at home.",
       "sessions": []
     },
     {
@@ -1165,9 +1165,9 @@
     {
       "date": "2026-10-09",
       "day": "Fri",
-      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
-      "plannedMinutes": 30,
-      "plannedSport": "Swim",
+      "plannedSession": "Run 70 min easy",
+      "plannedMinutes": 70,
+      "plannedSport": "Run",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -1182,7 +1182,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Bow Creek 10:30am; prefer lap lanes (confirm Oct schedule \u2014 open + lap overlap)",
+      "workoutNotes": "Lynchburg travel week \u2014 long run moved to Friday 6:30 AM ET; can do on the road. Easy conversational.",
       "sessions": []
     },
     {
@@ -1211,9 +1211,9 @@
     {
       "date": "2026-10-11",
       "day": "Sun",
-      "plannedSession": "Run 70 min easy",
-      "plannedMinutes": 70,
-      "plannedSport": "Run",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -1228,7 +1228,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Foundation week 4 long run \u2014 easy conversational",
+      "workoutNotes": "Bow Creek 2:30 PM ET; prefer lap lanes. Moved to Sunday afternoon for Lynchburg travel (Wed\u2013Sat). Confirm Oct Sunday open/lap hours.",
       "sessions": []
     }
   ]
