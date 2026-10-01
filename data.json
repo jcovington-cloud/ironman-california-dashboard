@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-09-30T22:51:44-04:00",
+    "lastUpdated": "2026-09-30T23:53:15-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -126,7 +126,8 @@
       }
     ],
     "weightCurrentLb": 246.2,
-    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes."
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
+    "lastRefresh": "nightly-mfp-2026-09-30"
   },
   "workouts": [
     {
@@ -968,13 +969,13 @@
       "workoutStatus": "Missed",
       "workoutCompletionPct": 0,
       "plannedCalories": 2360,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Rest/skip day \u2014 MFP pending nightly finals. Base goal 2360.",
+      "mfpCalories": 1982,
+      "calorieDelta": -378,
+      "overUnder": "Under",
+      "protein": 67,
+      "carbs": 198,
+      "fat": 84,
+      "nutritionNotes": "Final (nightly MFP): 1982 vs 2360; -378 Under. Intentional skip \u2014 no sleep / long work days.",
       "workoutNotes": "Intentional skip \u2014 no sleep / long work days. Resume Thu Oct 1. Calendar SKIPPED (19mcqgnkj6min2tvrnc4f23764). No Garmin activity.",
       "sessions": []
     },
