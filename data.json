@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-01T22:53:29-04:00",
+    "lastUpdated": "2026-10-01T23:53:59-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -127,7 +127,14 @@
     ],
     "weightCurrentLb": 246.2,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
-    "lastRefresh": "nightly-mfp-2026-09-30"
+    "lastRefresh": {
+      "routine": "Nightly MFP final numbers",
+      "date": "2026-10-01",
+      "completedAt": "2026-10-01T23:53:46-04:00",
+      "materialChange": true,
+      "sheetUpdated": false,
+      "mfpSource": "cookie-seed-curl-diary-jonaia4454"
+    }
   },
   "workouts": [
     {
@@ -989,17 +996,17 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Planned",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Rest day (no planned workout): base goal 2360. MFP pending.",
-      "workoutNotes": "Calendar SoT: Run 40 + strides moved to Fri Oct 2 5:30 AM to stack with Bow Creek swim (explicit double OK). No planned session Oct 1. Sheet still shows stale Planned Run \u2014 ignored. No Garmin (Forerunner last synced ~7:27 AM ET).",
+      "mfpCalories": 2302,
+      "calorieDelta": -58,
+      "overUnder": "Under",
+      "protein": 129,
+      "carbs": 258,
+      "fat": 68,
+      "nutritionNotes": "Rest day (calendar SoT: no planned workout; Run 40 moved to Fri Oct 2). Final (nightly MFP ~11:52pm ET): 2302 vs base goal 2360; -58 Under. MFP Daily Goal 2360; Exercise diary Garmin Connect calorie adjustment 0.",
+      "workoutNotes": "Calendar SoT: Rest / no planned workout Oct 1. Run 40 + strides moved to Fri Oct 2 5:30 AM to stack with Bow Creek swim (explicit double OK). No Garmin activity (MFP exercise adj 0; Connect cookies expired at nightly pull \u2014 morning also zero). Sheet row was stale Planned Run \u2014 corrected in dashboard data; browser Sheets edit blocked (Google signed out).",
       "sessions": []
     },
     {
