@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-03T10:58:33-04:00",
+    "lastUpdated": "2026-10-03T13:43:30-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1063,12 +1063,12 @@
       "plannedSession": "Bike 70 min easy",
       "plannedMinutes": 70,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 70.57,
+      "garminDistance": 13.78,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 101,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1077,8 +1077,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Repeat of Sep 27 long ride (cut short); progression holds at 70 then +10/week; 6:30 AM ET",
-      "sessions": []
+      "workoutNotes": "Garmin 8:27 AM ET; 1:10:34; avg HR 131; avg power 98 W; 537 total cal (417 active). Full Bike 70 repeat after Sep 27 partial.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 70.57,
+          "distanceMi": 13.78,
+          "pace": null,
+          "startEt": "2026-10-03T08:27:00-04:00",
+          "planned": true,
+          "completionPct": 101,
+          "notes": "avg 11.7 mph; avg HR 131; avg power 98 W; 537 total cal",
+          "activityId": "24590694738"
+        }
+      ]
     },
     {
       "date": "2026-10-04",
