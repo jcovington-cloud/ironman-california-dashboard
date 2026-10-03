@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-02T23:55:14-04:00",
+    "lastUpdated": "2026-10-03T10:58:33-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -129,11 +129,11 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
-      "date": "2026-10-02",
-      "completedAt": "2026-10-02T22:54:46-04:00",
+      "slot": "morning",
+      "date": "2026-10-03",
+      "completedAt": "2026-10-03T10:58:33-04:00",
       "materialChange": false,
-      "notes": "No new Garmin; Oct 2 still Missed 0% (no MFP yet \u2014 Nightly MFP ~11:40pm); Oct 1 Rest/Completed 2302/\u221258 unchanged; calendar SoT through Oct 11 unchanged; sheet still stale vs cal for upcoming (Bike 80 vs 70 etc.)"
+      "notes": "No material Daily Log/Garmin/MFP/calendar drift vs nightly publish (fd3003f). Oct 2 Missed 0% + MFP 2115/\u2212245 already live; Oct 3 Bike 70 remains Planned (no Garmin mid-morning; sheet still stale Bike 80). Training Calendar SoT through Oct 11 (Lynchburg: Fri Run 70, Sat Bike 80, Sun Bow Creek swim 2:30pm). lastUpdated-only bump."
     }
   },
   "workouts": [
