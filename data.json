@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach — Ironman California 2027",
+    "title": "Iron Coach \u2014 Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-02T11:02:22-04:00",
+    "lastUpdated": "2026-10-02T22:54:46-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -86,7 +86,7 @@
       },
       {
         "day": "Fri",
-        "session": "Swim 25–30 @ Bow Creek 10:30",
+        "session": "Swim 25\u201330 @ Bow Creek 10:30",
         "sport": "Swim",
         "minutes": 30
       },
@@ -126,14 +126,14 @@
       }
     ],
     "weightCurrentLb": 246.2,
-    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Nightly MFP final numbers",
-      "date": "2026-10-01",
-      "completedAt": "2026-10-01T23:53:46-04:00",
-      "materialChange": true,
-      "sheetUpdated": false,
-      "mfpSource": "cookie-seed-curl-diary-jonaia4454"
+      "routine": "Refresh Ironman California dashboard",
+      "slot": "evening",
+      "date": "2026-10-02",
+      "completedAt": "2026-10-02T22:54:46-04:00",
+      "materialChange": false,
+      "notes": "No new Garmin; Oct 2 still Missed 0% (no MFP yet \u2014 Nightly MFP ~11:40pm); Oct 1 Rest/Completed 2302/\u221258 unchanged; calendar SoT through Oct 11 unchanged; sheet still stale vs cal for upcoming (Bike 80 vs 70 etc.)"
     }
   },
   "workouts": [
@@ -901,7 +901,7 @@
       "carbs": 148,
       "fat": 99,
       "nutritionNotes": "Nightly MFP finals: 2090 kcal (P131/C148/F99). Training day: MFP adjusted goal 2644 (base 2360 +284 exercise). Remaining 554. Unchanged from evening provisional.",
-      "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) — low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
+      "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) \u2014 low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
       "sessions": [
         {
           "sport": "Bike",
@@ -960,7 +960,7 @@
       "carbs": 183,
       "fat": 146,
       "nutritionNotes": "Final (nightly MFP): 2501 vs base 2360; +141 Over. No Garmin exercise bump.",
-      "workoutNotes": "Intentional skip — no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (gub5dlnh4p7iu89ii00khp2qls). No Garmin activity.",
+      "workoutNotes": "Intentional skip \u2014 no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (gub5dlnh4p7iu89ii00khp2qls). No Garmin activity.",
       "sessions": []
     },
     {
@@ -982,8 +982,8 @@
       "protein": 67,
       "carbs": 198,
       "fat": 84,
-      "nutritionNotes": "Final (nightly MFP): 1982 vs 2360; -378 Under. Intentional skip — no sleep / long work days.",
-      "workoutNotes": "Intentional skip — no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (19mcqgnkj6min2tvrnc4f23764). No Garmin activity.",
+      "nutritionNotes": "Final (nightly MFP): 1982 vs 2360; -378 Under. Intentional skip \u2014 no sleep / long work days.",
+      "workoutNotes": "Intentional skip \u2014 no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (19mcqgnkj6min2tvrnc4f23764). No Garmin activity.",
       "sessions": []
     },
     {
@@ -1005,7 +1005,7 @@
       "protein": 129,
       "carbs": 258,
       "fat": 68,
-      "nutritionNotes": "Rest day (calendar SoT: no planned workout; Run 40 moved to Fri Oct 2). Final (nightly MFP): 2302 vs base goal 2360; −58 Under. MFP Daily Goal 2360; Exercise diary Garmin Connect calorie adjustment 0.",
+      "nutritionNotes": "Rest day (calendar SoT: no planned workout; Run 40 moved to Fri Oct 2). Final (nightly MFP): 2302 vs base goal 2360; \u221258 Under. MFP Daily Goal 2360; Exercise diary Garmin Connect calorie adjustment 0.",
       "workoutNotes": "Calendar SoT: Rest / no planned workout Oct 1. Run 40 + strides moved to Fri Oct 2 5:30 AM (was to stack with Bow Creek swim). No Garmin activity Oct 1. Sheet row now Rest/Completed with MFP (morning Garmin routine).",
       "sessions": []
     },
@@ -1028,8 +1028,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 3 — intentional skip day (no MFP finals yet).",
-      "workoutNotes": "Intentional skip (Jonathan 2026-10-02): Run 40+strides @5:30 AM and Swim 25–30 @ Bow Creek 10:30 AM both SKIPPED (calendar ids j5or5ntp2gq6bcs83vfq68efpk, qtik778mddbfslstf38ndftcrc). No Garmin Oct 1–2 (most recent still Sep 27 Indoor Cycling 35:33 / 7.18 mi). Resume Sat Oct 3 Bike 70. Sheet: Missed 0%.",
+      "nutritionNotes": "Foundation week 3 \u2014 intentional skip day (no MFP finals yet).",
+      "workoutNotes": "Intentional skip (Jonathan 2026-10-02): Run 40+strides @5:30 AM and Swim 25\u201330 @ Bow Creek 10:30 AM both SKIPPED (calendar ids j5or5ntp2gq6bcs83vfq68efpk, qtik778mddbfslstf38ndftcrc). No Garmin Oct 1\u20132 (most recent still Sep 27 Indoor Cycling 35:33 / 7.18 mi). Resume Sat Oct 3 Bike 70. Sheet: Missed 0%.",
       "sessions": [
         {
           "sport": "Run",
@@ -1040,19 +1040,19 @@
           "startEt": "5:30 AM",
           "planned": true,
           "completionPct": 0,
-          "notes": "SKIPPED intentional — calendar j5or5ntp2gq6bcs83vfq68efpk",
+          "notes": "SKIPPED intentional \u2014 calendar j5or5ntp2gq6bcs83vfq68efpk",
           "activityId": null
         },
         {
           "sport": "Swim",
-          "activity": "Swim 25–30 min @ Bow Creek",
+          "activity": "Swim 25\u201330 min @ Bow Creek",
           "minutes": 30,
           "distanceMi": null,
           "pace": null,
           "startEt": "10:30 AM",
           "planned": true,
           "completionPct": 0,
-          "notes": "SKIPPED intentional — Bow Creek; prefer lap lanes; calendar qtik778mddbfslstf38ndftcrc",
+          "notes": "SKIPPED intentional \u2014 Bow Creek; prefer lap lanes; calendar qtik778mddbfslstf38ndftcrc",
           "activityId": null
         }
       ]
@@ -1100,7 +1100,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 3",
-      "workoutNotes": "Foundation week 3 long run — easy conversational",
+      "workoutNotes": "Foundation week 3 long run \u2014 easy conversational",
       "sessions": []
     },
     {
@@ -1146,7 +1146,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Foundation week 4 — easy conversational",
+      "workoutNotes": "Foundation week 4 \u2014 easy conversational",
       "sessions": []
     },
     {
@@ -1169,7 +1169,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Foundation week 4 — easy spin; midweek +5 toward 60. Lynchburg depart Wed night — session at home.",
+      "workoutNotes": "Foundation week 4 \u2014 easy spin; midweek +5 toward 60. Lynchburg depart Wed night \u2014 session at home.",
       "sessions": []
     },
     {
@@ -1215,7 +1215,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Lynchburg travel week — long run moved to Friday 6:30 AM ET; can do on the road. Easy conversational.",
+      "workoutNotes": "Lynchburg travel week \u2014 long run moved to Friday 6:30 AM ET; can do on the road. Easy conversational.",
       "sessions": []
     },
     {
@@ -1244,7 +1244,7 @@
     {
       "date": "2026-10-11",
       "day": "Sun",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -1261,7 +1261,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 4",
-      "workoutNotes": "Bow Creek 2:30 PM ET; prefer lap lanes. Moved to Sunday afternoon for Lynchburg travel (Wed–Sat). Confirm Oct Sunday open/lap hours.",
+      "workoutNotes": "Bow Creek 2:30 PM ET; prefer lap lanes. Moved to Sunday afternoon for Lynchburg travel (Wed\u2013Sat). Confirm Oct Sunday open/lap hours.",
       "sessions": []
     }
   ]
