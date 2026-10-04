@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-03T22:52:02-04:00",
+    "lastUpdated": "2026-10-03T23:49:33-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -128,12 +128,12 @@
     "weightCurrentLb": 246.2,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Refresh Ironman California dashboard",
-      "slot": "morning",
+      "routine": "Nightly MFP final numbers",
+      "slot": "nightly-mfp",
       "date": "2026-10-03",
-      "completedAt": "2026-10-03T10:58:33-04:00",
-      "materialChange": false,
-      "notes": "No material Daily Log/Garmin/MFP/calendar drift vs nightly publish (fd3003f). Oct 2 Missed 0% + MFP 2115/\u2212245 already live; Oct 3 Bike 70 remains Planned (no Garmin mid-morning; sheet still stale Bike 80). Training Calendar SoT through Oct 11 (Lynchburg: Fri Run 70, Sat Bike 80, Sun Bow Creek swim 2:30pm). lastUpdated-only bump."
+      "completedAt": "2026-10-03T23:49:33-04:00",
+      "materialChange": true,
+      "notes": "Oct 3 MFP 2111 (P93/C241/F89) vs planned 2897 (base 2360 +537) \u2192 Under (\u2212786). Bike 70 Completed 101% already live. Garmin unchanged."
     }
   },
   "workouts": [
@@ -1069,14 +1069,14 @@
       "garminPace": null,
       "workoutStatus": "Completed",
       "workoutCompletionPct": 101,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 3",
+      "plannedCalories": 2897,
+      "mfpCalories": 2111,
+      "calorieDelta": -786,
+      "overUnder": "Under",
+      "protein": 93,
+      "carbs": 241,
+      "fat": 89,
+      "nutritionNotes": "Final (nightly MFP): 2111 vs adj 2897 (base 2360 +537 exercise); \u2212786 Under. Bike 70 Completed 101%.",
       "workoutNotes": "Garmin 8:27 AM ET; 1:10:34; avg HR 131; avg power 98 W; 537 total cal (417 active). Full Bike 70 repeat after Sep 27 partial.",
       "sessions": [
         {
