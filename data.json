@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-08T23:45:04-04:00",
+    "lastUpdated": "2026-10-08T23:56:40-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -133,11 +133,12 @@
     "weightCurrentLb": 243.2,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Refresh Ironman California dashboard",
-      "slot": "morning",
+      "routine": "Nightly MFP final numbers",
+      "slot": "nightly-mfp",
       "date": "2026-10-08",
       "materialChange": true,
-      "notes": "Oct 8 Run 40 + strides Completed 100% (Running 42:11 / 3.09 mi @ 13:39/mi) added as session; MFP pending. Calendar through Nov 1 unchanged."
+      "notes": "Oct 8 MFP finals 2310 kcal (P148/C219/F114) vs adj 2839 (\u2212529 Under). Run 40+strides Completed 100% already logged. Locked Daily Log row 33 L\u2013S updated.",
+      "iso": "2026-10-08T23:56:40-04:00"
     }
   },
   "workouts": [
@@ -1253,14 +1254,14 @@
       "garminPace": "13:39/mi",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 100,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 4. MFP pending nightly finals.",
+      "plannedCalories": 2839,
+      "mfpCalories": 2310,
+      "calorieDelta": -529,
+      "overUnder": "Under",
+      "protein": 148,
+      "carbs": 219,
+      "fat": 114,
+      "nutritionNotes": "Final (nightly MFP): 2310 vs adj 2839 (base 2360 +479 exercise); \u2212529 Under. P148/C219/F114. Run 40 + strides Completed 100%.",
       "workoutNotes": "Garmin \"Campbell County - 36' - 6x30\\\" strides\" 42:11 / 3.09 mi @ 13:39/mi; avg HR 139. Run 40 + strides Completed 100%. (Lynchburg)",
       "sessions": [
         {
