@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-11T23:51:06-04:00",
+    "lastUpdated": "2026-10-12T06:25:00-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -128,9 +128,14 @@
         "date": "2026-10-05",
         "lb": 243.2,
         "note": "Monday weigh-in"
+      },
+      {
+        "date": "2026-10-12",
+        "lb": 245.4,
+        "note": "Monday weigh-in"
       }
     ],
-    "weightCurrentLb": 243.2,
+    "weightCurrentLb": 245.4,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
