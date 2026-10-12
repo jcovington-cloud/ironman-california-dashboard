@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-12T06:25:00-04:00",
+    "lastUpdated": "2026-10-12T11:14:24-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,11 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
-      "date": "2026-10-11",
+      "slot": "morning",
+      "date": "2026-10-12",
+      "completedAt": "2026-10-12T11:14:24-04:00",
       "materialChange": true,
-      "notes": "Oct 11 provisional MFP 2338 vs adj 2869 (\u2212531 Under); Oct 7\u20139 completion % synced to Daily Log (102/105/103); Nov 2\u20138 Foundation week 8 planned sessions added from Training Calendar.",
-      "iso": "2026-10-11T22:55:00-04:00"
+      "notes": "Oct 12 Rest Completed + weigh-in 245.4 notes (was Planned); Added Planned 11-09 Rest / easy mobility + weigh-in, 11-10 Run 60 min easy, 11-11 Bike 60 min easy, 11-12 Run 40 min easy + strides, 11-13 Swim 30 min @ Bow Creek, 11-14 Bike 110 min easy, 11-15 Run 85 min easy, 11-16 Rest / easy mobility + weigh-in",
+      "iso": "2026-10-12T11:14:24-04:00"
     }
   },
   "workouts": [
@@ -1401,17 +1402,17 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Planned",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "plannedCalories": 2360,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "Foundation week 5 \u2014 rest / easy mobility; Monday weigh-in",
+      "nutritionNotes": "Monday weigh-in 245.4 lb (prev 243.2; baseline 249). Rest day: base goal 2360. MFP pending nightly.",
+      "workoutNotes": "Monday weigh-in 245.4 lb. Foundation week 5 \u2014 rest / easy mobility; optional short walk OK.",
       "sessions": []
     },
     {
@@ -1480,7 +1481,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "~5:30 AM; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
+      "workoutNotes": "~5:30 AM ET; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
       "sessions": []
     },
     {
@@ -1641,7 +1642,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "~5:30 AM; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
+      "workoutNotes": "~5:30 AM ET; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
       "sessions": []
     },
     {
@@ -1733,7 +1734,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder. Monday weigh-in.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1756,7 +1757,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1779,7 +1780,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1802,7 +1803,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1825,7 +1826,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1848,7 +1849,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week \u2014 cruise Miami to Bahamas (Oct 26\u201331). 30 min of any easy activity you like (walk, ship gym, treadmill, swim); 7:00 AM placeholder.",
+      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
       "sessions": []
     },
     {
@@ -1871,7 +1872,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 7",
-      "workoutNotes": "Foundation week 7 long run \u2014 easy conversational; first session back after cruise. Go super slow; walk breaks fine. 6:30 AM ET",
+      "workoutNotes": "Foundation week 7 long run \u2014 easy; 6:30 AM ET",
       "sessions": []
     },
     {
@@ -1894,7 +1895,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 \u2014 rest / easy mobility; Monday weigh-in. Post-cruise ease-back week.",
+      "workoutNotes": "Foundation week 8 \u2014 rest / easy mobility; Monday weigh-in",
       "sessions": []
     },
     {
@@ -1917,7 +1918,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 \u2014 easy conversational. 5:30 AM ET",
+      "workoutNotes": "Foundation week 8 \u2014 easy; 5:30 AM ET",
       "sessions": []
     },
     {
@@ -1940,7 +1941,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 \u2014 easy spin. 5:30 AM ET",
+      "workoutNotes": "Foundation week 8 \u2014 easy; 5:30 AM ET",
       "sessions": []
     },
     {
@@ -1963,7 +1964,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 \u2014 easy run + strides. 5:30 AM ET",
+      "workoutNotes": "~5:30 AM ET; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
       "sessions": []
     },
     {
@@ -2009,7 +2010,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 long ride \u2014 easy, post-cruise ease-back. 6:30 AM ET",
+      "workoutNotes": "Foundation week 8 long ride \u2014 easy; 6:30 AM ET",
       "sessions": []
     },
     {
@@ -2032,7 +2033,191 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 long run \u2014 easy conversational; walk breaks fine. 6:30 AM ET",
+      "workoutNotes": "Foundation week 8 long run \u2014 easy; 6:30 AM ET",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-09",
+      "day": "Mon",
+      "plannedSession": "Rest / easy mobility + weigh-in",
+      "plannedMinutes": 30,
+      "plannedSport": "Rest",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Foundation week 9 \u2014 rest / easy mobility; Monday weigh-in",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-10",
+      "day": "Tue",
+      "plannedSession": "Run 60 min easy",
+      "plannedMinutes": 60,
+      "plannedSport": "Run",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Foundation week 9 \u2014 easy; 5:30 AM ET",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wed",
+      "plannedSession": "Bike 60 min easy",
+      "plannedMinutes": 60,
+      "plannedSport": "Bike",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Foundation week 9 \u2014 easy; 5:30 AM ET",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thu",
+      "plannedSession": "Run 40 min easy + strides",
+      "plannedMinutes": 40,
+      "plannedSport": "Run",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "~5:30 AM ET; easy run + 4\u20136 strides; Foundation pattern (no doubles)",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Fri",
+      "plannedSession": "Swim 30 min @ Bow Creek",
+      "plannedMinutes": 30,
+      "plannedSport": "Swim",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Foundation week 9 \u2014 consistency, not speed.",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat",
+      "plannedSession": "Bike 110 min easy",
+      "plannedMinutes": 110,
+      "plannedSport": "Bike",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Foundation week 9 long ride \u2014 easy; 6:30 AM ET",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-15",
+      "day": "Sun",
+      "plannedSession": "Run 85 min easy",
+      "plannedMinutes": 85,
+      "plannedSport": "Run",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 9",
+      "workoutNotes": "Foundation week 9 long run \u2014 easy; 6:30 AM ET",
+      "sessions": []
+    },
+    {
+      "date": "2026-11-16",
+      "day": "Mon",
+      "plannedSession": "Rest / easy mobility + weigh-in",
+      "plannedMinutes": 30,
+      "plannedSport": "Rest",
+      "garminActivity": null,
+      "garminMinutes": null,
+      "garminDistance": null,
+      "garminPace": null,
+      "workoutStatus": "Planned",
+      "workoutCompletionPct": null,
+      "plannedCalories": null,
+      "mfpCalories": null,
+      "calorieDelta": null,
+      "overUnder": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null,
+      "nutritionNotes": "Foundation week 10",
+      "workoutNotes": "Foundation week 10 \u2014 rest / easy mobility; Monday weigh-in",
       "sessions": []
     }
   ]
