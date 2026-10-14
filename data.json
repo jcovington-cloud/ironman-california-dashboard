@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-13T23:42:55-04:00",
+    "lastUpdated": "2026-10-14T11:03:12-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,12 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
-      "date": "2026-10-12",
-      "materialChange": true,
-      "notes": "Added Planned 11-17 Run 60 min easy, 11-18 Bike 60 min easy, 11-19 Run 45 min easy + strides, 11-20 Swim 30\u201335 min @ Bow Creek, 11-21 Bike 120 min easy, 11-22 Run 90 min easy, 11-23 Rest / easy mobility + weigh-in, 11-24 Run 50 min easy, 11-25 Bike 50 min easy, 11-26 Run 30 min easy, 11-27 Swim 25\u201330 min @ Bow Creek, 11-28 Bike 90 min easy, 11-29 Run 70 min easy (Foundation week 10 finish + Thanksgiving step-back week 11); Daily Log unchanged (Oct 12 MFP pending nightly)",
-      "completedAt": "2026-10-12T22:57:13-04:00",
-      "iso": "2026-10-12T22:57:13-04:00"
+      "slot": "morning",
+      "date": "2026-10-14",
+      "materialChange": false,
+      "notes": "No material change: Daily Log still ends row 38 (Oct 13 Missed 1786/\u2212574 already live from nightly); Oct 14 Bike 50 stays Planned (no Garmin mid-morning); Training Calendar Oct 14\u2013Nov 15 unchanged (last cal edit 2026-10-12; dashboard horizon through Nov 29).",
+      "completedAt": "2026-10-14T11:03:12-04:00",
+      "iso": "2026-10-14T11:03:12-04:00"
     }
   },
   "workouts": [
