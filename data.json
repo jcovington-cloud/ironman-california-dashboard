@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-14T11:03:12-04:00",
+    "lastUpdated": "2026-10-14T22:58:59-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,12 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "morning",
+      "slot": "evening",
       "date": "2026-10-14",
       "materialChange": false,
-      "notes": "No material change: Daily Log still ends row 38 (Oct 13 Missed 1786/\u2212574 already live from nightly); Oct 14 Bike 50 stays Planned (no Garmin mid-morning); Training Calendar Oct 14\u2013Nov 15 unchanged (last cal edit 2026-10-12; dashboard horizon through Nov 29).",
-      "completedAt": "2026-10-14T11:03:12-04:00",
-      "iso": "2026-10-14T11:03:12-04:00"
+      "notes": "Evening refresh: Daily Log still ends row 38 (Oct 13 Missed 1786/\u2212574); no Oct 14 row/Garmin yet so Bike 50 stays Planned until nightly MFP; Training Calendar Oct 12\u2013Nov 30 unchanged (last edit 2026-10-12; horizon through Nov 29). Fixed index.html DATA embed broken by 2026-10-14 morning publish (backslash-escaped quote in Oct 8 strides note made the script fail to parse).",
+      "completedAt": "2026-10-14T22:58:59-04:00",
+      "iso": "2026-10-14T22:58:59-04:00"
     }
   },
   "workouts": [
