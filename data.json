@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-14T23:47:15-04:00",
+    "lastUpdated": "2026-10-15T10:56:05-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1449,7 +1449,7 @@
       "garminDistance": null,
       "garminPace": null,
       "workoutStatus": "Missed",
-      "workoutCompletionPct": null,
+      "workoutCompletionPct": 0,
       "plannedCalories": 2360,
       "mfpCalories": 1808,
       "calorieDelta": -552,
@@ -1458,7 +1458,7 @@
       "carbs": 177,
       "fat": 46,
       "nutritionNotes": "Final (nightly MFP): 1808 vs base 2360 (no exercise adj); -552 Under. P162/C177/F46. Protein 44g over, fat 33g short.",
-      "workoutNotes": "No Garmin activity on Oct 14 by ~11:45 PM ET (Bike 50 easy @ 5:30 AM). Marked Missed; update if a late sync appears.",
+      "workoutNotes": "Skipped (poor sleep).",
       "sessions": []
     },
     {
@@ -1467,12 +1467,12 @@
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 41.28,
+      "garminDistance": 3.07,
+      "garminPace": "13:27/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 103,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1481,8 +1481,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "~5:30 AM ET; easy run + 4–6 strides; Foundation pattern (no doubles)",
-      "sessions": []
+      "workoutNotes": "Garmin \"Virginia Beach - 36' - 6x30\\\" strides\" 41:17 / 3.07 mi @ 13:27/mi; avg HR 126. Run 40 + strides Completed 103%.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach, 6x30\" strides)",
+          "minutes": 41.28,
+          "distanceMi": 3.07,
+          "pace": "13:27/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 103,
+          "notes": "avg HR 126; 6x30\" strides",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-16",
@@ -1504,7 +1517,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Foundation week 5 — consistency, not speed.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 5 — consistency, not speed. Prefer lap lanes. Fri open/lap swim midday at Bow Creek.",
       "sessions": []
     },
     {
@@ -1527,7 +1540,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "Foundation week 5 long ride — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 5 long ride — easy-moderate; water; Gatorade/Clif OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -1550,7 +1563,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "Foundation week 5 long run — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 5 long run — easy conversational.",
       "sessions": []
     },
     {
@@ -1573,7 +1586,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Foundation week 6 — rest / easy mobility; Monday weigh-in",
+      "workoutNotes": "5:30 AM ET · Foundation week 6 — rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -1596,7 +1609,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Foundation week 6 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 6 — easy conversational pace.",
       "sessions": []
     },
     {
@@ -1619,7 +1632,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Foundation week 6 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 6 — easy spin. Midweek progression (+5 toward 60).",
       "sessions": []
     },
     {
@@ -1642,7 +1655,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "~5:30 AM ET; easy run + 4–6 strides; Foundation pattern (no doubles)",
+      "workoutNotes": "5:30 AM ET · Foundation week 6 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
@@ -1665,7 +1678,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Foundation week 6 — consistency, not speed.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 6 — consistency, not speed. Prefer lap lanes.",
       "sessions": []
     },
     {
@@ -1688,7 +1701,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Foundation week 6 long ride — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 6 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -1711,7 +1724,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "Foundation week 6 long run — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 6 long run — easy conversational.",
       "sessions": []
     },
     {
@@ -1734,7 +1747,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. · Weigh-in (log for Iron Coach).",
       "sessions": []
     },
     {
@@ -1757,7 +1770,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1780,7 +1793,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1803,7 +1816,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1826,7 +1839,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1849,7 +1862,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1872,7 +1885,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 7",
-      "workoutNotes": "Foundation week 7 long run — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 7 long run — easy conversational.",
       "sessions": []
     },
     {
@@ -1895,7 +1908,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 — rest / easy mobility; Monday weigh-in",
+      "workoutNotes": "5:30 AM ET · Foundation week 8 — rest / easy mobility. Optional short walk OK. First week back after cruise recovery week.",
       "sessions": []
     },
     {
@@ -1918,7 +1931,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy conversational pace. Easing back in after cruise recovery week.",
       "sessions": []
     },
     {
@@ -1941,7 +1954,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy spin. Midweek progression (+5 toward 60).",
       "sessions": []
     },
     {
@@ -1964,7 +1977,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "~5:30 AM ET; easy run + 4–6 strides; Foundation pattern (no doubles)",
+      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
@@ -1987,7 +2000,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Foundation week 8 — consistency, not speed.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 8 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2010,7 +2023,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 long ride — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 8 long ride — easy-moderate; water; fuel OK over ~75 min. Back to 100 after cruise recovery week.",
       "sessions": []
     },
     {
@@ -2033,7 +2046,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "Foundation week 8 long run — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 8 long run — easy conversational.",
       "sessions": []
     },
     {
@@ -2056,7 +2069,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Foundation week 9 — rest / easy mobility; Monday weigh-in",
+      "workoutNotes": "5:30 AM ET · Foundation week 9 — rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2079,7 +2092,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Foundation week 9 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy conversational pace.",
       "sessions": []
     },
     {
@@ -2102,7 +2115,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Foundation week 9 — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy spin. Midweek ride at 60-min cap.",
       "sessions": []
     },
     {
@@ -2125,7 +2138,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "~5:30 AM ET; easy run + 4–6 strides; Foundation pattern (no doubles)",
+      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
@@ -2148,7 +2161,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Foundation week 9 — consistency, not speed.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 9 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2171,7 +2184,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Foundation week 9 long ride — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 9 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -2194,7 +2207,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "Foundation week 9 long run — easy; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 9 long run — easy conversational.",
       "sessions": []
     },
     {
@@ -2217,7 +2230,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 — rest / easy mobility; Monday weigh-in",
+      "workoutNotes": "5:30 AM ET · Foundation week 10 — rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2240,7 +2253,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 — easy conversational pace; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy conversational pace.",
       "sessions": []
     },
     {
@@ -2263,7 +2276,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 — easy spin (midweek 60-min cap); 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy spin. Midweek ride at 60-min cap.",
       "sessions": []
     },
     {
@@ -2286,7 +2299,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 — easy + 4–6 strides; Thursday ~5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
@@ -2309,7 +2322,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes (Fri open/lap swim midday). Confirm November pool schedule. Foundation week 10 — consistency, not speed.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 10 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2332,7 +2345,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 long ride — easy-moderate; fuel OK over ~75 min; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 10 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -2355,7 +2368,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Foundation week 10 long run — easy conversational; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 10 long run — easy conversational. Thanksgiving week follows.",
       "sessions": []
     },
     {
@@ -2378,7 +2391,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Foundation week 11 (Thanksgiving step-back) — rest / easy mobility; Monday weigh-in",
+      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2401,7 +2414,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Foundation week 11 (step-back) — easy; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — easy conversational pace.",
       "sessions": []
     },
     {
@@ -2424,7 +2437,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Foundation week 11 (step-back) — easy spin; 5:30 AM ET",
+      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — easy spin.",
       "sessions": []
     },
     {
@@ -2447,7 +2460,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Thanksgiving — short and easy, 7:00 AM ET; optional turkey trot instead",
+      "workoutNotes": "7:00 AM ET · Foundation week 11 — Thanksgiving. Short and easy, enjoy the day. Optional turkey trot instead.",
       "sessions": []
     },
     {
@@ -2470,7 +2483,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Bow Creek 10:30 AM ET; prefer lap lanes. Confirm holiday hours (day after Thanksgiving). Foundation week 11 step-back.",
+      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 11 (step-back week) — consistency, not speed. Prefer lap lanes. Confirm Bow Creek holiday hours for the day after Thanksgiving before going.",
       "sessions": []
     },
     {
@@ -2493,7 +2506,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Foundation week 11 long ride (step-back) — easy-moderate; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 11 long ride (step-back) — easy-moderate; water; fuel OK over ~75 min.",
       "sessions": []
     },
     {
@@ -2516,7 +2529,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Foundation week 11 long run (step-back) — easy conversational; 6:30 AM ET",
+      "workoutNotes": "6:30 AM ET · Foundation week 11 long run (step-back) — easy conversational.",
       "sessions": []
     }
   ]
