@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-15T23:44:48-04:00",
+    "lastUpdated": "2026-10-16T10:57:19-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,12 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
-      "date": "2026-10-15",
-      "completedAt": "2026-10-15T22:56:29-04:00",
-      "materialChange": false,
-      "notes": "No material Daily Log/Garmin/MFP change since morning refresh; Oct 15 Run 40+strides still Completed 103% (no evening MFP yet); Oct 14 Bike 50 Missed; Training Calendar plan through Nov 29 unchanged.",
-      "iso": "2026-10-15T22:56:29-04:00"
+      "slot": "morning",
+      "date": "2026-10-16",
+      "completedAt": "2026-10-16T10:57:19-04:00",
+      "materialChange": true,
+      "notes": "Oct 16 make-up Run 55 Completed 116% (4.33 mi @ 14:46/mi, avg HR 115); Bow Creek swim still Planned. Oct 13 Run 55 marked Moved. Training Calendar plan through Nov 29 unchanged.",
+      "iso": "2026-10-16T10:57:19-04:00"
     }
   },
   "workouts": [
@@ -1425,7 +1425,7 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Missed",
+      "workoutStatus": "Moved",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
       "mfpCalories": 1786,
@@ -1435,7 +1435,7 @@
       "carbs": 208,
       "fat": 79,
       "nutritionNotes": "Final (nightly MFP): 1786 vs base 2360 (no exercise adj); -574 Under. P95/C208/F79. Protein 23g short, fat at goal.",
-      "workoutNotes": "No Garmin activity on Oct 13 by 11:40 PM ET (Run 55 easy @ 5:30 AM). Marked Missed; update if a late sync appears.",
+      "workoutNotes": "No Garmin on Oct 13 (Run 55 @ 5:30 AM). Moved to Fri Oct 16 make-up. Marked Moved (was Missed).",
       "sessions": []
     },
     {
@@ -1503,12 +1503,12 @@
       "plannedSession": "Swim 25–30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 64.0,
+      "garminDistance": 4.33,
+      "garminPace": "14:46/mi",
+      "workoutStatus": "Partial",
+      "workoutCompletionPct": 116,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1516,9 +1516,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 5",
-      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 5 — consistency, not speed. Prefer lap lanes. Fri open/lap swim midday at Bow Creek.",
-      "sessions": []
+      "nutritionNotes": "Foundation week 5 — MFP not final yet (morning refresh).",
+      "workoutNotes": "Make-up Run 55 Completed 116% (Virginia Beach Running 64 min / 4.33 mi @ 14:46/mi, avg HR 115). Make-up for Tue 10/13. Bow Creek swim still Planned 10:30 AM (prefer lap lanes).",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 64.0,
+          "distanceMi": 4.33,
+          "pace": "14:46/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 116,
+          "notes": "Make-up for Tue 10/13 Run 55; avg HR 115",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-17",
