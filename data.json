@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-15T10:56:05-04:00",
+    "lastUpdated": "2026-10-15T22:56:29-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -140,11 +140,11 @@
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
       "slot": "evening",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
+      "completedAt": "2026-10-15T22:56:29-04:00",
       "materialChange": false,
-      "notes": "Evening refresh: Daily Log still ends row 38 (Oct 13 Missed 1786/−574); no Oct 14 row/Garmin yet so Bike 50 stays Planned until nightly MFP; Training Calendar Oct 12–Nov 30 unchanged (last edit 2026-10-12; horizon through Nov 29). Fixed index.html DATA embed broken by 2026-10-14 morning publish (backslash-escaped quote in Oct 8 strides note made the script fail to parse).",
-      "completedAt": "2026-10-14T22:58:59-04:00",
-      "iso": "2026-10-14T22:58:59-04:00"
+      "notes": "No material Daily Log/Garmin/MFP change since morning refresh; Oct 15 Run 40+strides still Completed 103% (no evening MFP yet); Oct 14 Bike 50 Missed; Training Calendar plan through Nov 29 unchanged.",
+      "iso": "2026-10-15T22:56:29-04:00"
     }
   },
   "workouts": [
