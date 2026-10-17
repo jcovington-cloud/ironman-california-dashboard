@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-16T22:52:47-04:00",
+    "lastUpdated": "2026-10-16T23:42:02-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -138,13 +138,13 @@
     "weightCurrentLb": 245.4,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
+      "routine": "Nightly MFP final numbers",
+      "slot": "nightly-mfp",
       "date": "2026-10-16",
-      "completedAt": "2026-10-16T22:52:47-04:00",
+      "completedAt": "2026-10-16T23:42:02-04:00",
       "materialChange": true,
-      "notes": "Oct 16 Bow Creek swim Completed 97% (29 min / 1000 yd @ 2:30/100 yd); day now Completed with both sessions (make-up Run 55 116% + swim). Oct 16 MFP pending nightly. Training Calendar plan through Nov 29 unchanged.",
-      "iso": "2026-10-16T22:52:47-04:00"
+      "notes": "Oct 16 MFP finals: 2504 kcal (P129/C247/F127) vs adj 3290 (base 2360 +930 exercise); -786 Under.",
+      "iso": "2026-10-16T23:42:02-04:00"
     }
   },
   "workouts": [
@@ -1509,14 +1509,14 @@
       "garminPace": "2:30/100 yd",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 97,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 5 — MFP not final yet (evening refresh; nightly MFP ~11:30 PM ET).",
+      "plannedCalories": 3290,
+      "mfpCalories": 2504,
+      "calorieDelta": -786,
+      "overUnder": "Under",
+      "protein": 129,
+      "carbs": 247,
+      "fat": 127,
+      "nutritionNotes": "Final (nightly MFP): 2504 vs adj 3290 (base 2360 +930 exercise); −786 Under. P129/C247/F127. Protein 36g short, fat 17g over. Foundation week 5.",
       "workoutNotes": "Bow Creek swim Completed 97% (Pool Swim 29 min / 1000 yd @ 2:30/100 yd). Also make-up Run 55 Completed 116% (Virginia Beach Running 64 min / 4.33 mi @ 14:46/mi, avg HR 115) for Tue 10/13.",
       "sessions": [
         {
