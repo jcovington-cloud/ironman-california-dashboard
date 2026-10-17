@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-16T10:57:19-04:00",
+    "lastUpdated": "2026-10-16T22:52:47-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,12 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "morning",
+      "slot": "evening",
       "date": "2026-10-16",
-      "completedAt": "2026-10-16T10:57:19-04:00",
+      "completedAt": "2026-10-16T22:52:47-04:00",
       "materialChange": true,
-      "notes": "Oct 16 make-up Run 55 Completed 116% (4.33 mi @ 14:46/mi, avg HR 115); Bow Creek swim still Planned. Oct 13 Run 55 marked Moved. Training Calendar plan through Nov 29 unchanged.",
-      "iso": "2026-10-16T10:57:19-04:00"
+      "notes": "Oct 16 Bow Creek swim Completed 97% (29 min / 1000 yd @ 2:30/100 yd); day now Completed with both sessions (make-up Run 55 116% + swim). Oct 16 MFP pending nightly. Training Calendar plan through Nov 29 unchanged.",
+      "iso": "2026-10-16T22:52:47-04:00"
     }
   },
   "workouts": [
@@ -1503,12 +1503,12 @@
       "plannedSession": "Swim 25–30 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": "Running",
-      "garminMinutes": 64.0,
-      "garminDistance": 4.33,
-      "garminPace": "14:46/mi",
-      "workoutStatus": "Partial",
-      "workoutCompletionPct": 116,
+      "garminActivity": "Pool Swim",
+      "garminMinutes": 29.0,
+      "garminDistance": 0.57,
+      "garminPace": "2:30/100 yd",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 97,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1516,8 +1516,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 5 — MFP not final yet (morning refresh).",
-      "workoutNotes": "Make-up Run 55 Completed 116% (Virginia Beach Running 64 min / 4.33 mi @ 14:46/mi, avg HR 115). Make-up for Tue 10/13. Bow Creek swim still Planned 10:30 AM (prefer lap lanes).",
+      "nutritionNotes": "Foundation week 5 — MFP not final yet (evening refresh; nightly MFP ~11:30 PM ET).",
+      "workoutNotes": "Bow Creek swim Completed 97% (Pool Swim 29 min / 1000 yd @ 2:30/100 yd). Also make-up Run 55 Completed 116% (Virginia Beach Running 64 min / 4.33 mi @ 14:46/mi, avg HR 115) for Tue 10/13.",
       "sessions": [
         {
           "sport": "Run",
@@ -1529,6 +1529,18 @@
           "planned": true,
           "completionPct": 116,
           "notes": "Make-up for Tue 10/13 Run 55; avg HR 115",
+          "activityId": null
+        },
+        {
+          "sport": "Swim",
+          "activity": "Pool Swim (Bow Creek)",
+          "minutes": 29.0,
+          "distanceMi": 0.57,
+          "pace": "2:30/100 yd",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 97,
+          "notes": "1000 yd; ~97% of 30 min planned @ Bow Creek",
           "activityId": null
         }
       ]
