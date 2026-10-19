@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-18T10:56:12-04:00",
+    "lastUpdated": "2026-10-18T22:55:10-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -139,12 +139,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "morning",
+      "slot": "evening",
       "date": "2026-10-18",
-      "completedAt": "2026-10-18T10:56:12-04:00",
-      "materialChange": true,
-      "notes": "Oct 18 Run 75 Completed 107% (Running 80 min / 6.04 mi @ 13:10/mi) from Daily Log row 44; MFP pending nightly. Training Calendar unchanged (Oct 17–Dec 27 match).",
-      "iso": "2026-10-18T10:56:12-04:00"
+      "completedAt": "2026-10-18T22:55:10-04:00",
+      "materialChange": false,
+      "notes": "Oct 18 MFP provisional from Daily Log row 44 (2752 vs adj 3279, −527 Under; P195/C217/F133); nightly finals pending. Training Calendar unchanged (Oct 17–Dec 27 match).",
+      "iso": "2026-10-18T22:55:10-04:00"
     }
   },
   "workouts": [
@@ -1593,14 +1593,14 @@
       "garminPace": "13:10/mi",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 107,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "MFP pending nightly. Foundation week 5.",
+      "plannedCalories": 3279,
+      "mfpCalories": 2752,
+      "calorieDelta": -527,
+      "overUnder": "Under",
+      "protein": 195,
+      "carbs": 217,
+      "fat": 133,
+      "nutritionNotes": "Provisional (Sunday weekly summary ~8:10 PM ET): 2752 vs adj 3279 (base 2360 +919 exercise); −527 Under. P195/C217/F133. Protein 31g over, fat 23g over goal. Nightly finals at 11:30 PM. Foundation week 5.",
       "workoutNotes": "Garmin Running 80 min / 6.04 mi @ 13:10/mi. Run 75 Completed 107%. Foundation week 5 long run (planned 6:30 AM ET).",
       "sessions": [
         {
