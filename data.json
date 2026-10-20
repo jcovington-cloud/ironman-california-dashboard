@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-19T23:51:30-04:00",
+    "lastUpdated": "2026-10-20T10:57:49-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -144,12 +144,12 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
-      "slot": "evening",
-      "date": "2026-10-19",
-      "completedAt": "2026-10-19T22:49:55-04:00",
-      "materialChange": false,
-      "notes": "No new Daily Log entries since morning (rows through 45 / Oct 19; Oct 19 MFP pending nightly finals). Training Calendar unchanged Oct 19\u2013Dec 27 (weigh-in-only and non-training events skipped).",
-      "iso": "2026-10-19T22:49:55-04:00"
+      "slot": "morning",
+      "date": "2026-10-20",
+      "materialChange": true,
+      "notes": "Daily Log row 46 added: Oct 20 Run 60 Completed 106% (Running 64 min / 4.79 mi @ 13:17/mi); MFP pending nightly. Training Calendar unchanged Oct 19\u2013Dec 27 (weigh-in-only and non-training events skipped).",
+      "completedAt": "2026-10-20T10:57:49-04:00",
+      "iso": "2026-10-20T10:57:49-04:00"
     }
   },
   "workouts": [
@@ -1664,12 +1664,12 @@
       "plannedSession": "Run 60 min easy",
       "plannedMinutes": 60,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 64.0,
+      "garminDistance": 4.79,
+      "garminPace": "13:17/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 106,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1677,9 +1677,22 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 6 \u2014 easy conversational pace.",
-      "sessions": []
+      "nutritionNotes": "MFP pending nightly finals. Foundation week 6",
+      "workoutNotes": "Garmin Running 64 min / 4.79 mi @ 13:17/mi. Run 60 Completed 106%. 5:30 AM ET \u00b7 Foundation week 6 \u2014 easy conversational pace.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running",
+          "minutes": 64.0,
+          "distanceMi": 4.79,
+          "pace": "13:17/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 106,
+          "notes": "From Daily Log row 46",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-21",
