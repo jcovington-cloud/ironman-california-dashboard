@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-21T12:18:24-04:00",
+    "lastUpdated": "2026-10-21T14:41:42-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -147,9 +147,7 @@
       "slot": "on-demand",
       "date": "2026-10-21",
       "materialChange": true,
-      "notes": "Daily Log row 47: Oct 21 Bike 55 easy \u2014 Indoor Cycling 55 min / 11.36 mi @ 12.4 mph, 107 W, Completed 100%.",
-      "completedAt": "2026-10-21T12:18:24-04:00",
-      "iso": "2026-10-21T12:18:24-04:00"
+      "notes": "Calendar: Bow Creek swim moved Fri Oct 23 \u2192 Thu Oct 22 10:30\u201311:00 AM (with 5:30 AM run); Friday now rest."
     }
   },
   "workouts": [
@@ -1733,8 +1731,8 @@
     {
       "date": "2026-10-22",
       "day": "Thu",
-      "plannedSession": "Run 40 min easy + strides",
-      "plannedMinutes": 40,
+      "plannedSession": "Run 40 min easy + strides; Swim 25\u201330 min @ Bow Creek",
+      "plannedMinutes": 70,
       "plannedSport": "Run",
       "garminActivity": null,
       "garminMinutes": null,
@@ -1750,15 +1748,15 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 6 \u2014 easy run + 4\u20136 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
+      "workoutNotes": "5:30 AM ET \u00b7 Run 40 easy + 4\u20136 strides. 10:30\u201311:00 AM ET \u00b7 Swim @ Bow Creek (moved from Fri Oct 23; doubling up), prefer lap lanes. Foundation week 6.",
       "sessions": []
     },
     {
       "date": "2026-10-23",
       "day": "Fri",
-      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
-      "plannedMinutes": 30,
-      "plannedSport": "Swim",
+      "plannedSession": "Rest / no planned workout",
+      "plannedMinutes": 0,
+      "plannedSport": "Rest",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -1773,7 +1771,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 6 \u2014 consistency, not speed. Prefer lap lanes.",
+      "workoutNotes": "No session \u2014 swim moved to Thu Oct 22 (tight day).",
       "sessions": []
     },
     {
