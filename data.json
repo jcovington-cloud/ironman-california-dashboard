@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-22T09:21:01-04:00",
+    "lastUpdated": "2026-10-22T10:53:10-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -143,11 +143,11 @@
     "weightCurrentLb": 244.0,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Daily Garmin to Daily Log",
-      "slot": "morning",
+      "routine": "Dashboard refresh",
+      "slot": "late-morning",
       "date": "2026-10-22",
-      "materialChange": true,
-      "notes": "Oct 22 Run 40 + strides Completed 105% (Garmin 42:11 / 3.26 mi @ 12:56/mi, avg HR 131); Daily Log row 48 written.",
+      "materialChange": false,
+      "notes": "Daily Log unchanged vs data.json (row 48 Oct 22 Run 40 + strides already published); Training Calendar Oct 19\u2013Dec 27 (81 events) matches data.json. Timestamp-only republish.",
       "iso": ""
     }
   },
