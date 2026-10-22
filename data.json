@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-22T05:48:33-04:00",
+    "lastUpdated": "2026-10-22T09:21:01-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -143,11 +143,11 @@
     "weightCurrentLb": 244.0,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "On-demand calendar change",
-      "slot": "on-demand",
+      "routine": "Daily Garmin to Daily Log",
+      "slot": "morning",
       "date": "2026-10-22",
       "materialChange": true,
-      "notes": "Calendar: Bow Creek swim moved back Thu Oct 22 \u2192 Fri Oct 23 10:30\u201311:00 AM; Thursday is Run 40 + strides only.",
+      "notes": "Oct 22 Run 40 + strides Completed 105% (Garmin 42:11 / 3.26 mi @ 12:56/mi, avg HR 131); Daily Log row 48 written.",
       "iso": ""
     }
   },
@@ -1735,12 +1735,12 @@
       "plannedSession": "Run 40 min easy + strides",
       "plannedMinutes": 40,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 42.2,
+      "garminDistance": 3.26,
+      "garminPace": "12:56/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 105,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1749,8 +1749,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "5:30 AM ET \u00b7 Run 40 easy + 4\u20136 strides. Foundation week 6.",
-      "sessions": []
+      "workoutNotes": "Garmin Virginia Beach - 36' 6x30\" strides: 42:11 / 3.26 mi @ 12:56/mi; avg HR 131. Run 40 + strides Completed 105%. Foundation week 6.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running",
+          "minutes": 42.2,
+          "distanceMi": 3.26,
+          "pace": "12:56/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 105,
+          "notes": "From Daily Log row 48 \u00b7 avg HR 131",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-23",
