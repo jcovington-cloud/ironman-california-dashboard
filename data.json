@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach — Ironman California 2027",
+    "title": "Iron Coach \u2014 Ironman California 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
     "race": "IRONMAN California (Sacramento)",
     "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 — confirm when registration opens; 2026 race is Oct 18",
+    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-22T22:50:15-04:00",
+    "lastUpdated": "2026-10-22T23:42:17-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
     "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025–26 reference until 2027 maps publish",
+    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -35,7 +35,7 @@
         "name": "Base",
         "start": "2026-11-30",
         "end": "2027-04-30",
-        "description": "Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy. Friel Base 1–2: Nov 30 test week (Dec 1 run LTHR test, Dec 5 bike LTHR test), 2 load + 1 recovery week cycles, 2× weekly Anatomical Adaptation strength."
+        "description": "Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy. Friel Base 1\u20132: Nov 30 test week (Dec 1 run LTHR test, Dec 5 bike LTHR test), 2 load + 1 recovery week cycles, 2\u00d7 weekly Anatomical Adaptation strength."
       },
       {
         "id": "specific",
@@ -86,7 +86,7 @@
       },
       {
         "day": "Fri",
-        "session": "Swim 25–30 @ Bow Creek 10:30",
+        "session": "Swim 25\u201330 @ Bow Creek 10:30",
         "sport": "Swim",
         "minutes": 30
       },
@@ -141,13 +141,13 @@
       }
     ],
     "weightCurrentLb": 244.0,
-    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day — never bury extras only in workoutNotes.",
+    "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Dashboard refresh",
       "slot": "late-morning",
       "date": "2026-10-22",
       "materialChange": false,
-      "notes": "Daily Log unchanged vs data.json (row 48 Oct 22 Run 40 + strides already published); Training Calendar Oct 19–Dec 27 (81 events) matches data.json. Timestamp-only republish.",
+      "notes": "Daily Log unchanged vs data.json (row 48 Oct 22 Run 40 + strides already published); Training Calendar Oct 19\u2013Dec 27 (81 events) matches data.json. Timestamp-only republish.",
       "iso": ""
     }
   },
@@ -916,7 +916,7 @@
       "carbs": 148,
       "fat": 99,
       "nutritionNotes": "Nightly MFP finals: 2090 kcal (P131/C148/F99). Training day: MFP adjusted goal 2644 (base 2360 +284 exercise). Remaining 554. Unchanged from evening provisional.",
-      "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) — low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
+      "workoutNotes": "Garmin 10:43 AM ET; 35:33; avg HR 126; avg power 105 W; 284 cal. Cut short (~half) \u2014 low energy + yard work; long ride to repeat 70 min Sat 2026-10-03",
       "sessions": [
         {
           "sport": "Bike",
@@ -975,7 +975,7 @@
       "carbs": 183,
       "fat": 146,
       "nutritionNotes": "Final (nightly MFP): 2501 vs base 2360; +141 Over. No Garmin exercise bump.",
-      "workoutNotes": "Intentional skip — no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (gub5dlnh4p7iu89ii00khp2qls). No Garmin activity.",
+      "workoutNotes": "Intentional skip \u2014 no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (gub5dlnh4p7iu89ii00khp2qls). No Garmin activity.",
       "sessions": []
     },
     {
@@ -997,8 +997,8 @@
       "protein": 67,
       "carbs": 198,
       "fat": 84,
-      "nutritionNotes": "Final (nightly MFP): 1982 vs 2360; -378 Under. Intentional skip — no sleep / long work days.",
-      "workoutNotes": "Intentional skip — no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (19mcqgnkj6min2tvrnc4f23764). No Garmin activity.",
+      "nutritionNotes": "Final (nightly MFP): 1982 vs 2360; -378 Under. Intentional skip \u2014 no sleep / long work days.",
+      "workoutNotes": "Intentional skip \u2014 no sleep / long work days. Resume Fri Oct 2 (run moved; double with swim). Calendar SKIPPED (19mcqgnkj6min2tvrnc4f23764). No Garmin activity.",
       "sessions": []
     },
     {
@@ -1020,7 +1020,7 @@
       "protein": 129,
       "carbs": 258,
       "fat": 68,
-      "nutritionNotes": "Rest day (calendar SoT: no planned workout; Run 40 moved to Fri Oct 2). Final (nightly MFP): 2302 vs base goal 2360; −58 Under. MFP Daily Goal 2360; Exercise diary Garmin Connect calorie adjustment 0.",
+      "nutritionNotes": "Rest day (calendar SoT: no planned workout; Run 40 moved to Fri Oct 2). Final (nightly MFP): 2302 vs base goal 2360; \u221258 Under. MFP Daily Goal 2360; Exercise diary Garmin Connect calorie adjustment 0.",
       "workoutNotes": "Calendar SoT: Rest / no planned workout Oct 1. Run 40 + strides moved to Fri Oct 2 5:30 AM (was to stack with Bow Creek swim). No Garmin activity Oct 1. Sheet row now Rest/Completed with MFP (morning Garmin routine).",
       "sessions": []
     },
@@ -1043,8 +1043,8 @@
       "protein": 101,
       "carbs": 213,
       "fat": 94,
-      "nutritionNotes": "Final (nightly MFP): 2115 vs base goal 2360 (exercise adj 0); −245 Under. Intentional skip day (Run 40+strides + Bow Creek swim both SKIPPED).",
-      "workoutNotes": "Intentional skip (Jonathan 2026-10-02): Run 40+strides @5:30 AM and Swim 25–30 @ Bow Creek 10:30 AM both SKIPPED (calendar ids j5or5ntp2gq6bcs83vfq68efpk, qtik778mddbfslstf38ndftcrc). No Garmin Oct 1–2 (most recent still Sep 27 Indoor Cycling 35:33 / 7.18 mi). Resume Sat Oct 3 Bike 70. Sheet: Missed 0%.",
+      "nutritionNotes": "Final (nightly MFP): 2115 vs base goal 2360 (exercise adj 0); \u2212245 Under. Intentional skip day (Run 40+strides + Bow Creek swim both SKIPPED).",
+      "workoutNotes": "Intentional skip (Jonathan 2026-10-02): Run 40+strides @5:30 AM and Swim 25\u201330 @ Bow Creek 10:30 AM both SKIPPED (calendar ids j5or5ntp2gq6bcs83vfq68efpk, qtik778mddbfslstf38ndftcrc). No Garmin Oct 1\u20132 (most recent still Sep 27 Indoor Cycling 35:33 / 7.18 mi). Resume Sat Oct 3 Bike 70. Sheet: Missed 0%.",
       "sessions": [
         {
           "sport": "Run",
@@ -1055,19 +1055,19 @@
           "startEt": "5:30 AM",
           "planned": true,
           "completionPct": 0,
-          "notes": "SKIPPED intentional — calendar j5or5ntp2gq6bcs83vfq68efpk",
+          "notes": "SKIPPED intentional \u2014 calendar j5or5ntp2gq6bcs83vfq68efpk",
           "activityId": null
         },
         {
           "sport": "Swim",
-          "activity": "Swim 25–30 min @ Bow Creek",
+          "activity": "Swim 25\u201330 min @ Bow Creek",
           "minutes": 30,
           "distanceMi": null,
           "pace": null,
           "startEt": "10:30 AM",
           "planned": true,
           "completionPct": 0,
-          "notes": "SKIPPED intentional — Bow Creek; prefer lap lanes; calendar qtik778mddbfslstf38ndftcrc",
+          "notes": "SKIPPED intentional \u2014 Bow Creek; prefer lap lanes; calendar qtik778mddbfslstf38ndftcrc",
           "activityId": null
         }
       ]
@@ -1091,7 +1091,7 @@
       "protein": 93,
       "carbs": 241,
       "fat": 89,
-      "nutritionNotes": "Final (nightly MFP): 2111 vs adj 2897 (base 2360 +537 exercise); −786 Under. Bike 70 Completed 101%.",
+      "nutritionNotes": "Final (nightly MFP): 2111 vs adj 2897 (base 2360 +537 exercise); \u2212786 Under. Bike 70 Completed 101%.",
       "workoutNotes": "Garmin 8:27 AM ET; 1:10:34; avg HR 131; avg power 98 W; 537 total cal (417 active). Full Bike 70 repeat after Sep 27 partial.",
       "sessions": [
         {
@@ -1127,7 +1127,7 @@
       "protein": 183,
       "carbs": 304,
       "fat": 90,
-      "nutritionNotes": "Final (nightly MFP): 2615 vs adj 3230 (base 2360 +870 exercise); −615 Under. P183/C304/F90. Run 70 Completed 104%.",
+      "nutritionNotes": "Final (nightly MFP): 2615 vs adj 3230 (base 2360 +870 exercise); \u2212615 Under. P183/C304/F90. Run 70 Completed 104%.",
       "workoutNotes": "Garmin 8:29 AM ET; 1:13:08; 6.02 mi @ 12:09/mi; avg HR 142; 870 cal. Full Run 70+.",
       "sessions": [
         {
@@ -1163,7 +1163,7 @@
       "protein": 174,
       "carbs": 186,
       "fat": 89,
-      "nutritionNotes": "Final (nightly MFP): 2109 vs base 2360 (rest day); −251 Under. P174/C186/F89. MFP showed 2515 incl. 155 exercise cal from optional treadmill. Monday weigh-in 243.2 lb (prev 246.2; baseline 249).",
+      "nutritionNotes": "Final (nightly MFP): 2109 vs base 2360 (rest day); \u2212251 Under. P174/C186/F89. MFP showed 2515 incl. 155 exercise cal from optional treadmill. Monday weigh-in 243.2 lb (prev 246.2; baseline 249).",
       "workoutNotes": "Planned rest day; optional rest-day Garmin: Treadmill Running 20:05 / 1.41 mi @ 14:13/mi; avg HR 111. Monday weigh-in 243.2 lb.",
       "sessions": [
         {
@@ -1199,7 +1199,7 @@
       "protein": 125,
       "carbs": 195,
       "fat": 134,
-      "nutritionNotes": "Final (nightly MFP): 2506 vs adj 2916 (base 2360 +556 exercise); −410 Under. P125/C195/F134. Run 50 Completed 100%.",
+      "nutritionNotes": "Final (nightly MFP): 2506 vs adj 2916 (base 2360 +556 exercise); \u2212410 Under. P125/C195/F134. Run 50 Completed 100%.",
       "workoutNotes": "Garmin start 6:09 AM ET; 50:06 / 4.07 mi @ 12:18/mi; avg HR 134. Run 50 Completed 100%.",
       "sessions": [
         {
@@ -1235,7 +1235,7 @@
       "protein": 95,
       "carbs": 285,
       "fat": 97,
-      "nutritionNotes": "Final (nightly MFP): 2255 vs adj 2711 (base 2360 +351 exercise); −456 Under. P95/C285/F97. Bike 45 Completed 100%.",
+      "nutritionNotes": "Final (nightly MFP): 2255 vs adj 2711 (base 2360 +351 exercise); \u2212456 Under. P95/C285/F97. Bike 45 Completed 100%.",
       "workoutNotes": "Garmin Indoor Cycling 46:02 / 9.09 mi (11.9 mph avg, 99 W avg). Bike 45 Completed 100%. Lynchburg depart Wed night.",
       "sessions": [
         {
@@ -1271,7 +1271,7 @@
       "protein": 148,
       "carbs": 219,
       "fat": 114,
-      "nutritionNotes": "Final (nightly MFP): 2310 vs adj 2839 (base 2360 +479 exercise); −529 Under. P148/C219/F114. Run 40 + strides Completed 100%.",
+      "nutritionNotes": "Final (nightly MFP): 2310 vs adj 2839 (base 2360 +479 exercise); \u2212529 Under. P148/C219/F114. Run 40 + strides Completed 100%.",
       "workoutNotes": "Garmin \"Campbell County - 36' - 6x30\\\" strides\" 42:11 / 3.09 mi @ 13:39/mi; avg HR 139. Run 40 + strides Completed 100%. (Lynchburg)",
       "sessions": [
         {
@@ -1307,7 +1307,7 @@
       "protein": 80,
       "carbs": 213,
       "fat": 123,
-      "nutritionNotes": "Final (nightly MFP): 2312 vs adj 3165 (base 2360 +805 exercise); −853 Under. P80/C213/F123. Fat 17g over goal, protein 78g short. Run 70 Completed 100%.",
+      "nutritionNotes": "Final (nightly MFP): 2312 vs adj 3165 (base 2360 +805 exercise); \u2212853 Under. P80/C213/F123. Fat 17g over goal, protein 78g short. Run 70 Completed 100%.",
       "workoutNotes": "Garmin \"Campbell County Running\" 1:11:51 / 5.24 mi @ 13:43/mi; avg HR 137. Run 70 Completed 100%. Lynchburg travel; long run moved to Friday (on the road).",
       "sessions": [
         {
@@ -1343,7 +1343,7 @@
       "protein": 107,
       "carbs": 270,
       "fat": 127,
-      "nutritionNotes": "Final (nightly MFP): 2553 vs adj 2625 (base 2360 +265 exercise); −72 Under. P107/C270/F127. Fat 39g over goal, protein 24g short. Bike 80 Completed 101%.",
+      "nutritionNotes": "Final (nightly MFP): 2553 vs adj 2625 (base 2360 +265 exercise); \u221272 Under. P107/C270/F127. Fat 39g over goal, protein 24g short. Bike 80 Completed 101%.",
       "workoutNotes": "Garmin Indoor Cycling 1:21:07 / 16.50 mi (12.2 mph); avg HR 94. Bike 80 Completed 101%. Long ride +10/week progression.",
       "sessions": [
         {
@@ -1379,7 +1379,7 @@
       "protein": 144,
       "carbs": 206,
       "fat": 133,
-      "nutritionNotes": "Final (nightly MFP): 2338 vs adj 2869 (base 2360 +509 exercise); −531 Under. P144/C206/F133. Fat 37g over goal, protein on target (+1g). Run 45 Completed 116%. Foundation week 4.",
+      "nutritionNotes": "Final (nightly MFP): 2338 vs adj 2869 (base 2360 +509 exercise); \u2212531 Under. P144/C206/F133. Fat 37g over goal, protein on target (+1g). Run 45 Completed 116%. Foundation week 4.",
       "workoutNotes": "Garmin \"Virginia Beach Running\" 52:16 / 3.53 mi @ 14:49/mi; avg HR 121. Run 45 Completed 116%. 7:30 AM ET; swapped from Bow Creek swim on 2026-10-10 (Jonathan's request).",
       "sessions": [
         {
@@ -1415,8 +1415,8 @@
       "protein": 115,
       "carbs": 162,
       "fat": 148,
-      "nutritionNotes": "Final (nightly MFP): 2405 vs rest-day base 2360; +45 On target (within ±50). P115/C162/F148. Fat 69g over goal, protein 3g short. Monday weigh-in 245.4 lb (prev 243.2; baseline 249).",
-      "workoutNotes": "Monday weigh-in 245.4 lb. Foundation week 5 — rest / easy mobility; optional short walk OK.",
+      "nutritionNotes": "Final (nightly MFP): 2405 vs rest-day base 2360; +45 On target (within \u00b150). P115/C162/F148. Fat 69g over goal, protein 3g short. Monday weigh-in 245.4 lb (prev 243.2; baseline 249).",
+      "workoutNotes": "Monday weigh-in 245.4 lb. Foundation week 5 \u2014 rest / easy mobility; optional short walk OK.",
       "sessions": []
     },
     {
@@ -1484,7 +1484,7 @@
       "protein": 83,
       "carbs": 281,
       "fat": 110,
-      "nutritionNotes": "Final (nightly MFP): 2166 vs adj 2818 (base 2360 +458 exercise); −652 Under. P83/C281/F110. Protein 58g short, fat 16g over. Foundation week 5.",
+      "nutritionNotes": "Final (nightly MFP): 2166 vs adj 2818 (base 2360 +458 exercise); \u2212652 Under. P83/C281/F110. Protein 58g short, fat 16g over. Foundation week 5.",
       "workoutNotes": "Garmin \"Virginia Beach - 36' - 6x30\\\" strides\" 41:17 / 3.07 mi @ 13:27/mi; avg HR 126. Run 40 + strides Completed 103%.",
       "sessions": [
         {
@@ -1504,7 +1504,7 @@
     {
       "date": "2026-10-16",
       "day": "Fri",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": "Pool Swim",
@@ -1520,7 +1520,7 @@
       "protein": 129,
       "carbs": 247,
       "fat": 127,
-      "nutritionNotes": "Final (nightly MFP): 2504 vs adj 3290 (base 2360 +930 exercise); −786 Under. P129/C247/F127. Protein 36g short, fat 17g over. Foundation week 5.",
+      "nutritionNotes": "Final (nightly MFP): 2504 vs adj 3290 (base 2360 +930 exercise); \u2212786 Under. P129/C247/F127. Protein 36g short, fat 17g over. Foundation week 5.",
       "workoutNotes": "Bow Creek swim Completed 97% (Pool Swim 29 min / 1000 yd @ 2:30/100 yd). Also make-up Run 55 Completed 116% (Virginia Beach Running 64 min / 4.33 mi @ 14:46/mi, avg HR 115) for Tue 10/13.",
       "sessions": [
         {
@@ -1568,7 +1568,7 @@
       "protein": 140,
       "carbs": 261,
       "fat": 92,
-      "nutritionNotes": "Final (nightly MFP): 2409 vs adj 3060 (base 2360 +700 exercise); −651 Under. P140/C261/F92. Protein 13g short, fat 10g under goal. Foundation week 5.",
+      "nutritionNotes": "Final (nightly MFP): 2409 vs adj 3060 (base 2360 +700 exercise); \u2212651 Under. P140/C261/F92. Protein 13g short, fat 10g under goal. Foundation week 5.",
       "workoutNotes": "Garmin Indoor Cycling 90 min / 18.02 mi (12.0 mph avg). Bike 90 Completed 100%. Foundation week 5 long ride (planned 6:30 AM ET). Long-ride progression +10/week.",
       "sessions": [
         {
@@ -1604,7 +1604,7 @@
       "protein": 195,
       "carbs": 217,
       "fat": 133,
-      "nutritionNotes": "Final (nightly MFP): 2752 vs adj 3279 (base 2360 +919 exercise); −527 Under. P195/C217/F133. Protein 31g over, fat 23g over goal. Same as evening provisional; diary not marked complete. Foundation week 5.",
+      "nutritionNotes": "Final (nightly MFP): 2752 vs adj 3279 (base 2360 +919 exercise); \u2212527 Under. P195/C217/F133. Protein 31g over, fat 23g over goal. Same as evening provisional; diary not marked complete. Foundation week 5.",
       "workoutNotes": "Garmin Running 80 min / 6.04 mi @ 13:10/mi. Run 75 Completed 107%. Foundation week 5 long run (planned 6:30 AM ET).",
       "sessions": [
         {
@@ -1640,7 +1640,7 @@
       "protein": 138,
       "carbs": 212,
       "fat": 100,
-      "nutritionNotes": "Final (nightly MFP): 2261 vs rest-day base 2360 (MFP exercise-adjusted 2789 with +429 from optional run); −99 Under. P138/C212/F100. Diary not marked complete. Foundation week 6.",
+      "nutritionNotes": "Final (nightly MFP): 2261 vs rest-day base 2360 (MFP exercise-adjusted 2789 with +429 from optional run); \u221299 Under. P138/C212/F100. Diary not marked complete. Foundation week 6.",
       "workoutNotes": "Planned rest day; optional rest-day Garmin: Virginia Beach Running 42:39 / 2.95 mi @ 14:29/mi; avg HR 125; started 6:22 AM ET. Monday weigh-in 244.0 lb. Foundation week 6.",
       "sessions": [
         {
@@ -1676,8 +1676,8 @@
       "protein": 170,
       "carbs": 207,
       "fat": 85,
-      "nutritionNotes": "Final (nightly MFP): 2123 vs adj 3083 (base 2360 +723 exercise); −960 Under. P170/C207/F85. Protein 16g over goal. Diary not marked complete. Foundation week 6.",
-      "workoutNotes": "Garmin Running 64 min / 4.79 mi @ 13:17/mi. Run 60 Completed 106%. 5:30 AM ET · Foundation week 6 — easy conversational pace.",
+      "nutritionNotes": "Final (nightly MFP): 2123 vs adj 3083 (base 2360 +723 exercise); \u2212960 Under. P170/C207/F85. Protein 16g over goal. Diary not marked complete. Foundation week 6.",
+      "workoutNotes": "Garmin Running 64 min / 4.79 mi @ 13:17/mi. Run 60 Completed 106%. 5:30 AM ET \u00b7 Foundation week 6 \u2014 easy conversational pace.",
       "sessions": [
         {
           "sport": "Run",
@@ -1712,8 +1712,8 @@
       "protein": 132,
       "carbs": 211,
       "fat": 159,
-      "nutritionNotes": "Final (nightly MFP): 2750 vs adj 2807 (base 2360 +447 exercise); −57 Under. P132/C211/F159. Protein 8g short, fat 65g over goal. Diary not marked complete. Foundation week 6.",
-      "workoutNotes": "Garmin Indoor Cycling 55 min / 11.36 mi @ 12.4 mph (107 W). Bike 55 Completed 100%. Midday ride (planned 5:30 AM ET) · Foundation week 6 — easy spin.",
+      "nutritionNotes": "Final (nightly MFP): 2750 vs adj 2807 (base 2360 +447 exercise); \u221257 Under. P132/C211/F159. Protein 8g short, fat 65g over goal. Diary not marked complete. Foundation week 6.",
+      "workoutNotes": "Garmin Indoor Cycling 55 min / 11.36 mi @ 12.4 mph (107 W). Bike 55 Completed 100%. Midday ride (planned 5:30 AM ET) \u00b7 Foundation week 6 \u2014 easy spin.",
       "sessions": [
         {
           "sport": "Bike",
@@ -1724,7 +1724,7 @@
           "startEt": null,
           "planned": true,
           "completionPct": 100,
-          "notes": "From Daily Log row 47 · 107 W",
+          "notes": "From Daily Log row 47 \u00b7 107 W",
           "activityId": null
         }
       ]
@@ -1741,14 +1741,14 @@
       "garminPace": "12:56/mi",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 105,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 6",
+      "plannedCalories": 2841,
+      "mfpCalories": 2544,
+      "calorieDelta": -297,
+      "overUnder": "Under",
+      "protein": 114,
+      "carbs": 268,
+      "fat": 102,
+      "nutritionNotes": "Final (nightly MFP): 2544 vs adj 2841 (base 2360 +481 exercise); \u2212297 Under. P114/C268/F102. Diary not marked complete. Foundation week 6.",
       "workoutNotes": "Garmin Virginia Beach - 36' 6x30\" strides: 42:11 / 3.26 mi @ 12:56/mi; avg HR 131. Run 40 + strides Completed 105%. Foundation week 6.",
       "sessions": [
         {
@@ -1760,7 +1760,7 @@
           "startEt": null,
           "planned": true,
           "completionPct": 105,
-          "notes": "From Daily Log row 48 · avg HR 131",
+          "notes": "From Daily Log row 48 \u00b7 avg HR 131",
           "activityId": null
         }
       ]
@@ -1768,7 +1768,7 @@
     {
       "date": "2026-10-23",
       "day": "Fri",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -1785,7 +1785,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "10:30–11:00 AM ET · Swim @ Bow Creek (moved back from Thu Oct 22), prefer lap lanes. Foundation week 6.",
+      "workoutNotes": "10:30\u201311:00 AM ET \u00b7 Swim @ Bow Creek (moved back from Thu Oct 22), prefer lap lanes. Foundation week 6.",
       "sessions": []
     },
     {
@@ -1808,7 +1808,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "6:30 AM ET · Foundation week 6 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 6 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -1831,7 +1831,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (Miami)",
-      "workoutNotes": "7:00 AM ET · Recovery week (Miami, then cruise to Bahamas). 30 min of any easy activity you like: walk, hotel gym, easy jog, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (Miami, then cruise to Bahamas). 30 min of any easy activity you like: walk, hotel gym, easy jog, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1854,7 +1854,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. · Weigh-in (log for Iron Coach).",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Weigh-in (log for Iron Coach).",
       "sessions": []
     },
     {
@@ -1877,7 +1877,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1900,7 +1900,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1923,7 +1923,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1946,7 +1946,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1969,7 +1969,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET · Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
       "sessions": []
     },
     {
@@ -1992,7 +1992,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 7",
-      "workoutNotes": "6:30 AM ET · Foundation week 7 long run — easy conversational.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 7 long run \u2014 easy conversational.",
       "sessions": []
     },
     {
@@ -2015,7 +2015,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET · Foundation week 8 — rest / easy mobility. Optional short walk OK. First week back after cruise recovery week.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 rest / easy mobility. Optional short walk OK. First week back after cruise recovery week.",
       "sessions": []
     },
     {
@@ -2038,7 +2038,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy conversational pace. Easing back in after cruise recovery week.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 easy conversational pace. Easing back in after cruise recovery week.",
       "sessions": []
     },
     {
@@ -2061,7 +2061,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy spin. Midweek progression (+5 toward 60).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 easy spin. Midweek progression (+5 toward 60).",
       "sessions": []
     },
     {
@@ -2084,13 +2084,13 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET · Foundation week 8 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 easy run + 4\u20136 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
       "date": "2026-11-06",
       "day": "Fri",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -2107,7 +2107,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 8 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 8 \u2014 consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2130,7 +2130,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "6:30 AM ET · Foundation week 8 long ride — easy-moderate; water; fuel OK over ~75 min. Back to 100 after cruise recovery week.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 8 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Back to 100 after cruise recovery week.",
       "sessions": []
     },
     {
@@ -2153,7 +2153,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "6:30 AM ET · Foundation week 8 long run — easy conversational.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 8 long run \u2014 easy conversational.",
       "sessions": []
     },
     {
@@ -2176,7 +2176,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET · Foundation week 9 — rest / easy mobility. Optional short walk OK.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2199,7 +2199,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy conversational pace.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 easy conversational pace.",
       "sessions": []
     },
     {
@@ -2222,7 +2222,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy spin. Midweek ride at 60-min cap.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 easy spin. Midweek ride at 60-min cap.",
       "sessions": []
     },
     {
@@ -2245,7 +2245,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET · Foundation week 9 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 easy run + 4\u20136 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
@@ -2268,7 +2268,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 9 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 9 \u2014 consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2291,7 +2291,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "6:30 AM ET · Foundation week 9 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 9 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -2314,7 +2314,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "6:30 AM ET · Foundation week 9 long run — easy conversational.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 9 long run \u2014 easy conversational.",
       "sessions": []
     },
     {
@@ -2337,7 +2337,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET · Foundation week 10 — rest / easy mobility. Optional short walk OK.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2360,7 +2360,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy conversational pace.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy conversational pace.",
       "sessions": []
     },
     {
@@ -2383,7 +2383,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy spin. Midweek ride at 60-min cap.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy spin. Midweek ride at 60-min cap.",
       "sessions": []
     },
     {
@@ -2406,13 +2406,13 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET · Foundation week 10 — easy run + 4–6 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy run + 4\u20136 short strides (20s pickups, full recoveries). Thursday slot (Friday is swim).",
       "sessions": []
     },
     {
       "date": "2026-11-20",
       "day": "Fri",
-      "plannedSession": "Swim 30–35 min @ Bow Creek",
+      "plannedSession": "Swim 30\u201335 min @ Bow Creek",
       "plannedMinutes": 35,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -2429,7 +2429,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 10 — consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 10 \u2014 consistency, not speed. Prefer lap lanes. Confirm the November Bow Creek pool schedule (monthly PDF) before going.",
       "sessions": []
     },
     {
@@ -2452,7 +2452,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "6:30 AM ET · Foundation week 10 long ride — easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 10 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
       "sessions": []
     },
     {
@@ -2475,7 +2475,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "6:30 AM ET · Foundation week 10 long run — easy conversational. Thanksgiving week follows.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 10 long run \u2014 easy conversational. Thanksgiving week follows.",
       "sessions": []
     },
     {
@@ -2498,7 +2498,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — rest / easy mobility. Optional short walk OK.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -2521,7 +2521,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — easy conversational pace.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 easy conversational pace.",
       "sessions": []
     },
     {
@@ -2544,7 +2544,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET · Foundation week 11 (step-back week) — easy spin.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 easy spin.",
       "sessions": []
     },
     {
@@ -2567,13 +2567,13 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "7:00 AM ET · Foundation week 11 — Thanksgiving. Short and easy, enjoy the day. Optional turkey trot instead.",
+      "workoutNotes": "7:00 AM ET \u00b7 Foundation week 11 \u2014 Thanksgiving. Short and easy, enjoy the day. Optional turkey trot instead.",
       "sessions": []
     },
     {
       "date": "2026-11-27",
       "day": "Fri",
-      "plannedSession": "Swim 25–30 min @ Bow Creek",
+      "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -2590,7 +2590,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "10:30 AM ET · Bow Creek; prefer lap lanes (open/lap swim midday). · Foundation week 11 (step-back week) — consistency, not speed. Prefer lap lanes. Confirm Bow Creek holiday hours for the day after Thanksgiving before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 11 (step-back week) \u2014 consistency, not speed. Prefer lap lanes. Confirm Bow Creek holiday hours for the day after Thanksgiving before going.",
       "sessions": []
     },
     {
@@ -2613,7 +2613,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "6:30 AM ET · Foundation week 11 long ride (step-back) — easy-moderate; water; fuel OK over ~75 min.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 11 long ride (step-back) \u2014 easy-moderate; water; fuel OK over ~75 min.",
       "sessions": []
     },
     {
@@ -2636,7 +2636,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "6:30 AM ET · Foundation week 11 long run (step-back) — easy conversational.",
+      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 11 long run (step-back) \u2014 easy conversational.",
       "sessions": []
     },
     {
@@ -2659,7 +2659,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 1 (test week) — Friel Anatomical Adaptation: light weight, 2–3 sets x 15–20 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank. Focus on form, not load.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 Friel Anatomical Adaptation: light weight, 2\u20133 sets x 15\u201320 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank. Focus on form, not load.",
       "sessions": []
     },
     {
@@ -2682,7 +2682,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 1 (test week) — 15 min easy warmup, then 30-min solo time trial (steady, hardest even effort). Lap at 10 min: average HR of the last 20 min = run LTHR. 10 min easy cool-down. Sets run HR zones.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 15 min easy warmup, then 30-min solo time trial (steady, hardest even effort). Lap at 10 min: average HR of the last 20 min = run LTHR. 10 min easy cool-down. Sets run HR zones.",
       "sessions": []
     },
     {
@@ -2705,7 +2705,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 1 (test week) — easy aerobic spin, recover from Tuesday's run test.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 easy aerobic spin, recover from Tuesday's run test.",
       "sessions": []
     },
     {
@@ -2728,7 +2728,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 1 (test week) — 45 min easy run with 6 x 20s strides (full recoveries), then 15 min strength/core (plank, side plank, bird-dog, glute bridge). Total 60 min.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 45 min easy run with 6 x 20s strides (full recoveries), then 15 min strength/core (plank, side plank, bird-dog, glute bridge). Total 60 min.",
       "sessions": []
     },
     {
@@ -2751,7 +2751,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "10:30 AM ET · Base 1 week 1 (test week) — technique drills + easy swimming. Baseline: 1000 yd on Oct 16 @ 2:30/100. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 technique drills + easy swimming. Baseline: 1000 yd on Oct 16 @ 2:30/100. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
       "sessions": []
     },
     {
@@ -2774,7 +2774,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (test week) (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 1 (test week) — 20 min warmup, then 20-min steady max effort. Average HR for the 20 min x 0.95 = bike LTHR. 20 min easy cool-down. Sets bike HR zones.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 1 (test week) \u2014 20 min warmup, then 20-min steady max effort. Average HR for the 20 min x 0.95 = bike LTHR. 20 min easy cool-down. Sets bike HR zones.",
       "sessions": []
     },
     {
@@ -2797,7 +2797,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 1 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 1 long run — easy conversational, Z1–Z2. Water; fuel OK over ~75 min.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 1 long run \u2014 easy conversational, Z1\u2013Z2. Water; fuel OK over ~75 min.",
       "sessions": []
     },
     {
@@ -2820,7 +2820,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 2 (load) — Friel Anatomical Adaptation: light weight, 2–3 sets x 15–20 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 Friel Anatomical Adaptation: light weight, 2\u20133 sets x 15\u201320 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
       "sessions": []
     },
     {
@@ -2843,7 +2843,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 2 (load) — aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -2866,7 +2866,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 2 (load) — aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups (easy gear, smooth), full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups (easy gear, smooth), full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -2889,7 +2889,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 2 (load) — 45 min easy run with 6 x 20s strides (full recoveries), then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 45 min easy run with 6 x 20s strides (full recoveries), then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -2912,7 +2912,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "10:30 AM ET · Base 1 week 2 (load) — technique drills + easy swimming. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 technique drills + easy swimming. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
       "sessions": []
     },
     {
@@ -2935,7 +2935,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 2 long ride — aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 2 long ride \u2014 aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -2958,7 +2958,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 2 long run — aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 2 long run \u2014 aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -2981,7 +2981,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 3 (recovery week) — rest / easy mobility. Optional short walk OK.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 rest / easy mobility. Optional short walk OK.",
       "sessions": []
     },
     {
@@ -3004,7 +3004,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 3 (recovery week) — easy, absorb the training. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1–Z2).",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 easy, absorb the training. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2).",
       "sessions": []
     },
     {
@@ -3027,7 +3027,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 3 (recovery week) — easy spin. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1–Z2).",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 easy spin. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2).",
       "sessions": []
     },
     {
@@ -3050,7 +3050,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 1 week 3 (recovery week) — 30 min easy run with 4–6 x 20s strides, then 15 min strength/core. Total 45 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 30 min easy run with 4\u20136 x 20s strides, then 15 min strength/core. Total 45 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3073,7 +3073,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "10:30 AM ET · Base 1 week 3 (recovery week) — easy swimming, light drills. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
+      "workoutNotes": "10:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 easy swimming, light drills. Prefer lap lanes. Confirm the December Bow Creek pool schedule before going.",
       "sessions": []
     },
     {
@@ -3096,7 +3096,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 3 long ride (recovery week) — easy; water. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1–Z2).",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 3 long ride (recovery week) \u2014 easy; water. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2).",
       "sessions": []
     },
     {
@@ -3119,7 +3119,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 1 week 3 long run (recovery week) — easy conversational. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1–Z2).",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 3 long run (recovery week) \u2014 easy conversational. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2).",
       "sessions": []
     },
     {
@@ -3142,7 +3142,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 2 week 1 (load) — Friel Anatomical Adaptation: light weight, 2–3 sets x 15–20 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 Friel Anatomical Adaptation: light weight, 2\u20133 sets x 15\u201320 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
       "sessions": []
     },
     {
@@ -3165,7 +3165,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 2 week 1 (load) — aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3188,7 +3188,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 2 week 1 (load) — aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups, full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups, full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3211,13 +3211,13 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET · Base 2 week 1 (load) — Christmas Eve. 45 min easy run with 6 x 20s strides, then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 Christmas Eve. 45 min easy run with 6 x 20s strides, then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
       "date": "2026-12-25",
       "day": "Fri",
-      "plannedSession": "Swim 35 (optional – Christmas, check Bow Creek holiday hours)",
+      "plannedSession": "Swim 35 (optional \u2013 Christmas, check Bow Creek holiday hours)",
       "plannedMinutes": 35,
       "plannedSport": "Swim",
       "garminActivity": null,
@@ -3234,7 +3234,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "10:30 AM ET · Base 2 week 1 (load) — optional on Christmas. Technique drills + easy swimming. Bow Creek is likely closed or on holiday hours; check before going. Skip guilt-free. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "10:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 optional on Christmas. Technique drills + easy swimming. Bow Creek is likely closed or on holiday hours; check before going. Skip guilt-free. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3257,7 +3257,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 2 week 1 long ride — aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 2 week 1 long ride \u2014 aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3280,7 +3280,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 2 week 1 (Friel)",
-      "workoutNotes": "6:30 AM ET · Base 2 week 1 long run — aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 2 week 1 long run \u2014 aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     }
   ]
