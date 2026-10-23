@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-22T23:42:17-04:00",
+    "lastUpdated": "2026-10-23T09:17:45-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -143,11 +143,11 @@
     "weightCurrentLb": 244.0,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Dashboard refresh",
-      "slot": "late-morning",
-      "date": "2026-10-22",
-      "materialChange": false,
-      "notes": "Daily Log unchanged vs data.json (row 48 Oct 22 Run 40 + strides already published); Training Calendar Oct 19\u2013Dec 27 (81 events) matches data.json. Timestamp-only republish.",
+      "routine": "Daily Garmin to Daily Log",
+      "slot": "morning",
+      "date": "2026-10-23",
+      "materialChange": true,
+      "notes": "Row 49 Oct 23: unplanned Running 45:03 / 3.06 mi @ 14:44/mi; swim still planned.",
       "iso": ""
     }
   },
@@ -1771,10 +1771,10 @@
       "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
+      "garminActivity": "Running",
+      "garminMinutes": 45.1,
+      "garminDistance": 3.06,
+      "garminPace": "14:44/mi",
       "workoutStatus": "Planned",
       "workoutCompletionPct": null,
       "plannedCalories": null,
@@ -1785,8 +1785,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "10:30\u201311:00 AM ET \u00b7 Swim @ Bow Creek (moved back from Thu Oct 22), prefer lap lanes. Foundation week 6.",
-      "sessions": []
+      "workoutNotes": "Unplanned extra run (Garmin Virginia Beach Running 45:03 / 3.06 mi @ 14:44/mi; avg HR 127). Bow Creek swim still planned 10:30\u201311:00 AM ET. Foundation week 6.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running",
+          "minutes": 45.1,
+          "distanceMi": 3.06,
+          "pace": "14:44/mi",
+          "startEt": null,
+          "planned": false,
+          "completionPct": null,
+          "notes": "From Daily Log row 49 \u00b7 avg HR 127 \u00b7 unplanned extra",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-24",
