@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-23T23:51:03-04:00",
+    "lastUpdated": "2026-10-24T09:57:36-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1819,12 +1819,12 @@
       "plannedSession": "Bike 100 min easy",
       "plannedMinutes": 100,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 100,
+      "garminDistance": 20.18,
+      "garminPace": "12.1 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1833,8 +1833,21 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 6",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 6 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
-      "sessions": []
+      "workoutNotes": "Garmin Indoor Cycling: 100 min / 20.18 mi @ 12.1 mph. Bike 100 easy Completed 100%. Foundation week 6 long ride.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 100,
+          "distanceMi": 20.18,
+          "pace": "12.1 mph",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 100,
+          "notes": "From Daily Log row 50",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-10-25",
