@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-25T06:16:38-04:00",
+    "lastUpdated": "2026-10-25T08:11:53-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1860,11 +1860,11 @@
       "plannedSession": "Recovery: 30 min activity (your choice)",
       "plannedMinutes": 30,
       "plannedSport": "Recovery",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
+      "garminActivity": "Virginia Beach Running",
+      "garminMinutes": 83.6,
+      "garminDistance": 6.3,
+      "garminPace": "13:16/mi",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": null,
       "mfpCalories": null,
@@ -1874,8 +1874,23 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (Miami)",
-      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (Miami, then cruise to Bahamas). 30 min of any easy activity you like: walk, hotel gym, easy jog, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Weigh-in 242.6 lb (prev 244.0; baseline 249).",
-      "sessions": []
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (Miami, then cruise to Bahamas). 30 min of any easy activity you like: walk, hotel gym, easy jog, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Weigh-in 242.6 lb (prev 244.0; baseline 249). \u00b7 Garmin Virginia Beach Running 1:23:37 / 6.30 mi @ 13:16/mi; avg HR 132; avg power 293 W. Unplanned long run done early before the Miami cruise; counts toward the Nov 1 long run slot. Vs Oct 18 long run (79.6 min / 6.04 mi @ 13:11/mi, HR 136): +4 min, +0.26 mi, similar pace, HR 4 bpm lower.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Virginia Beach Running",
+          "minutes": 83.6,
+          "distanceMi": 6.3,
+          "pace": "13:16/mi",
+          "startEt": null,
+          "planned": false,
+          "completionPct": null,
+          "notes": "Unplanned long run before Miami cruise; avg HR 132; avg power 293 W",
+          "activityId": null,
+          "avgHr": 132,
+          "avgPowerW": 293
+        }
+      ]
     },
     {
       "date": "2026-10-26",
