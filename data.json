@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-26T06:54:58-04:00",
+    "lastUpdated": "2026-10-26T08:17:25-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1906,12 +1906,12 @@
       "plannedSession": "Recovery: 30 min activity (your choice)",
       "plannedMinutes": 30,
       "plannedSport": "Recovery",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Miami Beach Running",
+      "garminMinutes": 46.4,
+      "garminDistance": 3.16,
+      "garminPace": "14:42/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 153,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1920,8 +1920,23 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Weigh-in (log for Iron Coach).",
-      "sessions": []
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Weigh-in (log for Iron Coach). \u00b7 Garmin Miami Beach Running 46:24 / 3.16 mi @ 14:42/mi; avg HR 120; avg power 252 W. Easy boardwalk stroll, recovery week day 1. Vs Oct 19 easy run (42.7 min, HR 125, 14:28/mi): HR 5 bpm lower at a similar easy pace.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Miami Beach Running",
+          "minutes": 46.4,
+          "distanceMi": 3.16,
+          "pace": "14:42/mi",
+          "startEt": null,
+          "planned": true,
+          "completionPct": 153,
+          "notes": "Easy boardwalk stroll (recovery week day 1); avg HR 120; avg power 252 W",
+          "activityId": null,
+          "avgHr": 120,
+          "avgPowerW": 252
+        }
+      ]
     },
     {
       "date": "2026-10-27",
