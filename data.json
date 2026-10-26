@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-26T08:17:25-04:00",
+    "lastUpdated": "2026-10-26T10:59:20-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -148,11 +148,11 @@
     "weightCurrentLb": 242.6,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Weekly Bow Creek pool schedule check",
-      "slot": "morning",
+      "routine": "Refresh Ironman California dashboard",
+      "slot": "late-morning",
       "date": "2026-10-26",
       "materialChange": false,
-      "notes": "Bow Creek still on October schedule (updated Sep 27); S.O.S. blocks laps/open swim weekdays 9:45am-12pm through Oct 30 (cruise week, no swims planned). Nov 6 and Nov 13 Friday 10:30 swims clear; November PDF not out yet."
+      "notes": "Daily Log through Oct 26 (Miami boardwalk stroll 46 min, MFP pending) and Training Calendar Oct 19-Dec 27 (81 events) already matched the 8:17 AM publish. Timestamp-only republish."
     },
     "poolSchedule": {
       "checked": "2026-10-26",
