@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-27T22:55:29-04:00",
+    "lastUpdated": "2026-10-28T07:28:53-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -1982,12 +1982,12 @@
       "plannedSession": "Recovery: 30 min activity (your choice)",
       "plannedMinutes": 30,
       "plannedSport": "Recovery",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 45.1,
+      "garminDistance": 9.5,
+      "garminPace": "12.6 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 150,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -1996,8 +1996,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
-      "sessions": []
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Garmin Indoor Cycling: 45:06 / 9.5 mi @ 12.6 mph; avg HR 105, max 111; 203 kcal. Recovery week day 3, easy spin. MFP not tracked this cruise week.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 45.1,
+          "distanceMi": 9.5,
+          "pace": "12.6 mph",
+          "planned": true,
+          "completionPct": 150,
+          "notes": "Indoor easy spin, recovery week day 3; avg HR 105, max 111; 203 kcal",
+          "avgHr": 105,
+          "maxHr": 111,
+          "calories": 203
+        }
+      ]
     },
     {
       "date": "2026-10-29",
