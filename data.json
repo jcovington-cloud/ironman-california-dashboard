@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-28T07:28:53-04:00",
+    "lastUpdated": "2026-10-28T10:49:51-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -150,9 +150,9 @@
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
       "slot": "late-morning",
-      "date": "2026-10-26",
+      "date": "2026-10-28",
       "materialChange": false,
-      "notes": "Daily Log through Oct 26 (Miami boardwalk stroll 46 min, MFP pending) and Training Calendar Oct 19-Dec 27 (81 events) already matched the 8:17 AM publish. Timestamp-only republish."
+      "notes": "Daily Log through Oct 28 (indoor cycling 45 min, already published 7:29 AM) and Training Calendar Oct 19-Dec 27 (81 events) unchanged. Timestamp-only republish."
     },
     "poolSchedule": {
       "checked": "2026-10-26",
