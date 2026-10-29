@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-28T22:51:42-04:00",
+    "lastUpdated": "2026-10-29T07:30:51-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2019,12 +2019,12 @@
       "plannedSession": "Recovery: 30 min activity (your choice)",
       "plannedMinutes": 30,
       "plannedSport": "Recovery",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Treadmill Running",
+      "garminMinutes": 40.1,
+      "garminDistance": 2.9,
+      "garminPace": "13:48/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 134,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2033,8 +2033,26 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
-      "sessions": []
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Garmin Treadmill Running 6:25 AM (36' - 6x30\" strides): 40:05 / 2.9 mi @ 13:48/mi; avg HR 121, max 145; avg power 288 W; 378 kcal. Treadmill run with 6 x 30 sec strides. Recovery week day 4. Vs Oct 27 (40 min, 3.09 mi @ 13:00/mi, HR 131): easier effort, lower HR.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Treadmill Running",
+          "minutes": 40.1,
+          "distanceMi": 2.9,
+          "pace": "13:48/mi",
+          "startEt": "06:25",
+          "planned": true,
+          "completionPct": 134,
+          "notes": "Treadmill run with 6 x 30 sec strides. Avg HR 121, max 145; avg power 288 W; 378 kcal",
+          "activityId": 24891612868,
+          "avgHr": 121,
+          "maxHr": 145,
+          "avgPowerW": 288,
+          "calories": 378,
+          "workoutName": "36' - 6x30\" strides"
+        }
+      ]
     },
     {
       "date": "2026-10-30",
