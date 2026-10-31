@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-30T22:54:53-04:00",
+    "lastUpdated": "2026-10-31T08:54:23-04:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2064,7 +2064,7 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Planned",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": null,
       "mfpCalories": null,
@@ -2074,7 +2074,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise); rest day",
-      "workoutNotes": "Rest day (no exercise), changed at Jonathan's request on Oct 30. Recovery week (cruise Miami to Bahamas).",
+      "workoutNotes": "Rest day at Jonathan's request (cruise recovery week). No activity.",
       "sessions": []
     },
     {
@@ -2083,12 +2083,12 @@
       "plannedSession": "Recovery: 30 min activity (your choice)",
       "plannedMinutes": 30,
       "plannedSport": "Recovery",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 31.1,
+      "garminDistance": 6.05,
+      "garminPace": "11.7 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 104,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2097,8 +2097,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Recovery week (cruise)",
-      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip.",
-      "sessions": []
+      "workoutNotes": "7:00 AM ET \u00b7 Recovery week (cruise Miami to Bahamas). 30 min of any easy activity you like: walk, ship gym, treadmill, bike, swim, mobility. Keep it easy and enjoy the trip. \u00b7 Garmin Indoor Cycling: 31 min / 6.05 mi @ 11.7 mph; avg HR 134, max 144; avg power 151 W. Easy indoor ride on the last day of the cruise week. MFP not tracked this cruise week. Vs Oct 28 indoor spin (45 min, 9.5 mi @ 12.6 mph, avg HR 105): shorter and slightly slower with higher HR (134). Same 11.7 mph as the Oct 3 70-min ride (avg HR 131, 98 W), but avg power was 151 W vs 98-111 W on earlier indoor rides.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling",
+          "minutes": 31.1,
+          "distanceMi": 6.05,
+          "pace": "11.7 mph",
+          "planned": true,
+          "completionPct": 104,
+          "notes": "Easy indoor ride on the last day of the cruise week. Avg HR 134, max 144, avg power 151 W.",
+          "avgHr": 134,
+          "maxHr": 144,
+          "avgPowerW": 151
+        }
+      ]
     },
     {
       "date": "2026-11-01",
