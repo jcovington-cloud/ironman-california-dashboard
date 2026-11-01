@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-01T06:09:26-05:00",
+    "lastUpdated": "2026-11-01T07:38:45-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2120,12 +2120,12 @@
       "plannedSession": "Easy 30 min (swap for last Sunday's long run)",
       "plannedMinutes": 30,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 49.4,
+      "garminDistance": 3.37,
+      "garminPace": "14:39/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 165,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2134,8 +2134,25 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 7",
-      "workoutNotes": "6:30 AM ET \u00b7 Easy conversational 30 min (run with walk breaks or any easy aerobic). Swapped because of the Oct 25 long run. Normal training resumes Mon Nov 2.",
-      "sessions": []
+      "workoutNotes": "6:30 AM ET \u00b7 Easy conversational 30 min (run with walk breaks or any easy aerobic). Swapped because of the Oct 25 long run. Normal training resumes Mon Nov 2. \u00b7 Garmin \"Virginia Beach Running\" 6:41 AM: 49:24 / 3.37 mi @ 14:39/mi; avg HR 114, max 126; 487 kcal. Easy run, longer than the planned 30 min. Outdoor easy run vs the Oct 11 outdoor easy run (52 min, 3.53 mi @ 14:49/mi, avg HR 121): about 10 s/mi quicker at a lower avg HR (114). The Oct 27 and Oct 29 treadmill runs were faster (13:00 and 13:48/mi) but at higher HR (131 and 121), and treadmill pace doesn't compare directly with outdoor pace.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 49.4,
+          "distanceMi": 3.37,
+          "pace": "14:39/mi",
+          "startEt": "06:41",
+          "planned": true,
+          "completionPct": 165,
+          "notes": "Outdoor easy run. Avg HR 114, max 126; 487 kcal",
+          "activityId": 24928079861,
+          "avgHr": 114,
+          "maxHr": 126,
+          "avgPowerW": 249,
+          "calories": 487
+        }
+      ]
     },
     {
       "date": "2026-11-02",
