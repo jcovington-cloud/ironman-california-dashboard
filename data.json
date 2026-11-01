@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-10-31T22:57:09-04:00",
+    "lastUpdated": "2026-11-01T06:09:18-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2117,8 +2117,8 @@
     {
       "date": "2026-11-01",
       "day": "Sun",
-      "plannedSession": "Run 85 min easy",
-      "plannedMinutes": 85,
+      "plannedSession": "Easy 30 min (swap for last Sunday's long run)",
+      "plannedMinutes": 30,
       "plannedSport": "Run",
       "garminActivity": null,
       "garminMinutes": null,
@@ -2134,7 +2134,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 7",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 7 long run \u2014 easy conversational.",
+      "workoutNotes": "6:30 AM ET \u00b7 Easy conversational 30 min (run with walk breaks or any easy aerobic). Swapped with Oct 25's slot because of the Oct 25 long run. Normal training resumes Mon Nov 2.",
       "sessions": []
     },
     {
