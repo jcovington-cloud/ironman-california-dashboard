@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-02T06:59:19-05:00",
+    "lastUpdated": "2026-11-02T07:01:35-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -160,13 +160,13 @@
       "notes": "Daily Log through Oct 28 (indoor cycling 45 min, already published 7:29 AM) and Training Calendar Oct 19-Dec 27 (81 events) unchanged. Timestamp-only republish."
     },
     "poolSchedule": {
-      "checked": "2026-10-26",
+      "checked": "2026-11-02",
       "source": "https://virginia-beach-departments-docs.s3.amazonaws.com/parks-rec/RecCenters/Bow-Creek-Pool-Schedule.pdf",
-      "scheduleMonth": "October 2026 (last updated Sep 27, 2026); November PDF not published yet",
+      "scheduleMonth": "October 2026 (last updated Sep 27, 2026; file unchanged since Oct 1); November PDF still not published",
       "lapSwim": "Mon/Wed/Thu 6am-5pm + 8-9pm; Tue 6am-9pm; Fri 6-8:10am + 9:20am-8pm; Sat 9am-1pm (2) + 1-5pm (1); Sun 11am-1pm (2) + 1-5pm (1)",
       "openSwim": "Mon/Wed/Thu 9:30am-5pm + 8-9pm; Tue 9:30am-5:55pm + 8-9pm; Fri 9:30am-6pm + 7-8pm; Sat/Sun 11am-5pm",
-      "blocks": "Windsor Woods Elementary S.O.S. Mon-Fri Oct 19-30, 9:45am-12pm (no laps, no open swim); Thu 5-8pm T.R. swim in lap pool; Mon/Wed 5:15-8pm lessons in lap pool. No closures posted for Nov yet.",
-      "plannedSwims": "Fri Nov 6 and Fri Nov 13, 10:30-11:00am: no conflict on current windows (Fri lap 9:20am-8pm); recheck when November PDF posts."
+      "blocks": "Windsor Woods Elementary S.O.S. block (Oct 19-30, no laps/open swim) has ended. Ongoing: weekday S.O.S. program in lap pool 9:45am-12pm (may limit lanes); Thu 5-8pm T.R. swim in lap pool; Mon/Wed 5:15-8pm lessons in lap pool. No closures or lap-lane blocks posted for November yet.",
+      "plannedSwims": "Fri Nov 6, Fri Nov 13 (10:30-11:00am) and Fri Nov 20 (10:30-11:05am): no conflict on current windows (Fri lap 9:20am-8pm, open 9:30am-6pm); recheck when November PDF posts."
     }
   },
   "workouts": [
