@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-01T22:55:01-05:00",
+    "lastUpdated": "2026-11-02T05:46:51-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -143,9 +143,14 @@
         "date": "2026-10-25",
         "lb": 242.6,
         "note": "Sunday weigh-in"
+      },
+      {
+        "date": "2026-11-02",
+        "lb": 245.8,
+        "note": "Monday weigh-in (post-cruise, +3.2 lb vs Oct 25)"
       }
     ],
-    "weightCurrentLb": 242.6,
+    "weightCurrentLb": 245.8,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Refresh Ironman California dashboard",
@@ -2174,7 +2179,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 rest / easy mobility. Optional short walk OK. First week back after cruise recovery week.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 rest / easy mobility. Optional short walk OK. First week back after cruise recovery week. \u00b7 Weigh-in 245.8 lb (post-cruise, +3.2 lb vs Oct 25 242.6; baseline 249, total loss 3.2 lb).",
       "sessions": []
     },
     {
