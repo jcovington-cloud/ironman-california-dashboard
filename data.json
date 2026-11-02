@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-02T05:46:51-05:00",
+    "lastUpdated": "2026-11-02T06:59:19-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2165,11 +2165,11 @@
       "plannedSession": "Rest / easy mobility + weigh-in",
       "plannedMinutes": 30,
       "plannedSport": "Rest",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
+      "garminActivity": "Running",
+      "garminMinutes": 48.7,
+      "garminDistance": 3.38,
+      "garminPace": "14:26/mi",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": null,
       "mfpCalories": null,
@@ -2179,8 +2179,25 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 rest / easy mobility. Optional short walk OK. First week back after cruise recovery week. \u00b7 Weigh-in 245.8 lb (post-cruise, +3.2 lb vs Oct 25 242.6; baseline 249, total loss 3.2 lb).",
-      "sessions": []
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 rest / easy mobility. Optional short walk OK. First week back after cruise recovery week. \u00b7 Weigh-in 245.8 lb (post-cruise, +3.2 lb vs Oct 25 242.6; baseline 249, total loss 3.2 lb). \u00b7 Planned rest day; optional rest-day Garmin: \"Virginia Beach Running\" 48:42 / 3.38 mi @ 14:26/mi; avg HR 126, max 140; 491 kcal; started 6:06 AM ET. Second easy run in two days: 3.38 mi @ 14:26/mi at avg HR 126, very close to the Oct 19 optional rest-day run (2.95 mi @ 14:29/mi, HR 125). Pace was quicker than yesterday's 14:39/mi (HR 114) and the Oct 11 outdoor easy run's 14:49/mi (HR 121), with HR a bit higher than both.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 48.7,
+          "distanceMi": 3.38,
+          "pace": "14:26/mi",
+          "startEt": "06:06",
+          "planned": false,
+          "completionPct": null,
+          "notes": "Optional rest-day activity; Virginia Beach; avg HR 126, max 140; 491 kcal",
+          "activityId": 24938244281,
+          "avgHr": 126,
+          "maxHr": 140,
+          "avgPowerW": 251,
+          "calories": 491
+        }
+      ]
     },
     {
       "date": "2026-11-03",
