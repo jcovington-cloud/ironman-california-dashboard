@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-04T22:53:07-05:00",
+    "lastUpdated": "2026-11-05T05:29:47-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -158,7 +158,7 @@
       "date": "2026-10-28",
       "materialChange": true,
       "notes": "Daily Log through Oct 28 (indoor cycling 45 min, already published 7:29 AM) and Training Calendar Oct 19-Dec 27 (81 events) unchanged. Timestamp-only republish.",
-      "iso": "2026-11-03T23:42:50-05:00"
+      "iso": "2026-11-05T05:29:35-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
@@ -2252,14 +2252,14 @@
       "garminPace": "18.8 mph",
       "workoutStatus": "Completed",
       "workoutCompletionPct": 100,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 8",
+      "plannedCalories": 2808,
+      "mfpCalories": 2314,
+      "calorieDelta": -494,
+      "overUnder": "Under",
+      "protein": 123,
+      "carbs": 265,
+      "fat": 104,
+      "nutritionNotes": "Final (MFP, read Nov 5 AM after sign-in): 2314 vs 2808 (training day); -494 Under. P123/C265/F104. MFP exercise 448 kcal (55 min ride) included in goal (base 2360); protein 17 g short of 140, fat 10 g over; diary not marked complete.",
       "workoutNotes": "5:30 AM ET \u00b7 Foundation week 8 \u2014 easy spin. Midweek progression (+5 toward 60). \u00b7 Garmin \"Indoor Cycling - IM CA\" (Rouvy) 5:44 AM ET: 55:09 / 17.24 mi @ 18.8 mph; avg HR 128, max 138; avg power 107 W (Rouvy source); 448 kcal. Progress: 55 min / 17.24 mi @ 18.8 mph, avg HR 128 (max 138). Same planned duration as the Oct 21 easy spin (55 min, 11.36 mi @ 12.4 mph). Earlier indoor rides ran 11.7-12.6 mph (Oct 21-31), so 18.8 mph is the highest recorded indoor speed, but speed now comes from Rouvy's virtual course and likely isn't directly comparable to earlier speed readings. HR averaged 128, lower than Oct 31 (134, 31 min) and higher than the Oct 28 recovery spin (105), which is consistent with an easy effort. Second-farthest indoor ride after the Oct 24 long ride (20.18 mi, 100 min). Power 107 W comes from Rouvy as the power source. It isn't comparable to Oct 31's 151 W (Rally pedals) or to the earlier 98-111 W readings (a different source), so it isn't treated as a trend.",
       "sessions": [
         {
