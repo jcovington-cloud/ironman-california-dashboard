@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-05T23:46:12-05:00",
+    "lastUpdated": "2026-11-06T06:28:05-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2313,8 +2313,8 @@
       "garminMinutes": null,
       "garminDistance": null,
       "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "workoutStatus": "Missed",
+      "workoutCompletionPct": 0,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2323,8 +2323,33 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "5:30\u20136:15 AM ET \u00b7 Run 40 min easy (moved from Thu, cold); strides optional, skip if still sick. \u00b7 10:30 AM ET \u00b7 Swim 25\u201330 min @ Bow Creek; prefer lap lanes (open/lap swim midday). Foundation week 8 \u2014 consistency, not speed. Confirm the November Bow Creek pool schedule before going.",
-      "sessions": []
+      "workoutNotes": "Skipped run and swim \u2014 rest while fighting a cold.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Run 40 min easy (moved from Thu, cold)",
+          "minutes": 40,
+          "distanceMi": null,
+          "pace": null,
+          "startEt": "5:30 AM",
+          "planned": true,
+          "completionPct": 0,
+          "notes": "SKIPPED (cold) \u2014 rest while fighting a cold",
+          "activityId": null
+        },
+        {
+          "sport": "Swim",
+          "activity": "Swim 25\u201330 min @ Bow Creek",
+          "minutes": 30,
+          "distanceMi": null,
+          "pace": null,
+          "startEt": "10:30 AM",
+          "planned": true,
+          "completionPct": 0,
+          "notes": "SKIPPED (cold) \u2014 Bow Creek; rest while fighting a cold",
+          "activityId": null
+        }
+      ]
     },
     {
       "date": "2026-11-07",
