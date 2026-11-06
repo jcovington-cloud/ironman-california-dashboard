@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-05T22:49:36-05:00",
+    "lastUpdated": "2026-11-05T23:46:12-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -154,11 +154,11 @@
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
-      "slot": "late-morning",
-      "date": "2026-10-28",
+      "slot": "nightly",
+      "date": "2026-11-05",
       "materialChange": true,
-      "notes": "Daily Log through Oct 28 (indoor cycling 45 min, already published 7:29 AM) and Training Calendar Oct 19-Dec 27 (81 events) unchanged. Timestamp-only republish.",
-      "iso": "2026-11-05T05:29:35-05:00"
+      "notes": "Nov 5 rest day MFP finals: 2265 vs 2360 (-95 Under). P119/C126/F144. No Garmin activity.",
+      "iso": "2026-11-05T23:46:09-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
@@ -2292,14 +2292,14 @@
       "garminPace": null,
       "workoutStatus": "Moved",
       "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 8",
+      "plannedCalories": 2360,
+      "mfpCalories": 2265,
+      "calorieDelta": -95,
+      "overUnder": "Under",
+      "protein": 119,
+      "carbs": 126,
+      "fat": 144,
+      "nutritionNotes": "Final (nightly MFP): 2265 vs base 2360 (rest day); -95 Under. P119/C126/F144. No MFP exercise kcal; diary not marked complete.",
       "workoutNotes": "Planned Run 40 min easy + strides moved to Fri Nov 6 5:30 AM ET because Jon is fighting a cold. Rest today.",
       "sessions": []
     },
