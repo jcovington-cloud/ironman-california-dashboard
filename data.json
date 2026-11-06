@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-06T06:28:05-05:00",
+    "lastUpdated": "2026-11-06T11:10:10-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -153,12 +153,12 @@
     "weightCurrentLb": 245.8,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Nightly MFP final numbers",
-      "slot": "nightly",
-      "date": "2026-11-05",
-      "materialChange": true,
-      "notes": "Nov 5 rest day MFP finals: 2265 vs 2360 (-95 Under). P119/C126/F144. No Garmin activity.",
-      "iso": "2026-11-05T23:46:09-05:00"
+      "routine": "Refresh Ironman California dashboard",
+      "slot": "late-morning",
+      "date": "2026-11-06",
+      "materialChange": false,
+      "notes": "Timestamp-only. Daily Log 61 rows through Nov 5 MFP (2265/-95 Under) already published; calendar 62 events with Nov 6 SKIPPED (cold) run+swim already in data.json (cdaefd0). No new Garmin Nov 5\u20136. Upcoming planned through Dec 27 unchanged.",
+      "iso": "2026-11-06T11:10:10-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
