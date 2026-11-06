@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-06T11:10:10-05:00",
+    "lastUpdated": "2026-11-06T11:35:39-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -157,8 +157,8 @@
       "slot": "late-morning",
       "date": "2026-11-06",
       "materialChange": false,
-      "notes": "Timestamp-only. Daily Log 61 rows through Nov 5 MFP (2265/-95 Under) already published; calendar 62 events with Nov 6 SKIPPED (cold) run+swim already in data.json (cdaefd0). No new Garmin Nov 5\u20136. Upcoming planned through Dec 27 unchanged.",
-      "iso": "2026-11-06T11:10:10-05:00"
+      "notes": "Timestamp-only (retry after Pages deploy failure on a8ad390). Daily Log 61 rows through Nov 5 MFP already published; Nov 6 SKIPPED cold already in data.json. Content unchanged vs cdaefd0.",
+      "iso": "2026-11-06T11:35:39-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
