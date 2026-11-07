@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-07T10:03:43-05:00",
+    "lastUpdated": "2026-11-07T10:51:10-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -153,12 +153,11 @@
     "weightCurrentLb": 245.8,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Nightly MFP final numbers",
-      "slot": "nightly-mfp",
-      "date": "2026-11-06",
-      "materialChange": true,
-      "notes": "Nov 6 MFP finals 2097 vs base 2360 (skipped cold); -263 Under. P83/C262/F86. No Garmin. Daily Log row append pending browser.",
-      "iso": "2026-11-06T23:49:44-05:00"
+      "routine": "Late-morning refresh",
+      "slot": "late-morning",
+      "date": "2026-11-07",
+      "materialChange": false,
+      "notes": "Daily Log 63 rows through Nov 7 (Nov 7 Bike 110 min Completed 110% already in data.json from 10:03 AM publish; no Nov 7 MFP yet). Training Calendar 62 events Nov 6\u2013Dec 28 unchanged vs Nov 6 evening. Timestamp-only republish."
     },
     "poolSchedule": {
       "checked": "2026-11-02",
