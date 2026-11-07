@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-06T23:49:44-05:00",
+    "lastUpdated": "2026-11-07T10:03:43-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2357,12 +2357,12 @@
       "plannedSession": "Bike 100 min easy",
       "plannedMinutes": 100,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 110,
+      "garminDistance": 32.46,
+      "garminPace": "17.7 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 110,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2371,8 +2371,23 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 8 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Back to 100 after cruise recovery week.",
-      "sessions": []
+      "workoutNotes": "Rouvy indoor, easy while fighting a cold; longest indoor ride yet. vs Nov 4 Rouvy 55 min HR 128/107W: 2x longer, HR -6, power -12W same source. Duration 1:50:18; avg HR 122, max HR 144, avg power 95 W (Rouvy), calories 813.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling (Rouvy)",
+          "minutes": 110,
+          "distanceMi": 32.46,
+          "pace": "17.7 mph",
+          "planned": true,
+          "completionPct": 110,
+          "notes": "Rouvy indoor, easy while fighting a cold; longest indoor ride yet. vs Nov 4 Rouvy 55 min HR 128/107W: 2x longer, HR -6, power -12W same source. Duration 1:50:18; avg HR 122, max HR 144, avg power 95 W (Rouvy), calories 813.",
+          "avgHr": 122,
+          "maxHr": 144,
+          "avgPowerW": 95,
+          "calories": 813
+        }
+      ]
     },
     {
       "date": "2026-11-08",
