@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-06T22:57:53-05:00",
+    "lastUpdated": "2026-11-06T23:49:44-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -153,12 +153,12 @@
     "weightCurrentLb": 245.8,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Evening dashboard refresh",
-      "slot": "evening",
+      "routine": "Nightly MFP final numbers",
+      "slot": "nightly-mfp",
       "date": "2026-11-06",
-      "materialChange": false,
-      "notes": "Timestamp-only. Daily Log 61 rows through Nov 5 MFP already published; Nov 6 SKIPPED cold already in data.json; calendar 62 events unchanged vs late-morning.",
-      "iso": "2026-11-06T22:57:53-05:00"
+      "materialChange": true,
+      "notes": "Nov 6 MFP finals 2097 vs base 2360 (skipped cold); -263 Under. P83/C262/F86. No Garmin. Daily Log row append pending browser.",
+      "iso": "2026-11-06T23:49:44-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
@@ -2315,14 +2315,14 @@
       "garminPace": null,
       "workoutStatus": "Missed",
       "workoutCompletionPct": 0,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 8",
+      "plannedCalories": 2360,
+      "mfpCalories": 2097,
+      "calorieDelta": -263,
+      "overUnder": "Under",
+      "protein": 83,
+      "carbs": 262,
+      "fat": 86,
+      "nutritionNotes": "Final (nightly MFP): 2097 vs base 2360 (skipped cold \u2014 rest calories); -263 Under. P83/C262/F86. No MFP exercise kcal; diary not marked complete. Protein 35g short of 118; fat 7g over.",
       "workoutNotes": "Skipped run and swim \u2014 rest while fighting a cold.",
       "sessions": [
         {
