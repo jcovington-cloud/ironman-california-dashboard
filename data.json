@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-07T23:46:29-05:00",
+    "lastUpdated": "2026-11-08T07:28:29-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2395,12 +2395,12 @@
       "plannedSession": "Run 80 min easy",
       "plannedMinutes": 80,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 81,
+      "garminDistance": 6.3,
+      "garminPace": "12:52/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 101,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2409,8 +2409,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 8",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 8 long run \u2014 easy conversational.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 1:21:03 / 6.30 mi @ 12:52/mi; avg/max HR 138/165; cadence 146 spm; 964 cal. Recovering from a cold. vs Nov 3 run 56 min @ 12:55, HR 138/160: +25 min at same pace and avg HR. vs Oct 18 long run 80 min @ 13:10: 18 s/mi faster.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 81,
+          "distanceMi": 6.3,
+          "pace": "12:52/mi",
+          "planned": true,
+          "completionPct": 101,
+          "notes": "Outdoor Virginia Beach; 1:21:03 / 6.30 mi @ 12:52/mi; avg/max HR 138/165; cadence 146 spm; 964 cal. Recovering from a cold. vs Nov 3 run 56 min @ 12:55, HR 138/160: +25 min at same pace and avg HR. vs Oct 18 long run 80 min @ 13:10: 18 s/mi faster.",
+          "avgHr": 138,
+          "maxHr": 165,
+          "calories": 964
+        }
+      ]
     },
     {
       "date": "2026-11-09",
