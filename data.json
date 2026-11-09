@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-08T23:47:37-05:00",
+    "lastUpdated": "2026-11-09T06:08:57-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -148,17 +148,22 @@
         "date": "2026-11-02",
         "lb": 245.8,
         "note": "Monday weigh-in (post-cruise, +3.2 lb vs Oct 25)"
+      },
+      {
+        "date": "2026-11-09",
+        "lb": 245.0,
+        "note": "Monday weigh-in (\u22120.8 lb vs Nov 2)"
       }
     ],
-    "weightCurrentLb": 245.8,
+    "weightCurrentLb": 245.0,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Nightly MFP final numbers",
-      "slot": "nightly",
-      "date": "2026-11-08",
+      "routine": "Monday weigh-in",
+      "slot": "morning",
+      "date": "2026-11-09",
       "materialChange": true,
-      "notes": "Daily Log row 65 (Nov 8 Run 80 min, Completed 101% / 81 min / 6.30 mi @ 12:52 already present) filled with nightly MFP: 2617 vs exercise-adjusted 3324 (base 2360 + 964 run); -707 Under. P112/C252/F131. Diary not marked complete. Training day (Training Calendar: Run 80 min easy 6:30 AM ET). Garmin columns unchanged.",
-      "iso": "2026-11-08T23:46:36-05:00"
+      "notes": "Monday weigh-in 245.0 lb (prev 245.8 Nov 2; baseline 249, total loss 4.0 lb; \u22120.8 vs last week). Goal 230. Sheet row for Nov 9 not yet present (last sheet row 65 = Nov 8).",
+      "iso": "2026-11-09T06:08:46-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-02",
@@ -2445,8 +2450,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 rest / easy mobility. Optional short walk OK.",
+      "nutritionNotes": "Foundation week 9; Monday weigh-in 245.0 lb (prev 245.8; baseline 249, total loss 4.0 lb).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 rest / easy mobility. Optional short walk OK. \u00b7 Weigh-in 245.0 lb (prev 245.8 Nov 2; baseline 249, total loss 4.0 lb; \u22120.8 vs last week).",
       "sessions": []
     },
     {
