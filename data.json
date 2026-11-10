@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-09T22:57:36-05:00",
+    "lastUpdated": "2026-11-09T23:43:47-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -158,12 +158,12 @@
     "weightCurrentLb": 245.0,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
-      "routine": "Monday weigh-in",
-      "slot": "morning",
+      "routine": "Nightly MFP final numbers",
+      "slot": "nightly",
       "date": "2026-11-09",
       "materialChange": true,
-      "notes": "Monday weigh-in 245.0 lb (prev 245.8 Nov 2; baseline 249, total loss 4.0 lb; \u22120.8 vs last week). Goal 230. Sheet row for Nov 9 not yet present (last sheet row 65 = Nov 8).",
-      "iso": "2026-11-09T06:08:46-05:00"
+      "notes": "Nightly MFP finals: 2014 kcal (P106/C221/F81) vs base 2360 (rest day, 0 exercise); -346 Under. Diary not marked complete. No Garmin activity Nov 9. Weigh-in 245.0 lb already logged.",
+      "iso": "2026-11-09T23:43:41-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-09",
@@ -2443,14 +2443,14 @@
       "garminPace": null,
       "workoutStatus": "Planned",
       "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 9; Monday weigh-in 245.0 lb (prev 245.8; baseline 249, total loss 4.0 lb).",
+      "plannedCalories": 2360,
+      "mfpCalories": 2014,
+      "calorieDelta": -346,
+      "overUnder": "Under",
+      "protein": 106,
+      "carbs": 221,
+      "fat": 81,
+      "nutritionNotes": "Final (nightly MFP): 2014 vs base 2360 (rest day); -346 Under. P106/C221/F81. No MFP exercise kcal; diary not marked complete.",
       "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 rest / easy mobility. Optional short walk OK. \u00b7 Weigh-in 245.0 lb (prev 245.8 Nov 2; baseline 249, total loss 4.0 lb; \u22120.8 vs last week).",
       "sessions": []
     },
