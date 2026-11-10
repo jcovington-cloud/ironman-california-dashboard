@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-09T23:43:47-05:00",
+    "lastUpdated": "2026-11-10T07:08:51-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2460,12 +2460,12 @@
       "plannedSession": "Run 60 min easy",
       "plannedMinutes": 60,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
+      "garminActivity": "Running",
+      "garminMinutes": 63,
+      "garminDistance": 4.43,
+      "garminPace": "14:07/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 105,
       "plannedCalories": null,
       "mfpCalories": null,
       "calorieDelta": null,
@@ -2474,8 +2474,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 easy conversational pace.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 1:02:35 / 4.43 mi @ 14:07/mi; avg/max HR 132/143; cadence 137 spm; 647 cal. Left hamstring tight (reported). vs Nov 3 midweek easy 56 min @ 12:55, HR 138/160: +7 min, 1:12/mi slower, avg HR -6, max -17. vs Nov 2 easy 49 min @ 14:26, HR 126: +14 min, 19 s/mi faster, avg HR +6. vs Nov 8 long run 81 min @ 12:52, HR  138/165: 1:15/mi slower, avg HR -6.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 63,
+          "distanceMi": 4.43,
+          "pace": "14:07/mi",
+          "planned": true,
+          "completionPct": 105,
+          "notes": "Outdoor Virginia Beach; 1:02:35 / 4.43 mi @ 14:07/mi; avg/max HR 132/143; cadence 137 spm; 647 cal. Left hamstring tight (reported). vs Nov 3 midweek easy 56 min @ 12:55, HR 138/160: +7 min, 1:12/mi slower, avg HR -6, max -17. vs Nov 2 easy 49 min @ 14:26, HR 126: +14 min, 19 s/mi faster, avg HR +6. vs Nov 8 long run 81 min @ 12:52, HR  138/165: 1:15/mi slower, avg HR -6.",
+          "avgHr": 132,
+          "maxHr": 143,
+          "calories": 647
+        }
+      ]
     },
     {
       "date": "2026-11-11",
