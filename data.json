@@ -14,7 +14,7 @@
   "overUnderTolerance": 50,
   "currentPhase": "Foundation",
   "timezone": "America/New_York",
-  "lastUpdated": "2026-11-10T23:48:34-05:00",
+  "lastUpdated": "2026-11-11T07:14:53-05:00",
   "sources": [
    "Garmin",
    "MyFitnessPal",
@@ -2497,12 +2497,12 @@
    "plannedSession": "Bike 60 min easy",
    "plannedMinutes": 60,
    "plannedSport": "Bike",
-   "garminActivity": null,
-   "garminMinutes": null,
-   "garminDistance": null,
-   "garminPace": null,
-   "workoutStatus": "Planned",
-   "workoutCompletionPct": null,
+   "garminActivity": "Indoor Cycling",
+   "garminMinutes": 60,
+   "garminDistance": 16.03,
+   "garminPace": "15.9 mph",
+   "workoutStatus": "Completed",
+   "workoutCompletionPct": 100,
    "plannedCalories": null,
    "mfpCalories": null,
    "calorieDelta": null,
@@ -2511,8 +2511,23 @@
    "carbs": null,
    "fat": null,
    "nutritionNotes": "Foundation week 9",
-   "workoutNotes": "5:30 AM ET \u00b7 Foundation week 9 \u2014 easy spin. Midweek ride at 60-min cap.",
-   "sessions": []
+   "workoutNotes": "Indoor Kickr/Rouvy; 1:00:20 / 16.03 mi @ 15.9 mph; 105 W avg, 106 W NP; avg/max HR 122/172; 481 cal. Cadence not recorded. vs Nov 4 midweek easy 55 min @ 107 W, HR 128/138: +5 min, -2 W (same Rouvy source), avg HR -6, max +34. vs Nov 7 long ride 110 min @ 95 W, HR 122/144: 50 min shorter, +10 W same source, same avg HR, max +28. Oct 31 was Rally pedals, so power was not compared.",
+   "sessions": [
+    {
+     "sport": "Bike",
+     "activity": "Indoor Cycling (Rouvy)",
+     "minutes": 60,
+     "distanceMi": 16.03,
+     "pace": "15.9 mph",
+     "planned": true,
+     "completionPct": 100,
+     "notes": "Indoor Kickr/Rouvy; 1:00:20 / 16.03 mi @ 15.9 mph; 105 W avg, 106 W NP; avg/max HR 122/172; 481 cal. Cadence not recorded. vs Nov 4 midweek easy 55 min @ 107 W, HR 128/138: +5 min, -2 W (same Rouvy source), avg HR -6, max +34. vs Nov 7 long ride 110 min @ 95 W, HR 122/144: 50 min shorter, +10 W same source, same avg HR, max +28. Oct 31 was Rally pedals, so power was not compared.",
+     "avgHr": 122,
+     "maxHr": 172,
+     "avgPowerW": 105,
+     "calories": 481
+    }
+   ]
   },
   {
    "date": "2026-11-12",
