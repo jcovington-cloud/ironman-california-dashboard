@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-14T21:02:13-05:00",
+    "lastUpdated": "2026-11-14T23:51:45-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -160,10 +160,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-13 skipped training day: 2316 vs base 2360 (exercise adj 0); -44 On target (within +/-50). P100/C257/F97. No Garmin. Diary not marked complete.",
-      "iso": "2026-11-14T00:09:13-05:00"
+      "notes": "Nightly MFP finals for 2026-11-14 training day (gym bike 110 min): 2978 vs exercise-adjusted 2866 (base 2360 + 506); +112 Over. P88/C359/F121. Protein 55 g short of 143, fat 25 g over. Diary not marked complete.",
+      "iso": "2026-11-14T23:51:35-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-09",
@@ -2588,13 +2588,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 100,
       "plannedCalories": 2866,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 9",
+      "mfpCalories": 2978,
+      "calorieDelta": 112,
+      "overUnder": "Over",
+      "protein": 88,
+      "carbs": 359,
+      "fat": 121,
+      "nutritionNotes": "Final (nightly MFP): 2978 vs exercise-adjusted 2866 (base 2360 + 506 gym bike); +112 Over. P88/C359/F121. Protein 55 g short of 143, fat 25 g over; diary not marked complete.",
       "workoutNotes": "Gym bike (no power); 1:50:09 / 31.00 mi @ 16.9 mph (gym-bike speed not calibrated vs Rouvy); avg/max HR 105/125; 506 cal; Training effect Recovery (aerobic 0.6). vs Nov 7 long ride 110 min Rouvy @ 95 W, HR 122/144: same duration, avg HR -17, max -19; power not compared (no power on gym bike).",
       "sessions": [
         {
