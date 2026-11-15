@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-14T08:48:07-05:00",
+    "lastUpdated": "2026-11-14T21:02:13-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2581,13 +2581,13 @@
       "plannedSession": "Bike 110 min easy",
       "plannedMinutes": 110,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Indoor Cycling (gym bike)",
+      "garminMinutes": 110,
+      "garminDistance": 31.0,
+      "garminPace": "16.9 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
+      "plannedCalories": 2866,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2595,8 +2595,23 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 9 long ride \u2014 easy-moderate; water; fuel OK over ~75 min. Long-ride progression +10/week.",
-      "sessions": []
+      "workoutNotes": "Gym bike (no power); 1:50:09 / 31.00 mi @ 16.9 mph (gym-bike speed not calibrated vs Rouvy); avg/max HR 105/125; 506 cal; Training effect Recovery (aerobic 0.6). vs Nov 7 long ride 110 min Rouvy @ 95 W, HR 122/144: same duration, avg HR -17, max -19; power not compared (no power on gym bike).",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling (gym bike)",
+          "minutes": 110,
+          "distanceMi": 31.0,
+          "pace": "16.9 mph",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "Gym bike (no power); 1:50:09 / 31.00 mi @ 16.9 mph (gym-bike speed not calibrated vs Rouvy); avg/max HR 105/125; 506 cal; Training effect Recovery (aerobic 0.6). vs Nov 7 long ride 110 min Rouvy @ 95 W, HR 122/144: same duration, avg HR -17, max -19; power not compared (no power on gym bike).",
+          "avgHr": 105,
+          "maxHr": 125,
+          "avgPowerW": null,
+          "calories": 506
+        }
+      ]
     },
     {
       "date": "2026-11-15",
