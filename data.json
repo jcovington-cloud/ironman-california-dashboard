@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-14T23:51:45-05:00",
+    "lastUpdated": "2026-11-15T08:06:57-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2619,13 +2619,13 @@
       "plannedSession": "Run 85 min easy",
       "plannedMinutes": 85,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running (Campbell County)",
+      "garminMinutes": 87,
+      "garminDistance": 6.69,
+      "garminPace": "12:58/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 102,
+      "plannedCalories": 3453,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2633,8 +2633,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 9",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 9 long run \u2014 easy conversational.",
-      "sessions": []
+      "workoutNotes": "Outdoor Campbell County (hilly); 1:26:41 / 6.69 mi @ 12:58/mi; avg/max HR 148/171; 1093 cal. Run power 312 W (not compared; no prior run power). vs Nov 8 long run (flat Virginia Beach) 81 min / 6.30 mi @ 12:52, HR 138/165: +6 min, +0.39 mi, pace 6 s/mi slower, avg HR +10, max +6, from hills.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Campbell County)",
+          "minutes": 87,
+          "distanceMi": 6.69,
+          "pace": "12:58/mi",
+          "planned": true,
+          "completionPct": 102,
+          "notes": "Outdoor Campbell County (hilly); 1:26:41 / 6.69 mi @ 12:58/mi; avg/max HR 148/171; 1093 cal. Run power 312 W (not compared; no prior run power). vs Nov 8 long run (flat Virginia Beach) 81 min / 6.30 mi @ 12:52, HR 138/165: +6 min, +0.39 mi, pace 6 s/mi slower, avg HR +10, max +6, from hills.",
+          "avgHr": 148,
+          "maxHr": 171,
+          "calories": 1093
+        }
+      ]
     },
     {
       "date": "2026-11-16",
