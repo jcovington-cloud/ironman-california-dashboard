@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-16T06:34:24-05:00",
+    "lastUpdated": "2026-11-16T06:50:30-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -171,13 +171,13 @@
       "iso": "2026-11-15T23:36:59-05:00"
     },
     "poolSchedule": {
-      "checked": "2026-11-09",
+      "checked": "2026-11-16",
       "source": "https://virginia-beach-departments-docs.s3.amazonaws.com/parks-rec/RecCenters/Bow-Creek-Pool-Schedule.pdf",
       "scheduleMonth": "November 2026 (last updated Oct 26, 2026)",
       "lapSwim": "Mon/Wed 6am-2:30pm + 8-9pm; Tue/Thu 6am-2:30pm + 8:30-9pm; Fri 6-8:10am + 9:20am-2:30pm + 5:15-8pm; Sat 9am-1pm (2) + 1-5pm (1); Sun 11am-1pm (2) + 1-5pm (1)",
       "openSwim": "Mon/Wed 9:30am-5pm + 8-9pm; Tue/Thu 9:30am-2:30pm + 8-9pm; Fri 9:30am-6pm + 7-8pm; Sat/Sun 11am-5pm",
       "blocks": "High school swim practice 2:30-5:30pm Mon-Fri (limited laps/space); Swim League practice 5:30-8:30pm Tue/Thu; Mon/Wed 5:15-8pm lessons in lap pool. Closure/short day: Wed Nov 25 pool open 6am-12pm only. No holiday hours posted for Fri Nov 27.",
-      "plannedSwims": "Fri Nov 13 (10:30-11:00am), Fri Nov 20 (10:30-11:05am), Fri Nov 27 (10:30-11:00am): no conflicts (Fri lap 9:20am-2:30pm, open 9:30am-6pm). Nov 27 is day after Thanksgiving; confirm holiday hours."
+      "plannedSwims": "Fri Nov 20 (10:30-11:05am), Fri Nov 27 (10:30-11:00am), Fri Dec 4 (10:30-11:00am): no conflicts (Fri lap 9:20am-2:30pm, open 9:30am-6pm). Nov 27 is day after Thanksgiving; no holiday hours posted, confirm before going. December PDF not posted yet; confirm Dec 4."
     }
   },
   "workouts": [
