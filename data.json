@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-15T23:36:59-05:00",
+    "lastUpdated": "2026-11-16T06:34:24-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -153,9 +153,14 @@
         "date": "2026-11-09",
         "lb": 245.0,
         "note": "Monday weigh-in (\u22120.8 lb vs Nov 2)"
+      },
+      {
+        "date": "2026-11-16",
+        "lb": 244.4,
+        "note": "Monday weigh-in (\u22120.6 lb vs Nov 9)"
       }
     ],
-    "weightCurrentLb": 245.0,
+    "weightCurrentLb": 244.4,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
@@ -2670,7 +2675,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 rest / easy mobility. Optional short walk OK.",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 rest / easy mobility. Optional short walk OK. \u00b7 Weigh-in 244.4 lb (prev 245.0 Nov 9; baseline 249, total loss 4.6 lb; \u22120.6 vs last week).",
       "sessions": []
     },
     {
