@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-15T08:50:10-05:00",
+    "lastUpdated": "2026-11-15T23:36:59-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -160,10 +160,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-14 training day (gym bike 110 min): 2978 vs exercise-adjusted 2866 (base 2360 + 506); +112 Over. P88/C359/F121. Protein 55 g short of 143, fat 25 g over. Diary not marked complete.",
-      "iso": "2026-11-14T23:51:35-05:00"
+      "notes": "Nightly MFP finals for 2026-11-15 training day (long run 87 min): 2817 vs exercise-adjusted 3453 (base 2360 + 1093); \u2212636 Under. P156/C238/F245. Fat 130 g over the 115 goal, protein 17 g short of 173. Diary not marked complete.",
+      "iso": "2026-11-15T23:36:59-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-09",
@@ -2626,13 +2626,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 102,
       "plannedCalories": 3453,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 9",
+      "mfpCalories": 2817,
+      "calorieDelta": -636,
+      "overUnder": "Under",
+      "protein": 156,
+      "carbs": 238,
+      "fat": 245,
+      "nutritionNotes": "Final (nightly MFP): 2817 vs exercise-adjusted 3453 (base 2360 + 1093 long run); \u2212636 Under. P156/C238/F245. Fat 130 g over the 115 goal, protein 17 g short of 173; diary not marked complete.",
       "workoutNotes": "Outdoor Campbell County (hilly); 1:26:41 / 6.69 mi @ 12:58/mi; avg/max HR 148/171; 1093 cal. Run power 312 W (not compared; no prior run power). vs Nov 8 long run (flat Virginia Beach) 81 min / 6.30 mi @ 12:52, HR 138/165: +6 min, +0.39 mi, pace 6 s/mi slower, avg HR +10, max +6, from hills.",
       "sessions": [
         {
