@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-16T23:43:29-05:00",
+    "lastUpdated": "2026-11-17T07:10:11-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2684,13 +2684,13 @@
       "plannedSession": "Run 60 min easy",
       "plannedMinutes": 60,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running",
+      "garminMinutes": 63,
+      "garminDistance": 4.44,
+      "garminPace": "14:11/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 105,
+      "plannedCalories": 3010,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2698,8 +2698,22 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy conversational pace.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 1:02:58 / 4.44 mi @ 14:11/mi; avg/max HR 135/146; 650 cal (running power not compared). vs Nov 10 same 60-min easy run 63 min / 4.43 mi @ 14:07, HR 132/143: same duration and distance, 4 s/mi slower, avg HR +3, max +3 (day after a rest day; 2 days after the hilly long run). vs Nov 15 hilly long run 87 min @ 12:58, HR 148/171: 24 min shorter, 1:13/mi slower, avg HR -13, a properly easy day.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 63,
+          "distanceMi": 4.44,
+          "pace": "14:11/mi",
+          "planned": true,
+          "completionPct": 105,
+          "notes": "Outdoor Virginia Beach; 1:02:58 / 4.44 mi @ 14:11/mi; avg/max HR 135/146; 650 cal (running power not compared). vs Nov 10 same 60-min easy run 63 min / 4.43 mi @ 14:07, HR 132/143: same duration and distance, 4 s/mi slower, avg HR +3, max +3 (day after a rest day; 2 days after the hilly long run). vs Nov 15 hilly long run 87 min @ 12:58, HR 148/171: 24 min shorter, 1:13/mi slower, avg HR -13, a properly easy day.",
+          "avgHr": 135,
+          "maxHr": 146,
+          "calories": 650
+        }
+      ]
     },
     {
       "date": "2026-11-18",
