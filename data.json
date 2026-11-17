@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-16T06:50:30-05:00",
+    "lastUpdated": "2026-11-16T23:43:29-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -165,10 +165,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-15 training day (long run 87 min): 2817 vs exercise-adjusted 3453 (base 2360 + 1093); \u2212636 Under. P156/C238/F245. Fat 130 g over the 115 goal, protein 17 g short of 173. Diary not marked complete.",
-      "iso": "2026-11-15T23:36:59-05:00"
+      "notes": "Nightly MFP finals for 2026-11-16 rest day: 2265 vs base 2360; -95 Under. P119/C126/F144. Fat 65 g over the 79 goal. No MFP exercise kcal; diary not marked complete. No Garmin activity. Weigh-in 244.4 lb already logged.",
+      "iso": "2026-11-16T23:43:29-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-16",
@@ -2667,14 +2667,14 @@
       "garminPace": null,
       "workoutStatus": "Planned",
       "workoutCompletionPct": null,
-      "plannedCalories": null,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 10",
+      "plannedCalories": 2360,
+      "mfpCalories": 2265,
+      "calorieDelta": -95,
+      "overUnder": "Under",
+      "protein": 119,
+      "carbs": 126,
+      "fat": 144,
+      "nutritionNotes": "Final (nightly MFP): 2265 vs base 2360 (rest day); \u221295 Under. P119/C126/F144. Fat 65 g over the 79 goal; no MFP exercise kcal; diary not marked complete.",
       "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 rest / easy mobility. Optional short walk OK. \u00b7 Weigh-in 244.4 lb (prev 245.0 Nov 9; baseline 249, total loss 4.6 lb; \u22120.6 vs last week).",
       "sessions": []
     },
