@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-18T06:17:29-05:00",
+    "lastUpdated": "2026-11-18T06:34:22-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2828,7 +2828,7 @@
     {
       "date": "2026-11-18",
       "day": "Wed",
-      "plannedSession": "Rest (hike moved to Thu Nov 19)",
+      "plannedSession": "Rest (bike moved to Thu Nov 19)",
       "plannedMinutes": 0,
       "plannedSport": "Rest",
       "garminActivity": null,
@@ -2845,15 +2845,15 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "Planned midweek session moved to Thu Nov 19 5:30\u20136:30 AM ET as a 60-min easy hike (substitutes for the Bike 60 min easy). Rest today.",
+      "workoutNotes": "Planned Bike 60 min easy moved to Thu Nov 19 5:30\u20136:30 AM ET. Rest today.",
       "sessions": []
     },
     {
       "date": "2026-11-19",
       "day": "Thu",
-      "plannedSession": "Hike 60 min easy (moved from Wed)",
+      "plannedSession": "Bike 60 min easy (moved from Wed)",
       "plannedMinutes": 60,
-      "plannedSport": "Hike",
+      "plannedSport": "Bike",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -2868,7 +2868,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy 60-min hike (moved from Wed Nov 18; substitutes for the midweek easy bike).",
+      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy spin. Midweek ride at 60-min cap. Moved from Wed Nov 18.",
       "sessions": []
     },
     {
