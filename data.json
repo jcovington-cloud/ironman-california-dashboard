@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Iron Coach \u2014 Ironman California 2027",
+    "title": "Iron Coach \u2014 IRONMAN 70.3 Waco 2027",
     "athlete": "Jonathan Covington",
     "athleteLocation": "Virginia Beach",
-    "race": "IRONMAN California (Sacramento)",
-    "raceDate": "2027-10-24",
-    "raceDateNote": "Target ~Oct 24, 2027 \u2014 confirm when registration opens; 2026 race is Oct 18",
+    "race": "IRONMAN 70.3 Waco (Waco, TX)",
+    "raceDate": "2027-11-14",
+    "raceDateNote": "Sun Nov 14, 2027 confirmed on ironman.com. Start ~7:20 AM CT expected (2026 race-day start time); confirm in the 2027 Athlete Guide.",
     "goal": "Finish under cutoff with enjoyable training (not podium)",
     "priorIM": "IRONMAN 2017 ~16h",
     "weightBaselineLb": 249,
@@ -14,14 +14,14 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-17T07:10:11-05:00",
+    "lastUpdated": "2026-11-17T19:44:23-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
       "Training Calendar"
     ],
-    "courseOfficialUrl": "https://www.ironman.com/races/im-california/course",
-    "courseMapsNote": "Maps subject to change / 2025\u201326 reference until 2027 maps publish",
+    "courseOfficialUrl": "https://www.ironman.com/races/im703-waco/course",
+    "courseMapsNote": "Official 2026 IRONMAN maps (swim map dated 2023) \u2014 subject to change until 2027 maps publish",
     "phases": [
       {
         "id": "foundation",
@@ -178,6 +178,59 @@
       "openSwim": "Mon/Wed 9:30am-5pm + 8-9pm; Tue/Thu 9:30am-2:30pm + 8-9pm; Fri 9:30am-6pm + 7-8pm; Sat/Sun 11am-5pm",
       "blocks": "High school swim practice 2:30-5:30pm Mon-Fri (limited laps/space); Swim League practice 5:30-8:30pm Tue/Thu; Mon/Wed 5:15-8pm lessons in lap pool. Closure/short day: Wed Nov 25 pool open 6am-12pm only. No holiday hours posted for Fri Nov 27.",
       "plannedSwims": "Fri Nov 20 (10:30-11:05am), Fri Nov 27 (10:30-11:00am), Fri Dec 4 (10:30-11:00am): no conflicts (Fri lap 9:20am-2:30pm, open 9:30am-6pm). Nov 27 is day after Thanksgiving; no holiday hours posted, confirm before going. December PDF not posted yet; confirm Dec 4."
+    },
+    "raceStart": "2027-11-14T07:20:00-06:00",
+    "primaryRace": {
+      "name": "IRONMAN 70.3 Waco",
+      "date": "2027-11-14",
+      "startLocal": "2027-11-14T07:20:00-06:00",
+      "startTimeStatus": "expected",
+      "location": "Waco, Texas \u2014 Indian Spring Park / Heritage Square",
+      "distanceMi": {
+        "swim": 1.2,
+        "bike": 56,
+        "run": 13.1,
+        "total": 70.3
+      },
+      "cutoffs": {
+        "swim": "1:10 per athlete",
+        "swimBikeT1": "5:30 per athlete",
+        "overall": "8:30 per athlete",
+        "bikeIntermediate": "Aid Station 3 (FM 434 & S 3rd St) by 1:10 PM CT (2026 guide)",
+        "runIntermediate": "Riverwalk under Washington Ave Bridge by 3:30 PM CT (2026 guide)"
+      },
+      "elevation": {
+        "bikeGainFt": 1035,
+        "runGainFt": 299
+      },
+      "weather": {
+        "nwsNormalHighF": 69,
+        "nwsNormalLowF": 46,
+        "ironmanHighF": 79,
+        "ironmanLowF": 54,
+        "ironmanAvgWaterF": 65,
+        "wetsuitRuleF": 76.1
+      },
+      "registration": "Open (opened Nov 5, 2026); individual entry $487.63 at time of check, Flex90 eligible \u2014 NOT registered",
+      "sources": [
+        "https://www.ironman.com/races/im703-waco",
+        "https://www.ironman.com/races/im703-waco/course",
+        "https://www.ironman.com/races/im703-waco/schedule",
+        "https://www.ironman.com/sites/default/files/2026-10/2026%2070.3%20Waco%20Athlete%20Guide.rs_.pdf",
+        "https://in.usa.ironman.com/2027-ironman-703-waco",
+        "https://teamsaunderstri.com/race-guides/ironman-70-3-waco/"
+      ]
+    },
+    "futureRace": {
+      "name": "IRONMAN California",
+      "location": "Sacramento, CA",
+      "year": 2028,
+      "date": null,
+      "approxDate": "2028-10-22",
+      "approxStartLocal": "2028-10-22T07:00:00-07:00",
+      "dateStatus": "TBA \u2014 2028 date not announced (2027 edition Oct 24 is sold out). Countdown uses an approximate late-Oct 2028 Sunday.",
+      "note": "IRONMAN/Visit Sacramento host agreement runs through 2028.",
+      "url": "https://www.ironman.com/races/im-california"
     }
   },
   "workouts": [
