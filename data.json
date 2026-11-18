@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-17T19:44:23-05:00",
+    "lastUpdated": "2026-11-17T19:55:03-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -28,35 +28,91 @@
         "name": "Foundation",
         "start": "2026-09-14",
         "end": "2026-11-29",
-        "description": "Rebuild consistency with easy aerobic volume across run, bike, and swim. Establish habits, mobility, and nutrition logging."
+        "description": "Prep: rebuild consistency with easy aerobic volume across run, bike, and swim. Establish habits, mobility, and nutrition logging. Recovery week Nov 23\u201329."
       },
       {
-        "id": "base",
-        "name": "Base",
+        "id": "base1",
+        "name": "Base 1",
         "start": "2026-11-30",
-        "end": "2027-04-30",
-        "description": "Build durable aerobic fitness. Gradually increase long rides and runs while keeping intensity mostly easy. Friel Base 1\u20132: Nov 30 test week (Dec 1 run LTHR test, Dec 5 bike LTHR test), 2 load + 1 recovery week cycles, 2\u00d7 weekly Anatomical Adaptation strength."
+        "end": "2027-01-10",
+        "description": "Friel Base 1: Nov 30 test week (Dec 1 run LTHR, Dec 5 bike LTHR). Z1\u2013Z2 aerobic endurance, 2\u00d7 weekly Anatomical Adaptation strength, add a 2nd weekly swim (Wed midday). 2 load + 1 recovery (recovery Dec 14\u201320, Jan 4\u201310). End targets: long ride 2:15, long run 1:35, 1,000 yd continuous swim."
       },
       {
-        "id": "specific",
-        "name": "Specific",
-        "start": "2027-05-01",
-        "end": "2027-08-31",
-        "description": "Race-specific sessions: longer bricks, swim continuity, and controlled intensity that mirrors Ironman demands."
+        "id": "base2",
+        "name": "Base 2",
+        "start": "2027-01-11",
+        "end": "2027-02-21",
+        "description": "Longer Z2, cadence and hill work, swim technique; strength Max Transition \u2192 moderate Max Strength. Recovery Jan 25\u201331, Feb 15\u201321. End: ride 2:45, run 1:45 (~8 mi), 1,500 yd continuous."
+      },
+      {
+        "id": "base3",
+        "name": "Base 3",
+        "start": "2027-02-22",
+        "end": "2027-04-04",
+        "description": "Muscular endurance: tempo/sweet-spot bike, steady-state run, CSS swim sets; 3 swims/wk; strength maintenance. Recovery Mar 8\u201314, Mar 29\u2013Apr 4 (retest). End: ride 3:00, run 1:50, 2,000 yd continuous."
+      },
+      {
+        "id": "build1-spring",
+        "name": "Build 1 (spring)",
+        "start": "2027-04-05",
+        "end": "2027-05-16",
+        "description": "70.3-effort intervals, first bricks, first wetsuit open-water swims. Recovery Apr 19\u201325, May 10\u201316."
+      },
+      {
+        "id": "build2-brace",
+        "name": "Build 2 + Jamestown Olympic",
+        "start": "2027-05-17",
+        "end": "2027-06-13",
+        "description": "Olympic-specific bricks; mini-peak May 31\u2013Jun 6; race week Jun 7\u201313. Tune-up B-race: Jamestown Olympic, Sun Jun 13 (Williamsburg) \u2014 not registered."
+      },
+      {
+        "id": "transition-mid",
+        "name": "Mid-season Transition",
+        "start": "2027-06-14",
+        "end": "2027-06-20",
+        "description": "Unstructured, fun, rest the legs."
+      },
+      {
+        "id": "base-summer",
+        "name": "Summer Base",
+        "start": "2027-06-21",
+        "end": "2027-08-01",
+        "description": "Re-broaden aerobic base in the heat, run durability, long open-water swims. Recovery Jul 5\u201311, Jul 26\u2013Aug 1. End: ride 3:15, first 10-mile run, 1.2 mi OW continuous."
+      },
+      {
+        "id": "build1",
+        "name": "Build 1 (Waco)",
+        "start": "2027-08-02",
+        "end": "2027-08-22",
+        "description": "Race-specific muscular endurance, weekly brick, fueling rehearsal (60\u201380 g carb/h). Recovery Aug 16\u201322. End: 3:30 (~56 mi) ride."
+      },
+      {
+        "id": "build2",
+        "name": "Build 2 (Waco)",
+        "start": "2027-08-23",
+        "end": "2027-10-24",
+        "description": "Race simulations (~Sep 25, ~Oct 9), 70.3 pacing, bricks every 5\u20137 days, peak 9.5\u201311 h/wk. Recovery Sep 6\u201312 (B-race: Patriots Olympic, Sat Sep 11 \u2014 not registered), Sep 27\u2013Oct 3, Oct 18\u201324. Long run cap ~2:00\u20132:10."
       },
       {
         "id": "peak",
         "name": "Peak",
-        "start": "2027-09-01",
-        "end": "2027-10-06",
-        "description": "Highest race-relevant volume and key rehearsals before taper. Sharpen confidence, not grind."
+        "start": "2027-10-25",
+        "end": "2027-11-07",
+        "description": "Taper (\u221220% then \u221235%) with shorter race-intensity bricks every ~72 h; last long ride 2:30 Oct 30, last long run Oct 31; travel prep."
       },
       {
-        "id": "taper",
-        "name": "Taper",
-        "start": "2027-10-07",
-        "end": "2027-10-24",
-        "description": "About 2.5 weeks of reduced volume, retained sharpness, travel prep, and race-week nutrition."
+        "id": "race",
+        "name": "Race week \u2014 IRONMAN 70.3 Waco",
+        "start": "2027-11-08",
+        "end": "2027-11-14",
+        "description": "Short openers, travel to Waco, check-in and bike drop. RACE Sun Nov 14, 2027 (~7:20 AM CT expected)."
+      },
+      {
+        "id": "transition",
+        "name": "Transition",
+        "start": "2027-11-15",
+        "end": "2027-12-12",
+        "description": "Week 1 full rest, then unstructured fun cross-training; reflect and reset. IRONMAN California 2028 Prep/Base begins ~Dec 13, 2027."
       }
     ],
     "sampleFoundationWeek": [
@@ -171,13 +227,13 @@
       "iso": "2026-11-16T23:43:29-05:00"
     },
     "poolSchedule": {
-      "checked": "2026-11-16",
+      "checked": "2026-11-17",
       "source": "https://virginia-beach-departments-docs.s3.amazonaws.com/parks-rec/RecCenters/Bow-Creek-Pool-Schedule.pdf",
       "scheduleMonth": "November 2026 (last updated Oct 26, 2026)",
       "lapSwim": "Mon/Wed 6am-2:30pm + 8-9pm; Tue/Thu 6am-2:30pm + 8:30-9pm; Fri 6-8:10am + 9:20am-2:30pm + 5:15-8pm; Sat 9am-1pm (2) + 1-5pm (1); Sun 11am-1pm (2) + 1-5pm (1)",
       "openSwim": "Mon/Wed 9:30am-5pm + 8-9pm; Tue/Thu 9:30am-2:30pm + 8-9pm; Fri 9:30am-6pm + 7-8pm; Sat/Sun 11am-5pm",
       "blocks": "High school swim practice 2:30-5:30pm Mon-Fri (limited laps/space); Swim League practice 5:30-8:30pm Tue/Thu; Mon/Wed 5:15-8pm lessons in lap pool. Closure/short day: Wed Nov 25 pool open 6am-12pm only. No holiday hours posted for Fri Nov 27.",
-      "plannedSwims": "Fri Nov 20 (10:30-11:05am), Fri Nov 27 (10:30-11:00am), Fri Dec 4 (10:30-11:00am): no conflicts (Fri lap 9:20am-2:30pm, open 9:30am-6pm). Nov 27 is day after Thanksgiving; no holiday hours posted, confirm before going. December PDF not posted yet; confirm Dec 4."
+      "plannedSwims": "Fri Nov 20 (10:30-11:05am), Fri Nov 27 (10:30-11:00am), Fri Dec 4 (10:30-11:00am): no conflicts (Fri lap 9:20am-2:30pm, open 9:30am-6pm). Nov 27 is day after Thanksgiving; no holiday hours posted, confirm before going. December PDF not posted yet; confirm Dec 4. Added Wed midday swims (Waco plan): Wed Dec 9 10:30\u201311:00, Wed Dec 16 10:30\u201310:55, Wed Dec 23 10:30\u201311:00 AM ET (Nov schedule: Wed lap 6am\u20132:30pm, open 9:30am\u20135pm). Dec PDF still not posted as of Nov 17 (S3 file is Nov 2026, last updated Oct 26) \u2014 recheck."
     },
     "raceStart": "2027-11-14T07:20:00-06:00",
     "primaryRace": {
@@ -231,7 +287,8 @@
       "dateStatus": "TBA \u2014 2028 date not announced (2027 edition Oct 24 is sold out). Countdown uses an approximate late-Oct 2028 Sunday.",
       "note": "IRONMAN/Visit Sacramento host agreement runs through 2028.",
       "url": "https://www.ironman.com/races/im-california"
-    }
+    },
+    "planNote": "Waco 70.3 phase plan applied 2026-11-17 (2:1 load/recovery cycles). Draft: /workspace/waco-plan-draft.md"
   },
   "workouts": [
     {
@@ -3254,9 +3311,9 @@
     {
       "date": "2026-12-09",
       "day": "Wed",
-      "plannedSession": "Bike 60 min Z2 + spin-ups",
-      "plannedMinutes": 60,
-      "plannedSport": "Bike",
+      "plannedSession": "Bike 60 min Z2 + spin-ups + Swim 25\u201330 min @ Bow Creek",
+      "plannedMinutes": 90,
+      "plannedSport": "Bike + Swim",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -3271,7 +3328,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 2 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups (easy gear, smooth), full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 2 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups (easy gear, smooth), full recoveries. Zone 2 by HR zones set from Dec 1/5 tests. \u00b7 + 10:30 AM ET swim @ Bow Creek (2nd weekly swim, Waco plan): technique drills + easy swimming. Prefer lap lanes (Wed lap 6 a.m.\u20132:30 p.m., open 9:30 a.m.\u20135 p.m. on Nov schedule). December PDF not posted yet \u2014 confirm hours.",
       "sessions": []
     },
     {
@@ -3415,9 +3472,9 @@
     {
       "date": "2026-12-16",
       "day": "Wed",
-      "plannedSession": "Bike 45 min easy",
-      "plannedMinutes": 45,
-      "plannedSport": "Bike",
+      "plannedSession": "Bike 45 min easy + Swim 25 min easy @ Bow Creek",
+      "plannedMinutes": 70,
+      "plannedSport": "Bike + Swim",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -3432,7 +3489,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Base 1 week 3 (recovery week) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 easy spin. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2).",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 3 (recovery week) \u2014 easy spin. Zone 2 by HR zones set from Dec 1/5 tests (stay low Z1\u2013Z2). \u00b7 + 10:30 AM ET swim @ Bow Creek (2nd weekly swim, Waco plan): easy swimming, light drills. Prefer lap lanes (Wed lap 6 a.m.\u20132:30 p.m., open 9:30 a.m.\u20135 p.m. on Nov schedule). December PDF not posted yet \u2014 confirm hours.",
       "sessions": []
     },
     {
@@ -3546,8 +3603,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 Friel Anatomical Adaptation: light weight, 2\u20133 sets x 15\u201320 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
+      "nutritionNotes": "Base 1 week 4 (load) (Friel)",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 4 (load) \u2014 Friel Anatomical Adaptation: light weight, 2\u20133 sets x 15\u201320 reps. Squats/goblet squats, lunges, step-ups, push-ups, rows, plank.",
       "sessions": []
     },
     {
@@ -3569,16 +3626,16 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (load) (Friel)",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 4 (load) \u2014 aerobic endurance. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
       "date": "2026-12-23",
       "day": "Wed",
-      "plannedSession": "Bike 65 min Z2 + spin-ups",
-      "plannedMinutes": 65,
-      "plannedSport": "Bike",
+      "plannedSession": "Bike 65 min Z2 + spin-ups + Swim 25\u201330 min @ Bow Creek",
+      "plannedMinutes": 95,
+      "plannedSport": "Bike + Swim",
       "garminActivity": null,
       "garminMinutes": null,
       "garminDistance": null,
@@ -3592,8 +3649,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups, full recoveries. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (load) (Friel)",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 4 (load) \u2014 aerobic endurance + pedaling skill: 4 x 1-min high-cadence spin-ups, full recoveries. Zone 2 by HR zones set from Dec 1/5 tests. \u00b7 + 10:30 AM ET swim @ Bow Creek (2nd weekly swim, Waco plan): technique drills + easy swimming. Prefer lap lanes (Wed lap 6 a.m.\u20132:30 p.m., open 9:30 a.m.\u20135 p.m. on Nov schedule). December PDF not posted yet \u2014 confirm hours. Possible holiday hours.",
       "sessions": []
     },
     {
@@ -3615,8 +3672,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "5:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 Christmas Eve. 45 min easy run with 6 x 20s strides, then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (load) (Friel)",
+      "workoutNotes": "5:30 AM ET \u00b7 Base 1 week 4 (load) \u2014 Christmas Eve. 45 min easy run with 6 x 20s strides, then 15 min strength/core. Total 60 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3638,8 +3695,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (load) (Friel)",
-      "workoutNotes": "10:30 AM ET \u00b7 Base 2 week 1 (load) \u2014 optional on Christmas. Technique drills + easy swimming. Bow Creek is likely closed or on holiday hours; check before going. Skip guilt-free. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (load) (Friel)",
+      "workoutNotes": "10:30 AM ET \u00b7 Base 1 week 4 (load) \u2014 optional on Christmas. Technique drills + easy swimming. Bow Creek is likely closed or on holiday hours; check before going. Skip guilt-free. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3661,8 +3718,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (Friel)",
-      "workoutNotes": "6:30 AM ET \u00b7 Base 2 week 1 long ride \u2014 aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (Friel)",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 4 long ride \u2014 aerobic endurance. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     },
     {
@@ -3684,8 +3741,8 @@
       "protein": null,
       "carbs": null,
       "fat": null,
-      "nutritionNotes": "Base 2 week 1 (Friel)",
-      "workoutNotes": "6:30 AM ET \u00b7 Base 2 week 1 long run \u2014 aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
+      "nutritionNotes": "Base 1 week 4 (Friel)",
+      "workoutNotes": "6:30 AM ET \u00b7 Base 1 week 4 long run \u2014 aerobic endurance, conversational. Water; fuel OK over ~75 min. Zone 2 by HR zones set from Dec 1/5 tests.",
       "sessions": []
     }
   ]
