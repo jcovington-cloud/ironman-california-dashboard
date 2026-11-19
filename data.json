@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-18T06:34:22-05:00",
+    "lastUpdated": "2026-11-18T23:40:41-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -221,10 +221,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-17 training day (Run 60 min easy, Completed 105%): 2273 vs exercise-adjusted 3010 (base 2360 + 650 run); -737 Under. P130/C287/F69. Protein 21 g short of 151; diary not marked complete. Garmin already logged: Virginia Beach run 63 min / 4.44 mi @ 14:11/mi.",
-      "iso": "2026-11-17T23:36:17-05:00"
+      "notes": "Nightly MFP finals for 2026-11-18 rest day (bike moved to Thu Nov 19): 2025 vs base 2360; -335 Under. P110/C247/F70. Protein 8 g short of 118; no MFP exercise kcal; diary not marked complete. No Garmin activity.",
+      "iso": "2026-11-18T23:40:41-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -2838,13 +2838,13 @@
       "workoutStatus": "Moved",
       "workoutCompletionPct": null,
       "plannedCalories": 2360,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 10",
+      "mfpCalories": 2025,
+      "calorieDelta": -335,
+      "overUnder": "Under",
+      "protein": 110,
+      "carbs": 247,
+      "fat": 70,
+      "nutritionNotes": "Final (nightly MFP): 2025 vs base 2360 (rest day); \u2212335 Under. P110/C247/F70. Protein 8 g short of 118; no MFP exercise kcal; diary not marked complete.",
       "workoutNotes": "Planned Bike 60 min easy moved to Thu Nov 19 5:30\u20136:30 AM ET. Rest today.",
       "sessions": []
     },
