@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-18T23:40:41-05:00",
+    "lastUpdated": "2026-11-19T07:20:12-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2854,13 +2854,13 @@
       "plannedSession": "Bike 60 min easy (moved from Wed)",
       "plannedMinutes": 60,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 60,
+      "garminDistance": 19.18,
+      "garminPace": "19.2 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
+      "plannedCalories": 2849,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2868,8 +2868,25 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy spin. Midweek ride at 60-min cap. Moved from Wed Nov 18.",
-      "sessions": []
+      "workoutNotes": "Indoor Rouvy (IM Texas); 6:14 AM ET; 1:00:04 / 19.18 mi @ 19.2 mph; avg/max HR 123/145; 107 W avg (Rouvy); 489 cal. vs Nov 11 same 60-min easy Rouvy 1:00:20 / 16.03 mi @ 15.9 mph, 105 W, HR 122/172: same duration, +3.15 mi and +3.3 mph (Rouvy virtual-course speed), +2 W same source, avg HR +1, max \u221227. vs Nov 4 midweek easy 55 min / 17.24 mi @ 18.8 mph, 107 W, HR 128/138: +5 min, +1.94 mi, +0.4 mph, same 107 W, avg HR \u22125, max +7.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling (Rouvy, IM Texas)",
+          "minutes": 60,
+          "distanceMi": 19.18,
+          "pace": "19.2 mph",
+          "startEt": "06:14",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "Indoor Rouvy (IM Texas); 6:14 AM ET; 1:00:04 / 19.18 mi @ 19.2 mph; avg/max HR 123/145; 107 W avg (Rouvy); 489 cal. vs Nov 11 same 60-min easy Rouvy 1:00:20 / 16.03 mi @ 15.9 mph, 105 W, HR 122/172: same duration, +3.15 mi and +3.3 mph (Rouvy virtual-course speed), +2 W same source, avg HR +1, max \u221227. vs Nov 4 midweek easy 55 min / 17.24 mi @ 18.8 mph, 107 W, HR 128/138: +5 min, +1.94 mi, +0.4 mph, same 107 W, avg HR \u22125, max +7.",
+          "activityId": 25130035724,
+          "avgHr": 123,
+          "maxHr": 145,
+          "avgPowerW": 107,
+          "calories": 489
+        }
+      ]
     },
     {
       "date": "2026-11-20",
