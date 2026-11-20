@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-19T17:17:28-05:00",
+    "lastUpdated": "2026-11-19T23:53:07-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -221,10 +221,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-18 rest day (bike moved to Thu Nov 19): 2025 vs base 2360; -335 Under. P110/C247/F70. Protein 8 g short of 118; no MFP exercise kcal; diary not marked complete. No Garmin activity.",
-      "iso": "2026-11-18T23:40:41-05:00"
+      "notes": "Nightly MFP finals for 2026-11-19 training day (Bike 60 min easy, completed Indoor Cycling 60 min / 19.18 mi): 2449 vs exercise-adjusted 2849 (base 2360 + 489 bike); -400 Under. P104/C274/F108. Protein 38 g short of 142; fat 13 g over the 95 goal; diary not marked complete.",
+      "iso": "2026-11-19T23:53:07-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -2861,13 +2861,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 100,
       "plannedCalories": 2849,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 10",
+      "mfpCalories": 2449,
+      "calorieDelta": -400,
+      "overUnder": "Under",
+      "protein": 104,
+      "carbs": 274,
+      "fat": 108,
+      "nutritionNotes": "Final (nightly MFP): 2449 vs exercise-adjusted 2849 (base 2360 + 489 bike); \u2212400 Under. P104/C274/F108. Protein 38 g short of 142; fat 13 g over the 95 goal; diary not marked complete.",
       "workoutNotes": "Indoor Rouvy (IM Texas); 6:14 AM ET; 1:00:04 / 19.18 mi @ 19.2 mph; avg/max HR 123/145; 107 W avg (Rouvy); 489 cal. vs Nov 11 same 60-min easy Rouvy 1:00:20 / 16.03 mi @ 15.9 mph, 105 W, HR 122/172: same duration, +3.15 mi and +3.3 mph (Rouvy virtual-course speed), +2 W same source, avg HR +1, max \u221227. vs Nov 4 midweek easy 55 min / 17.24 mi @ 18.8 mph, 107 W, HR 128/138: +5 min, +1.94 mi, +0.4 mph, same 107 W, avg HR \u22125, max +7.",
       "sessions": [
         {
