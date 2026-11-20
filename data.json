@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-19T23:53:07-05:00",
+    "lastUpdated": "2026-11-20T07:05:10-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2894,13 +2894,13 @@
       "plannedSession": "Run 45 min easy + strides",
       "plannedMinutes": 45,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running",
+      "garminMinutes": 44.5,
+      "garminDistance": 3.42,
+      "garminPace": "13:00/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 99,
+      "plannedCalories": 2868,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2908,8 +2908,24 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 10 \u2014 easy run + 4\u20136 short strides (20s pickups, full recoveries). Moved from Thu Nov 19. Swim 30\u201335 min @ Bow Creek (10:30 AM) skipped due to lingering cold (still coughing).",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 6:16 AM ET; 0:44:30 / 3.42 mi @ 13:00/mi; avg/max HR 131/160; 508 cal (running power not compared). 6x30\" strides as planned. Ran through the lingering cold. vs Nov 17 easy 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 18:28 shorter, 1:11/mi faster (strides in today's session), avg HR \u22124, max +14 (strides). vs Oct 22 same 36' + 6x30\" strides at Virginia Beach 42:11 / 3.26 mi @ 12:56/mi, avg HR 131: +2:19, +0.16 mi, 4 s/mi slower, same avg HR. vs Oct 15 same session 41:17 / 3.07 mi @ 13:27/mi, avg HR 126: +3:13, 27 s/mi faster, avg HR +5. vs Oct 11 45-min easy (no strides) 52:16 / 3.53 mi @ 14:49/mi, avg HR 121: 8 min shorter, 1:49/mi faster, avg HR +10, as expected with strides. Swim 30\u201335 min @ Bow Creek (10:30 AM) skipped due to lingering cold (still coughing).",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach, 6x30\" strides)",
+          "minutes": 44.5,
+          "distanceMi": 3.42,
+          "pace": "13:00/mi",
+          "startEt": "06:16",
+          "planned": true,
+          "completionPct": 99,
+          "notes": "Outdoor Virginia Beach; 6:16 AM ET; 0:44:30 / 3.42 mi @ 13:00/mi; avg/max HR 131/160; 508 cal (running power not compared). 6x30\" strides as planned. Ran through the lingering cold. vs Nov 17 easy 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 18:28 shorter, 1:11/mi faster (strides in today's session), avg HR \u22124, max +14 (strides). vs Oct 22 same 36' + 6x30\" strides at Virginia Beach 42:11 / 3.26 mi @ 12:56/mi, avg HR 131: +2:19, +0.16 mi, 4 s/mi slower, same avg HR. vs Oct 15 same session 41:17 / 3.07 mi @ 13:27/mi, avg HR 126: +3:13, 27 s/mi faster, avg HR +5. vs Oct 11 45-min easy (no strides) 52:16 / 3.53 mi @ 14:49/mi, avg HR 121: 8 min shorter, 1:49/mi faster, avg HR +10, as expected with strides. Swim 30\u201335 min @ Bow Creek (10:30 AM) skipped due to lingering cold (still coughing).",
+          "activityId": 25140339221,
+          "avgHr": 131,
+          "maxHr": 160,
+          "calories": 508
+        }
+      ]
     },
     {
       "date": "2026-11-21",
