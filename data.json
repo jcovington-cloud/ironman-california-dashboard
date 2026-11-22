@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-21T23:36:32-05:00",
+    "lastUpdated": "2026-11-22T08:20:39-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -2973,13 +2973,13 @@
       "plannedSession": "Run 90 min easy",
       "plannedMinutes": 90,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running",
+      "garminMinutes": 92,
+      "garminDistance": 7.11,
+      "garminPace": "12:57/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 102,
+      "plannedCalories": 3458,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -2987,8 +2987,24 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 10",
-      "workoutNotes": "6:30 AM ET \u00b7 Foundation week 10 long run \u2014 easy conversational. Thanksgiving week follows.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 6:44 AM ET; 1:32:05 / 7.11 mi @ 12:57/mi; avg/max HR 138/163; 1098 cal (running power not compared). vs Nov 8 long run at Virginia Beach 1:21:03 / 6.30 mi @ 12:52/mi, HR 138/165: +11 min, +0.81 mi, 5 s/mi slower, same avg HR, max \u22122. vs Nov 15 hilly long run in Campbell County 1:26:41 / 6.69 mi @ 12:58/mi, HR 148/171: +5 min, +0.42 mi, 1 s/mi faster, avg HR \u221210, max \u22128, as expected off the hills.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 92,
+          "distanceMi": 7.11,
+          "pace": "12:57/mi",
+          "startEt": "06:44",
+          "planned": true,
+          "completionPct": 102,
+          "notes": "Outdoor Virginia Beach; 6:44 AM ET; 1:32:05 / 7.11 mi @ 12:57/mi; avg/max HR 138/163; 1098 cal (running power not compared). vs Nov 8 long run at Virginia Beach 1:21:03 / 6.30 mi @ 12:52/mi, HR 138/165: +11 min, +0.81 mi, 5 s/mi slower, same avg HR, max \u22122. vs Nov 15 hilly long run in Campbell County 1:26:41 / 6.69 mi @ 12:58/mi, HR 148/171: +5 min, +0.42 mi, 1 s/mi faster, avg HR \u221210, max \u22128, as expected off the hills.",
+          "activityId": 25162778474,
+          "avgHr": 138,
+          "maxHr": 163,
+          "calories": 1098
+        }
+      ]
     },
     {
       "date": "2026-11-23",
