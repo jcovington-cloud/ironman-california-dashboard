@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-21T09:32:59-05:00",
+    "lastUpdated": "2026-11-21T23:36:32-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -221,10 +221,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-20 training day (Run 45 min easy + strides, completed Virginia Beach Running 44.5 min / 3.42 mi @ 13:00/mi, 99%; swim skipped for lingering cold): 2039 vs exercise-adjusted 2868 (base 2360 + 508 run); -829 Under. P79/C270/F76. Protein 64 g short of 143; diary not marked complete.",
-      "iso": "2026-11-20T23:31:12-05:00"
+      "notes": "Nightly MFP finals for 2026-11-21 training day (Bike 120 min easy, completed Indoor Cycling rouvy IM TX 2:00:07 / 35.83 mi @ 17.9 mph, 100%; 869 cal): 2855 vs exercise-adjusted 3229 (base 2360 + 869 bike); -374 Under. P88/C325/F135. Protein 73 g short of 161; fat 27 g over the 108 goal; diary not marked complete.",
+      "iso": "2026-11-21T23:36:00-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -2940,13 +2940,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 100,
       "plannedCalories": 3229,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 10",
+      "mfpCalories": 2855,
+      "calorieDelta": -374,
+      "overUnder": "Under",
+      "protein": 88,
+      "carbs": 325,
+      "fat": 135,
+      "nutritionNotes": "Final (nightly MFP): 2855 vs exercise-adjusted 3229 (base 2360 + 869 bike); \u2212374 Under. P88/C325/F135. Protein 73 g short of 161; fat 27 g over the 108 goal; diary not marked complete.",
       "workoutNotes": "Indoor Rouvy (IM Texas); 7:27 AM ET; 2:00:07 / 35.83 mi @ 17.9 mph; avg/max HR 120/139; 92 W avg (Rouvy); 869 cal. Long-ride progression +10/week (120 min). vs Nov 7 Rouvy long ride 1:50:18 / 32.46 mi @ 17.7 mph, 95 W, HR 122/144: +10 min, +3.37 mi, +0.2 mph (Rouvy virtual-course speed), \u22123 W same source, avg HR \u22122, max \u22125. vs Nov 19 same IM Texas course 1:00:04 / 19.18 mi @ 19.2 mph, 107 W, HR 123/145: +60 min, \u221215 W same source, avg HR \u22123, max \u22126, a steadier long-ride effort. vs Nov 14 gym-bike 110 min / 31.00 mi, HR 105/125: +10 min; power not compared (no power on gym bike); gym-bike speed not calibrated vs Rouvy.",
       "sessions": [
         {
