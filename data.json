@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-23T06:54:23-05:00",
+    "lastUpdated": "2026-11-23T07:09:34-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -214,9 +214,14 @@
         "date": "2026-11-16",
         "lb": 244.4,
         "note": "Monday weigh-in (\u22120.6 lb vs Nov 9)"
+      },
+      {
+        "date": "2026-11-23",
+        "lb": 245.6,
+        "note": "Monday weigh-in (+1.2 lb vs Nov 16)"
       }
     ],
-    "weightCurrentLb": 244.4,
+    "weightCurrentLb": 245.6,
     "sessionsNote": "Each day keeps one workouts[] row for plan + MFP nutrition. All Garmin activities for that day go in sessions[]. Legacy garmin* fields = primary/planned activity. Future refreshes MUST preserve every Garmin session for a day \u2014 never bury extras only in workoutNotes.",
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
@@ -3026,7 +3031,7 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. No Garmin weigh-in found this morning.",
+      "workoutNotes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. Weigh-in 245.6 lb (prev 244.4 Nov 16; baseline 249, total loss 3.4 lb; +1.2 vs last week).",
       "sessions": [
         {
           "sport": "Run",
@@ -3037,7 +3042,7 @@
           "startEt": "05:54",
           "planned": false,
           "completionPct": 107,
-          "notes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. No Garmin weigh-in found this morning.",
+          "notes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. Weigh-in 245.6 lb (prev 244.4 Nov 16; baseline 249, total loss 3.4 lb; +1.2 vs last week).",
           "activityId": 25171704237,
           "avgHr": 135,
           "maxHr": 148,
