@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-22T23:56:46-05:00",
+    "lastUpdated": "2026-11-23T06:54:23-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -3012,13 +3012,13 @@
       "plannedSession": "Rest / easy mobility + weigh-in",
       "plannedMinutes": 30,
       "plannedSport": "Rest",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
+      "garminActivity": "Running",
+      "garminMinutes": 53.5,
+      "garminDistance": 3.61,
+      "garminPace": "14:50/mi",
+      "workoutStatus": "Completed",
       "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "plannedCalories": 2897,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -3026,8 +3026,24 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 rest / easy mobility. Optional short walk OK.",
-      "sessions": []
+      "workoutNotes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. No Garmin weigh-in found this morning.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 53.5,
+          "distanceMi": 3.61,
+          "pace": "14:50/mi",
+          "startEt": "05:54",
+          "planned": false,
+          "completionPct": 107,
+          "notes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. No Garmin weigh-in found this morning.",
+          "activityId": 25171704237,
+          "avgHr": 135,
+          "maxHr": 148,
+          "calories": 537
+        }
+      ]
     },
     {
       "date": "2026-11-24",
