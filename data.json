@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-23T08:56:14-05:00",
+    "lastUpdated": "2026-11-23T23:37:03-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -229,7 +229,7 @@
       "date": "2026-11-21",
       "materialChange": true,
       "notes": "Nightly MFP finals for 2026-11-21 training day (Bike 120 min easy, completed Indoor Cycling rouvy IM TX 2:00:07 / 35.83 mi @ 17.9 mph, 100%; 869 cal): 2855 vs exercise-adjusted 3229 (base 2360 + 869 bike); -374 Under. P88/C325/F135. Protein 73 g short of 161; fat 27 g over the 108 goal; diary not marked complete.",
-      "iso": "2026-11-21T23:36:00-05:00"
+      "iso": "2026-11-23T23:37:03-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -3024,13 +3024,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": null,
       "plannedCalories": 2897,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
+      "mfpCalories": 2539,
+      "calorieDelta": -358,
+      "overUnder": "Under",
+      "protein": 108,
+      "carbs": 251,
+      "fat": 124,
+      "nutritionNotes": "Final (nightly MFP): 2539 vs exercise-adjusted 2897 (base 2360 + 537 run); \u2212358 Under. P108/C251/F124. Protein 37 g short of 145; fat 27 g over the 97 goal; diary not marked complete.",
       "workoutNotes": "Planned rest / easy mobility + weigh-in (Foundation week 11 step-back). Outdoor Virginia Beach; 5:54 AM ET; 0:53:33 / 3.61 mi @ 14:50/mi; avg/max HR 135/148; 537 cal (running power not compared). Looks like Tuesday\u2019s Run 50 min easy done a day early (107% of 50 min). Calendar still has Rest today and Run 50 tomorrow. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 9:25 shorter, 39 s/mi slower, same avg HR, max +2 \u2014 a properly easy day after yesterday\u2019s 92-min long run. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 9:02 shorter, 43 s/mi slower, avg HR +3. vs Nov 20 VB strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: +9:03, +0.19 mi, 1:50/mi slower (no strides), avg HR +4, max \u221212. Weigh-in 245.6 lb (prev 244.4 Nov 16; baseline 249, total loss 3.4 lb; +1.2 vs last week).",
       "sessions": [
         {
