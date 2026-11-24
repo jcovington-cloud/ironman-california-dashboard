@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-23T23:37:03-05:00",
+    "lastUpdated": "2026-11-24T07:00:36-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -3056,13 +3056,13 @@
       "plannedSession": "Run 50 min easy",
       "plannedMinutes": 50,
       "plannedSport": "Run",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running",
+      "garminMinutes": 54.3,
+      "garminDistance": 4.11,
+      "garminPace": "13:13/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 109,
+      "plannedCalories": 2991,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -3070,8 +3070,24 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 easy conversational pace.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach; 6:02 AM ET; 0:54:20 / 4.11 mi @ 13:13/mi; avg/max HR 137/156; 631 cal (running power not compared). Step-back week; second easy run in two days (kept today\u2019s 50 after yesterday\u2019s rest-day 53:33). vs Nov 23 VB 0:53:33 / 3.61 mi @ 14:50/mi, HR 135/148: +0:47, +0.50 mi, 1:37/mi faster, avg HR +2, max +8 \u2014 no slowdown on the back-to-back, a firmer pace at nearly the same avg HR. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 8:38 shorter, 58 s/mi faster, avg HR +2, max +10. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 8:15 shorter, 54 s/mi faster, avg HR +5, max +13.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 54.3,
+          "distanceMi": 4.11,
+          "pace": "13:13/mi",
+          "startEt": "06:02",
+          "planned": true,
+          "completionPct": 109,
+          "notes": "Outdoor Virginia Beach; 6:02 AM ET; 0:54:20 / 4.11 mi @ 13:13/mi; avg/max HR 137/156; 631 cal (running power not compared). Step-back week; second easy run in two days (kept today\u2019s 50 after yesterday\u2019s rest-day 53:33). vs Nov 23 VB 0:53:33 / 3.61 mi @ 14:50/mi, HR 135/148: +0:47, +0.50 mi, 1:37/mi faster, avg HR +2, max +8 \u2014 no slowdown on the back-to-back, a firmer pace at nearly the same avg HR. vs Nov 17 midweek VB 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 8:38 shorter, 58 s/mi faster, avg HR +2, max +10. vs Nov 10 same 60 1:02:35 / 4.43 mi @ 14:07/mi, HR 132/143: 8:15 shorter, 54 s/mi faster, avg HR +5, max +13.",
+          "activityId": 25182903925,
+          "avgHr": 137,
+          "maxHr": 156,
+          "calories": 631
+        }
+      ]
     },
     {
       "date": "2026-11-25",
