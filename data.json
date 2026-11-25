@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-24T22:48:46-05:00",
+    "lastUpdated": "2026-11-25T07:10:42-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -3095,13 +3095,13 @@
       "plannedSession": "Bike 50 min easy",
       "plannedMinutes": 50,
       "plannedSport": "Bike",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Indoor Cycling",
+      "garminMinutes": 50,
+      "garminDistance": 15.72,
+      "garminPace": "18.8 mph",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 100,
+      "plannedCalories": 2754,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -3109,8 +3109,25 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "5:30 AM ET \u00b7 Foundation week 11 (step-back week) \u2014 easy spin.",
-      "sessions": []
+      "workoutNotes": "Indoor Rouvy (IM Texas); 6:17 AM ET; 0:50:07 / 15.72 mi @ 18.8 mph; avg/max HR 115/133; 103 W avg (Rouvy); 394 cal. Foundation week 11 step-back easy spin. vs Nov 19 same IM Texas course 1:00:04 / 19.18 mi @ 19.2 mph, 107 W, HR 123/145: 10 min shorter, \u22124 W same source, avg HR \u22128, max \u221212 \u2014 a controlled easier effort, no fatigue flag after the Sun\u2013Tue run stack. vs Nov 4 midweek easy 55:09 / 17.24 mi @ 18.8 mph, 107 W, HR 128/138: \u22125 min, same 18.8 mph (Rouvy virtual-course speed), \u22124 W, avg HR \u221213. vs Nov 11 60-min Rouvy 1:00:20 @ 15.9 mph, 105 W, HR 122/172: \u221210 min, \u22122 W, avg HR \u22127.",
+      "sessions": [
+        {
+          "sport": "Bike",
+          "activity": "Indoor Cycling (Rouvy, IM Texas)",
+          "minutes": 50,
+          "distanceMi": 15.72,
+          "pace": "18.8 mph",
+          "startEt": "06:17",
+          "planned": true,
+          "completionPct": 100,
+          "notes": "Indoor Rouvy (IM Texas); 6:17 AM ET; 0:50:07 / 15.72 mi @ 18.8 mph; avg/max HR 115/133; 103 W avg (Rouvy); 394 cal. Foundation week 11 step-back easy spin. vs Nov 19 same IM Texas course 1:00:04 / 19.18 mi @ 19.2 mph, 107 W, HR 123/145: 10 min shorter, \u22124 W same source, avg HR \u22128, max \u221212 \u2014 a controlled easier effort, no fatigue flag after the Sun\u2013Tue run stack. vs Nov 4 midweek easy 55:09 / 17.24 mi @ 18.8 mph, 107 W, HR 128/138: \u22125 min, same 18.8 mph (Rouvy virtual-course speed), \u22124 W, avg HR \u221213. vs Nov 11 60-min Rouvy 1:00:20 @ 15.9 mph, 105 W, HR 122/172: \u221210 min, \u22122 W, avg HR \u22127.",
+          "activityId": 25194193468,
+          "avgHr": 115,
+          "maxHr": 133,
+          "avgPowerW": 103,
+          "calories": 394
+        }
+      ]
     },
     {
       "date": "2026-11-26",
