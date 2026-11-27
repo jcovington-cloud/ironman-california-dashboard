@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-26T07:22:01-05:00",
+    "lastUpdated": "2026-11-27T00:15:21-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -226,10 +226,10 @@
     "lastRefresh": {
       "routine": "Nightly MFP final numbers",
       "slot": "nightly",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "materialChange": true,
-      "notes": "Nightly MFP finals for 2026-11-25 training day (Bike 50 min easy, completed Indoor Cycling rouvy IM TX 50:07 / 15.72 mi @ 18.8 mph, 100%; 394 cal): 2498 vs exercise-adjusted 2754 (base 2360 + 394 bike); -256 Under. P105/C191/F92. Protein 33 g short of 138; diary not marked complete. Also wrote leftover Nov 24 MFP into the locked Daily Log (2622 vs 2991, -369 Under).",
-      "iso": "2026-11-25T23:35:05-05:00"
+      "notes": "Nightly MFP finals for 2026-11-26 training day (Run 30 min easy, completed outdoor Virginia Beach 6x30\" strides 0:39:39 / 3.03 mi @ 13:05/mi, 132%; 475 cal): 2247 vs exercise-adjusted 2835 (base 2360 + 475 run); -588 Under. P73/C203/F108. Protein 69 g short of 142; fat 13 g over the 95 goal; diary not marked complete. Added missing Nov 26 row to locked Daily Log (row 83) with Garmin + MFP.",
+      "iso": "2026-11-27T00:15:11-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -3142,13 +3142,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 132,
       "plannedCalories": 2835,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
+      "mfpCalories": 2247,
+      "calorieDelta": -588,
+      "overUnder": "Under",
+      "protein": 73,
+      "carbs": 203,
+      "fat": 108,
+      "nutritionNotes": "Final (nightly MFP): 2247 vs exercise-adjusted 2835 (base 2360 + 475 run); \u00e2\u0088\u0092588 Under. P73/C203/F108. Protein 69 g short of 142; fat 13 g over the 95 goal; diary not marked complete.",
       "workoutNotes": "Outdoor Virginia Beach; 6:33 AM ET; 0:39:39 / 3.03 mi @ 13:05/mi; avg/max HR 138/168; 475 cal (running power not compared). Planned 30-min easy (optional turkey trot); Jon chose strides (Garmin workout \u201c36' - 6x30\" strides\u201d). 6x30\" strides: 8:29 (HR 143/155), 8:30 (147/157), 8:12 (151/160), 8:01 (150/160), 8:01 (152/162), 7:57 (156/166) \u2014 fastest 7:57/mi, stride HR peak 166; session max 168 came in the 6:39 cooldown. vs Nov 20 same VB 36' + 6x30\" strides 0:44:30 / 3.42 mi @ 13:00/mi, HR 131/160: \u22124:51, \u22120.39 mi, 5 s/mi slower, avg HR +7, max +8 (today\u2019s cooldown was 6:39 vs 11:30, which accounts for most of the shorter duration). Warmup mile almost identical (14:21 @ HR 119/129 vs 14:28 @ 117/128). Today\u2019s strides progressed 8:30 \u2192 7:57 and were a bit shorter on the last rep than Nov 20\u2019s 7:35 closer, with stride HRs about 10\u201315 bpm higher. vs Nov 24 easy (no strides) 0:54:20 / 4.11 mi @ 13:13/mi, HR 137/156: 14:41 shorter, \u22121.08 mi, 8 s/mi faster, avg HR +1, max +12 (strides). vs Nov 23 easy 0:53:33 / 3.61 mi @ 14:50/mi, HR 135/148: 13:54 shorter, 1:45/mi faster, avg HR +3, max +20 (strides). vs Nov 17 easy 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 23:19 shorter, 1:06/mi faster, avg HR +3, max +22 (strides). Overall pace and max HR are not a clean easy-run comparison because of the strides. No clear fade: warmup stayed easy and the strides got quicker through the set. Avg HR +7 vs the same Nov 20 workout is worth noting after the Sun\u2013Tue run stack and Wednesday bike, but the short cooldown kept HR from settling and is a likely contributor to the higher session average and the 168 peak.",
       "sessions": [
         {
