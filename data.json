@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-27T00:15:21-05:00",
+    "lastUpdated": "2026-11-27T07:28:12-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -3174,13 +3174,13 @@
       "plannedSession": "Swim 25\u201330 min @ Bow Creek",
       "plannedMinutes": 30,
       "plannedSport": "Swim",
-      "garminActivity": null,
-      "garminMinutes": null,
-      "garminDistance": null,
-      "garminPace": null,
-      "workoutStatus": "Planned",
-      "workoutCompletionPct": null,
-      "plannedCalories": null,
+      "garminActivity": "Running",
+      "garminMinutes": 44.5,
+      "garminDistance": 3.05,
+      "garminPace": "14:37/mi",
+      "workoutStatus": "Completed",
+      "workoutCompletionPct": 148,
+      "plannedCalories": 2801,
       "mfpCalories": null,
       "calorieDelta": null,
       "overUnder": null,
@@ -3188,8 +3188,24 @@
       "carbs": null,
       "fat": null,
       "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
-      "workoutNotes": "10:30 AM ET \u00b7 Bow Creek; prefer lap lanes (open/lap swim midday). \u00b7 Foundation week 11 (step-back week) \u2014 consistency, not speed. Prefer lap lanes. Confirm Bow Creek holiday hours for the day after Thanksgiving before going.",
-      "sessions": []
+      "workoutNotes": "Outdoor Virginia Beach easy-effort run, 6:33 AM ET; 0:44:30 / 3.05 mi @ 14:37/mi; avg/max HR 121/129; 441 cal (running power not compared). Replaces the optional easy swim 25\u201330 min @ Bow Creek (step-back week 11). Mile splits: 14:46 (HR 114/121), 14:25 (124/129), 14:39 (124/128), then 0:40 leftover @ 14:40 (122/123) \u2014 no HR drift after the first mile. vs Nov 24 easy 0:54:20 / 4.11 mi @ 13:13/mi, HR 137/156: 9:50 shorter, \u22121.06 mi, 1:24/mi slower, avg HR \u221216, max \u221227 \u2014 a clearly easier day. vs Nov 23 easy 0:53:33 / 3.61 mi @ 14:50/mi, HR 135/148: 9:03 shorter, 13 s/mi faster, avg HR \u221214, max \u221219. vs Nov 17 easy 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 18:28 shorter, 26 s/mi slower, avg HR \u221214, max \u221217. vs Nov 20 and Nov 26 warmup miles (14:21 @ HR 119/129 both days): today\u2019s first mile was easier (14:46 @ 114/121) and the rest of the run settled at avg HR 124 / max 129, in the same easy range as those warmups. vs Nov 1 similar easy VB 0:49:24 / 3.37 mi @ 14:39/mi, HR 114/126: 4:54 shorter, 2 s/mi faster, avg HR +7, max +3. vs Oct 11 similar-length easy VB 0:52:16 / 3.53 mi @ 14:49/mi, avg HR 121: 7:46 shorter, 12 s/mi faster, same avg HR. Yesterday\u2019s strides session (avg/max HR 138/168) had elevated HR from the 6x30\" efforts and a short cooldown; today\u2019s easy run looks back to normal \u2014 max HR 129 matches those warmup peaks, and average 121 sits at the easy end of his recent range.",
+      "sessions": [
+        {
+          "sport": "Run",
+          "activity": "Running (Virginia Beach)",
+          "minutes": 44.5,
+          "distanceMi": 3.05,
+          "pace": "14:37/mi",
+          "startEt": "06:33",
+          "planned": false,
+          "completionPct": 148,
+          "notes": "Outdoor Virginia Beach easy-effort run, 6:33 AM ET; 0:44:30 / 3.05 mi @ 14:37/mi; avg/max HR 121/129; 441 cal (running power not compared). Replaces the optional easy swim 25\u201330 min @ Bow Creek (step-back week 11). Mile splits: 14:46 (HR 114/121), 14:25 (124/129), 14:39 (124/128), then 0:40 leftover @ 14:40 (122/123) \u2014 no HR drift after the first mile. vs Nov 24 easy 0:54:20 / 4.11 mi @ 13:13/mi, HR 137/156: 9:50 shorter, \u22121.06 mi, 1:24/mi slower, avg HR \u221216, max \u221227 \u2014 a clearly easier day. vs Nov 23 easy 0:53:33 / 3.61 mi @ 14:50/mi, HR 135/148: 9:03 shorter, 13 s/mi faster, avg HR \u221214, max \u221219. vs Nov 17 easy 60 1:02:58 / 4.44 mi @ 14:11/mi, HR 135/146: 18:28 shorter, 26 s/mi slower, avg HR \u221214, max \u221217. vs Nov 20 and Nov 26 warmup miles (14:21 @ HR 119/129 both days): today\u2019s first mile was easier (14:46 @ 114/121) and the rest of the run settled at avg HR 124 / max 129, in the same easy range as those warmups. vs Nov 1 similar easy VB 0:49:24 / 3.37 mi @ 14:39/mi, HR 114/126: 4:54 shorter, 2 s/mi faster, avg HR +7, max +3. vs Oct 11 similar-length easy VB 0:52:16 / 3.53 mi @ 14:49/mi, avg HR 121: 7:46 shorter, 12 s/mi faster, same avg HR. Yesterday\u2019s strides session (avg/max HR 138/168) had elevated HR from the 6x30\" efforts and a short cooldown; today\u2019s easy run looks back to normal \u2014 max HR 129 matches those warmup peaks, and average 121 sits at the easy end of his recent range.",
+          "activityId": 25214865477,
+          "avgHr": 121,
+          "maxHr": 129,
+          "calories": 441
+        }
+      ]
     },
     {
       "date": "2026-11-28",
