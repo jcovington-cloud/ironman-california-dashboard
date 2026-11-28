@@ -14,7 +14,7 @@
     "overUnderTolerance": 50,
     "currentPhase": "Foundation",
     "timezone": "America/New_York",
-    "lastUpdated": "2026-11-27T10:47:32-05:00",
+    "lastUpdated": "2026-11-27T23:54:05-05:00",
     "sources": [
       "Garmin",
       "MyFitnessPal",
@@ -229,7 +229,7 @@
       "date": "2026-11-26",
       "materialChange": true,
       "notes": "Nightly MFP finals for 2026-11-26 training day (Run 30 min easy, completed outdoor Virginia Beach 6x30\" strides 0:39:39 / 3.03 mi @ 13:05/mi, 132%; 475 cal): 2247 vs exercise-adjusted 2835 (base 2360 + 475 run); -588 Under. P73/C203/F108. Protein 69 g short of 142; fat 13 g over the 95 goal; diary not marked complete. Added missing Nov 26 row to locked Daily Log (row 83) with Garmin + MFP.",
-      "iso": "2026-11-27T00:15:11-05:00"
+      "iso": "2026-11-27T23:54:05-05:00"
     },
     "poolSchedule": {
       "checked": "2026-11-17",
@@ -3181,13 +3181,13 @@
       "workoutStatus": "Completed",
       "workoutCompletionPct": 107,
       "plannedCalories": 3171,
-      "mfpCalories": null,
-      "calorieDelta": null,
-      "overUnder": null,
-      "protein": null,
-      "carbs": null,
-      "fat": null,
-      "nutritionNotes": "Foundation week 11 (Thanksgiving step-back)",
+      "mfpCalories": 2890,
+      "calorieDelta": -281,
+      "overUnder": "Under",
+      "protein": 132,
+      "carbs": 298,
+      "fat": 130,
+      "nutritionNotes": "Final (nightly MFP): 2890 vs exercise-adjusted 3171 (base 2360 + 811 run+swim); -281 Under. P132/C298/F130. Protein 27 g short of 159; fat 24 g over the 106 goal; diary not marked complete.",
       "workoutNotes": "Two sessions: extra morning easy run, then the planned optional swim as deep-water drills (the run did not replace the swim). Swim @ Bow Creek 10:02 AM ET: 0:32:05 deep-water drills; Garmin recorded 400 yd @ 8:01/100 yd, but drills (0 strokes, 16 auto-lengths of 1:54) so distance/pace are not comparable. avg/max HR 138/176; 370 cal; 107% of the planned 30 min. Laps: 0:57 idle (HR 85/91), 30:24 drill block (HR 138/176), 0:44 idle. vs Oct 23 same-style \u201cDeep well drills\u201d 0:33:42, avg HR 136, 285 cal: 1:37 shorter, avg HR +2, +85 cal (distance not compared). vs Sep 25 regular Bow Creek swim 27:19, avg HR 130, 269 cal: longer and avg HR +8 (lap-swim distance not compared). Also extra morning easy run 6:33 AM ET: 0:44:30 / 3.05 mi @ 14:37/mi; avg/max HR 121/129; 441 cal (running power not compared). That easy run still looks back to normal after yesterday\u2019s elevated-HR strides session (138/168).",
       "sessions": [
         {
